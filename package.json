@@ -19,7 +19,7 @@
   "description": "",
   "dependencies": {
     "@octokit/rest": "^19.0.7",
-    "@sparticuz/chromium": "^109.0.0",
-    "puppeteer-core": "^19.7.2"
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.4.0"
   }
 }
