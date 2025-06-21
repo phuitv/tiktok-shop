@@ -38,24 +38,76 @@ exports.handler = async (event) => {
         }
         console.log("Password correct. Proceeding to scrape.");
 
+        let browser = null; // Khai báo browser ở ngoài
+        let productName, productPrice, imageUrl; // Khai báo các biến ở ngoài
+
+        try {
         // 2. --- LẤY DỮ LIỆU (SCRAPING) TỪ TIKTOK ---
+        // Tắt tính năng sandbox, một yêu cầu phổ biến khi chạy trong các container như Lambda
+        const minimal_args = [
+            '--autoplay-policy=user-gesture-required',
+            '--disable-background-networking',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-breakpad',
+            '--disable-client-side-phishing-detection',
+            '--disable-component-update',
+            '--disable-default-apps',
+            '--disable-dev-shm-usage',
+            '--disable-domain-reliability',
+            '--disable-extensions',
+            '--disable-features=AudioServiceOutOfProcess',
+            '--disable-hang-monitor',
+            '--disable-ipc-flooding-protection',
+            '--disable-notifications',
+            '--disable-offer-store-unmasked-wallet-cards',
+            '--disable-popup-blocking',
+            '--disable-print-preview',
+            '--disable-prompt-on-repost',
+            '--disable-renderer-backgrounding',
+            '--disable-setuid-sandbox',
+            '--disable-speech-api',
+            '--disable-sync',
+            '--hide-scrollbars',
+            '--ignore-gpu-blacklist',
+            '--metrics-recording-only',
+            '--mute-audio',
+            '--no-default-browser-check',
+            '--no-first-run',
+            '--no-pings',
+            '--no-sandbox', // Cờ quan trọng nhất
+            '--no-zygote',
+            '--password-store=basic',
+            '--use-gl=swiftshader',
+            '--use-mock-keychain',
+            '--single-process'
+        ];
+
         const browser = await puppeteer.launch({
-            args: chromium.args,
-            defaultViewport: chromium.defaultViewport,
+            args: minimal_args, // Sử dụng bộ args đã được tối ưu
             executablePath: await chromium.executablePath,
-            headless: chromium.headless,
+            headless: chromium.headless, // Giữ nguyên headless
+            ignoreHTTPSErrors: true,
         });
+        // =============================
+
         const page = await browser.newPage();
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36');
         await page.goto(productLink, { waitUntil: 'networkidle2' });
 
         // Lấy tên sản phẩm - selector có thể thay đổi, cần kiểm tra
-        const productName = await page.$eval('.pdp-product-name', el => el.textContent.trim());
+        productName = await page.$eval('.pdp-product-name', el => el.textContent.trim());
         // Lấy giá sản phẩm - selector có thể thay đổi
-        const productPrice = await page.$eval('.pdp-price_format-product', el => el.textContent.trim());
+        productPrice = await page.$eval('.pdp-price_format-product', el => el.textContent.trim());
         // Lấy ảnh sản phẩm - selector có thể thay đổi
-        const imageUrl = await page.$eval('.pdp-main-image-item > img', el => el.src);
+        imageUrl = await page.$eval('.pdp-main-image-item > img', el => el.src);
 
-        await browser.close();
+        } finally {
+             // Luôn đóng trình duyệt sau khi xong việc
+             if (browser !== null) {
+                await browser.close();
+             }
+        }
 
         if (!productName || !productPrice || !imageUrl) {
             throw new Error("Không thể lấy đủ thông tin sản phẩm. Link có thể không đúng hoặc cấu trúc trang TikTok đã thay đổi.");
