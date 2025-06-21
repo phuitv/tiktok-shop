@@ -18,8 +18,8 @@
   "homepage": "https://github.com/phuitv/tiktok-shop#readme",
   "description": "",
   "dependencies": {
-    "@octokit/rest": "^19.0.13",
-    "@sparticuz/chromium": "^137.0.1",
-    "puppeteer-core": "^24.10.2"
+    "@octokit/rest": "^19.0.7",
+    "@sparticuz/chromium": "^109.0.0",
+    "puppeteer-core": "^19.7.2"
   }
 }
