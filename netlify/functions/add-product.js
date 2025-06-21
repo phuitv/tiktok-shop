@@ -4,19 +4,39 @@ const chromium = require("@sparticuz/chromium");
 const puppeteer = require("puppeteer-core");
 
 exports.handler = async (event) => {
-    // Chỉ cho phép phương thức POST
+    // --- BƯỚC DEBUG 1: In ra toàn bộ sự kiện (event) ---
+    console.log("Function invoked. Event object:", JSON.stringify(event, null, 2));
+
     if (event.httpMethod !== 'POST') {
+        console.log("Method not POST, exiting.");
         return { statusCode: 405, body: 'Method Not Allowed' };
     }
 
     try {
+        // --- BƯỚC DEBUG 2: Kiểm tra event.body trước khi parse ---
+        if (!event.body) {
+            console.error("Error: event.body is empty.");
+            return { statusCode: 400, body: JSON.stringify({ message: "Request body is missing." }) };
+        }
+        console.log("Event body content:", event.body);
+
         const { productLink, category, password } = JSON.parse(event.body);
+        console.log("Data parsed successfully:", { productLink, category }); // Che mật khẩu đi
+
+        // --- BƯỚC DEBUG 3: Kiểm tra biến môi trường ---
+        console.log("Checking environment variables...");
+        if (!process.env.ADMIN_PASSWORD || !process.env.GITHUB_TOKEN) {
+             console.error("FATAL: ADMIN_PASSWORD or GITHUB_TOKEN is not set in Netlify environment.");
+             return { statusCode: 500, body: JSON.stringify({ message: "Server configuration error." }) };
+        }
+        console.log("Environment variables seem OK.");
 
         // 1. --- BẢO MẬT: KIỂM TRA MẬT KHẨU ---
-        // Mật khẩu này sẽ được lưu an toàn trên Netlify, không lộ ra ngoài
         if (password !== process.env.ADMIN_PASSWORD) {
+            console.log("Password mismatch. Access denied.");
             return { statusCode: 401, body: JSON.stringify({ message: 'Sai mật khẩu!' }) };
         }
+        console.log("Password correct. Proceeding to scrape.");
 
         // 2. --- LẤY DỮ LIỆU (SCRAPING) TỪ TIKTOK ---
         const browser = await puppeteer.launch({
@@ -81,7 +101,8 @@ exports.handler = async (event) => {
         };
 
     } catch (error) {
-        console.error(error);
+        // --- BƯỚC DEBUG 4: In ra lỗi chi tiết ---
+        console.error("An error occurred in the try-catch block:", error);
         return {
             statusCode: 500,
             body: JSON.stringify({ message: `Đã xảy ra lỗi: ${error.message}` })
