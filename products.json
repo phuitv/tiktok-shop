@@ -177,10 +177,26 @@
     },
     {
         "id": 23,
-        "name": "Dây kháng lực JUSTFIT power band, powerband tập gym, tập yoga, thể dục tập chân nam nữ Tập Cơ Tay Cao Su Tập Yoga",
-        "price": "8.999đ",
-        "imageUrl": "images/18.webp",
-        "tiktokLink": "https://vt.tiktok.com/ZSknUwc6Q/",
+        "name": "Dây Cao Su Tập Kháng Lực Miniband Aolikes -Dây Tập Kháng Lực Chuyên Tập Thân Dưới Mông, Đùi, Bắp Chân - Tập Gym, Tập Yoga, Tập Bóng Đá - Dây Kháng Lực Phù Hợp Cho Nam - Nữ",
+        "price": "29.000đ",
+        "imageUrl": "images/23.webp",
+        "tiktokLink": "https://vt.tiktok.com/ZSkW8wNwV/",
+        "category": "Bóng Đá"
+    },
+    {
+        "id": 24,
+        "name": "Dây kháng lực bóng đá tập lực sút, Gym  AOLIKES tập lực sút cổ chân, cơ chân, đùi Tập Gym cầu lông",
+        "price": "42.500đ",
+        "imageUrl": "images/24.webp",
+        "tiktokLink": "https://vt.tiktok.com/ZSkW8CHV5/",
+        "category": "Bóng Đá"
+    },
+    {
+        "id": 25,
+        "name": "Dây Kháng Lực miniband vải Aolikes kháng lực tập gym chân mông tay đùi cao su",
+        "price": "55.000đ",
+        "imageUrl": "images/25.webp",
+        "tiktokLink": "https://vt.tiktok.com/ZSkW8Tny5/",
         "category": "Bóng Đá"
     }
 ]
