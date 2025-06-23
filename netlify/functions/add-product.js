@@ -43,7 +43,7 @@ exports.handler = async (event) => {
         console.log("Product ID found:", productId);
         
         // BƯỚC 2: Xây dựng URL API
-        const apiUrl = `https://www.tiktok.com/api/v1/shop/products/detail?product_id=${productId}®ion=VN&language=vi`;
+        const apiUrl = `https://www.tiktok.com/api/v1/shop/products/detail?product_id=${productId}®ion=VN&language=vi&traffic_source_list=1`;
         
         // BƯỚC 3: NHỜ SCRAPINGBEE GỌI API ĐÓ
         console.log("Asking ScrapingBee to call TikTok API:", apiUrl);
