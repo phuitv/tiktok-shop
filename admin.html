@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Quản Trị</title>
+    <link rel="stylesheet" href="style.css"> <!-- Tái sử dụng style cũ cho đẹp -->
+    <style>
+        /* Thêm một vài style riêng cho trang admin */
+        body { background-color: #f0f2f5; }
+        .admin-container { max-width: 600px; margin: 5rem auto; padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 1.5rem; }
+        label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        input[type="text"], input[type="password"], select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        .submit-btn { background-color: #28a745; color: white; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; width: 100%; }
+        .submit-btn:disabled { background-color: #ccc; }
+        #status-message { margin-top: 1rem; text-align: center; font-weight: bold; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Thêm Sản Phẩm Mới</h2>
+        <form id="add-product-form">
+            <div class="form-group">
+                <label for="product-link">Link sản phẩm TikTok:</label>
+                <input type="text" id="product-link" required>
+            </div>
+            <div class="form-group">
+                <label for="product-category">Danh mục:</label>
+                <select id="product-category" required>
+                    <option value="Bóng đá">Bóng đá</option>
+                    <option value="Thời trang">Thời trang</option>
+                    <!-- Thêm các danh mục khác tại đây -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="admin-password">Mật khẩu Admin:</label>
+                <input type="password" id="admin-password" required>
+            </div>
+            <button type="submit" id="submit-btn" class="submit-btn">Thêm Sản Phẩm</button>
+        </form>
+        <p id="status-message"></p>
+    </div>
+
+    <script>
+        const form = document.getElementById('add-product-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const statusMessage = document.getElementById('status-message');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Đang xử lý...';
+            statusMessage.textContent = '';
+            statusMessage.className = '';
+
+            const productLink = document.getElementById('product-link').value;
+            const category = document.getElementById('product-category').value;
+            const password = document.getElementById('admin-password').value;
+
+            try {
+                const response = await fetch('/.netlify/functions/add-product', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ productLink, category, password }),
+                });
+
+                const result = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(result.message);
+                }
+
+                statusMessage.textContent = result.message;
+                statusMessage.classList.add('success');
+                form.reset();
+
+            } catch (error) {
+                statusMessage.textContent = `Lỗi: ${error.message}`;
+                statusMessage.classList.add('error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Thêm Sản Phẩm';
+            }
+        });
+    </script>
+    <!-- Trigger deploy -->
+</body>
+</html>
