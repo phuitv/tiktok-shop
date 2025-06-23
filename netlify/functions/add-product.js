@@ -1,19 +1,8 @@
 const axios = require('axios');
 const { Octokit } = require("@octokit/rest");
 
-// Hàm để lấy URL đầy đủ sau khi chuyển hướng
-async function getFinalUrl(shortUrl, apiKey) {
-    const scrapingBeeUrl = 'https://app.scrapingbee.com/api/v1/';
-    const response = await axios.get(scrapingBeeUrl, {
-        params: {
-            api_key: apiKey,
-            url: shortUrl,
-            forward_headers: true // Yêu cầu ScrapingBee trả về header của trang cuối cùng
-        }
-    });
-    // Trích xuất URL cuối cùng từ header 'Spb-Resolved-Url' mà ScrapingBee cung cấp
-    return response.headers['spb-resolved-url'];
-}
+// Hàm này không cần nữa vì chúng ta sẽ làm trong một lần gọi
+// async function getFinalUrl(...) { ... }
 
 exports.handler = async (event) => {
     if (event.httpMethod !== 'POST') {
@@ -27,47 +16,57 @@ exports.handler = async (event) => {
             return { statusCode: 401, body: JSON.stringify({ message: 'Sai mật khẩu!' }) };
         }
 
-        console.log("Resolving final URL for:", productLink);
         const apiKey = process.env.SCRAPINGBEE_API_KEY;
 
-        // 1. Lấy URL đầy đủ từ link rút gọn
-        const finalUrl = await getFinalUrl(productLink, apiKey);
+        // BƯỚC 1: Dùng ScrapingBee để lấy ProductID từ link gốc
+        console.log("Resolving Product ID from:", productLink);
+        const scrapingBeeUrl = 'https://app.scrapingbee.com/api/v1/';
+        
+        // Yêu cầu ScrapingBee chạy JS và trả về URL cuối cùng
+        const resolveResponse = await axios.get(scrapingBeeUrl, {
+            params: {
+                api_key: apiKey,
+                url: productLink,
+                forward_headers: true,
+            }
+        });
+        const finalUrl = resolveResponse.headers['spb-resolved-url'];
         if (!finalUrl) {
-            throw new Error("Không thể lấy được link sản phẩm đầy đủ từ link rút gọn.");
+            throw new Error("Không thể lấy được link sản phẩm đầy đủ.");
         }
-        console.log("Final URL resolved:", finalUrl);
 
-        // 2. Trích xuất Product ID từ URL đầy đủ
         const match = finalUrl.match(/product\/(\d+)/);
         if (!match || !match[1]) {
             throw new Error("Không tìm thấy Product ID trong link sản phẩm.");
         }
         const productId = match[1];
         console.log("Product ID found:", productId);
-
-        // 3. Xây dựng và gọi thẳng vào API của TikTok
+        
+        // BƯỚC 2: Xây dựng URL API
         const apiUrl = `https://www.tiktok.com/api/v1/shop/products/detail?product_id=${productId}®ion=VN&language=vi`;
-        console.log("Calling TikTok API:", apiUrl);
-
-        // Cần giả mạo User-Agent và các header khác để trông giống một trình duyệt thật
-        const apiResponse = await axios.get(apiUrl, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
-                'Accept-Language': 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5',
+        
+        // BƯỚC 3: NHỜ SCRAPINGBEE GỌI API ĐÓ
+        console.log("Asking ScrapingBee to call TikTok API:", apiUrl);
+        const apiResponse = await axios.get(scrapingBeeUrl, {
+            params: {
+                api_key: apiKey,
+                url: apiUrl, // URL bây giờ là URL của API
+                // Không cần render_js vì API trả về JSON
             }
         });
 
-        const productData = apiResponse.data.data;
+        // Dữ liệu từ API bây giờ là nội dung của apiResponse.data
+        const responseData = apiResponse.data;
+        const productData = responseData.data;
 
-        if (!productData || apiResponse.data.code !== 0) {
-            throw new Error(`API của TikTok trả về lỗi: ${apiResponse.data.msg}`);
+        if (!productData || responseData.code !== 0) {
+            throw new Error(`API của TikTok trả về lỗi: ${responseData.msg || JSON.stringify(responseData)}`);
         }
 
-        // 4. Trích xuất thông tin từ JSON của API
+        // BƯỚC 4: Trích xuất thông tin
         const productName = productData.name;
-        const productPriceNumber = productData.price.sale_price; // Giá là dạng số (ví dụ: 235000)
-        const imageUrl = productData.main_pictures[0].url_list[0]; // Lấy ảnh đầu tiên
-
+        const productPriceNumber = productData.price.sale_price;
+        const imageUrl = productData.main_pictures[0].url_list[0];
         const productPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(productPriceNumber);
         
         console.log("Data fetched from API successfully:", { productName, productPrice, imageUrl });
