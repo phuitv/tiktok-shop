@@ -1,7 +1,19 @@
-// netlify/functions/add-product.js
 const axios = require('axios');
-const cheerio = require('cheerio'); // <-- Thư viện mới
 const { Octokit } = require("@octokit/rest");
+
+// Hàm để lấy URL đầy đủ sau khi chuyển hướng
+async function getFinalUrl(shortUrl, apiKey) {
+    const scrapingBeeUrl = 'https://app.scrapingbee.com/api/v1/';
+    const response = await axios.get(scrapingBeeUrl, {
+        params: {
+            api_key: apiKey,
+            url: shortUrl,
+            forward_headers: true // Yêu cầu ScrapingBee trả về header của trang cuối cùng
+        }
+    });
+    // Trích xuất URL cuối cùng từ header 'Spb-Resolved-Url' mà ScrapingBee cung cấp
+    return response.headers['spb-resolved-url'];
+}
 
 exports.handler = async (event) => {
     if (event.httpMethod !== 'POST') {
@@ -15,68 +27,55 @@ exports.handler = async (event) => {
             return { statusCode: 401, body: JSON.stringify({ message: 'Sai mật khẩu!' }) };
         }
 
-        console.log("Calling ScrapingBee API for URL:", productLink);
-
-        const scrapingBeeUrl = 'https://app.scrapingbee.com/api/v1/';
+        console.log("Resolving final URL for:", productLink);
         const apiKey = process.env.SCRAPINGBEE_API_KEY;
-        
-        // --- YÊU CẦU HTML THÔ TỪ SCRAPINGBEE ---
-        const response = await axios.get(scrapingBeeUrl, {
-            params: {
-                api_key: apiKey,
-                url: productLink,
-                render_js: true
+
+        // 1. Lấy URL đầy đủ từ link rút gọn
+        const finalUrl = await getFinalUrl(productLink, apiKey);
+        if (!finalUrl) {
+            throw new Error("Không thể lấy được link sản phẩm đầy đủ từ link rút gọn.");
+        }
+        console.log("Final URL resolved:", finalUrl);
+
+        // 2. Trích xuất Product ID từ URL đầy đủ
+        const match = finalUrl.match(/product\/(\d+)/);
+        if (!match || !match[1]) {
+            throw new Error("Không tìm thấy Product ID trong link sản phẩm.");
+        }
+        const productId = match[1];
+        console.log("Product ID found:", productId);
+
+        // 3. Xây dựng và gọi thẳng vào API của TikTok
+        const apiUrl = `https://www.tiktok.com/api/v1/shop/products/detail?product_id=${productId}®ion=VN&language=vi`;
+        console.log("Calling TikTok API:", apiUrl);
+
+        // Cần giả mạo User-Agent và các header khác để trông giống một trình duyệt thật
+        const apiResponse = await axios.get(apiUrl, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+                'Accept-Language': 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5',
             }
         });
-        
-        // --- PHÂN TÍCH HTML BẰNG CHEERIO ---
-        console.log("Got HTML response, parsing with Cheerio...");
-        const $ = cheerio.load(response.data); // Tải HTML vào Cheerio
 
-        // Lấy thông tin sản phẩm bằng cú pháp giống jQuery
-        // === LOGIC SCRAPING MỚI NHẤT: TỪ BIẾN __PDP_INITIAL_STATE__ ===
-        let scriptContent = '';
-        // Lặp qua tất cả các thẻ script để tìm thẻ chứa biến của chúng ta
-        $('script').each((index, element) => {
-            const scriptText = $(element).html();
-            if (scriptText && scriptText.includes('window.__PDP_INITIAL_STATE__')) {
-                scriptContent = scriptText;
-                return false; // Dừng vòng lặp khi đã tìm thấy
-            }
-        });
+        const productData = apiResponse.data.data;
 
-        if (!scriptContent) {
-            throw new Error("Không tìm thấy script chứa __PDP_INITIAL_STATE__.");
+        if (!productData || apiResponse.data.code !== 0) {
+            throw new Error(`API của TikTok trả về lỗi: ${apiResponse.data.msg}`);
         }
 
-        // Tách chuỗi JSON ra khỏi script
-        // Bỏ đi "window.__PDP_INITIAL_STATE__ = " ở đầu và dấu ";" ở cuối
-        const jsonString = scriptContent.replace('window.__PDP_INITIAL_STATE__ = ', '').slice(0, -1);
-        const pageData = JSON.parse(jsonString);
-
-        // Truy cập vào dữ liệu sản phẩm
-        const productDetail = pageData?.product?.productDetail;
-
-        if (!productDetail) {
-            throw new Error("Không tìm thấy 'productDetail' trong dữ liệu __PDP_INITIAL_STATE__.");
-        }
-
-        const productName = productDetail.name;
-        const productPriceNumber = productDetail.price?.salePrice;
-        const imageUrl = productDetail.mainPictures?.[0]?.url;
+        // 4. Trích xuất thông tin từ JSON của API
+        const productName = productData.name;
+        const productPriceNumber = productData.price.sale_price; // Giá là dạng số (ví dụ: 235000)
+        const imageUrl = productData.main_pictures[0].url_list[0]; // Lấy ảnh đầu tiên
 
         const productPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(productPriceNumber);
-
-        console.log("Data scraped successfully from __PDP_INITIAL_STATE__:", { productName, productPrice, imageUrl });
-
-        if (!productName || !productPriceNumber || !imageUrl) {
-            throw new Error("Không thể trích xuất đủ thông tin từ dữ liệu __PDP_INITIAL_STATE__.");
-        }
-
+        
+        console.log("Data fetched from API successfully:", { productName, productPrice, imageUrl });
+        
         // --- Phần cập nhật file trên GitHub (Giữ nguyên) ---
         const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-        const owner = 'phuitv'; // NHỚ THAY BẰNG USERNAME CỦA BẠN
-        const repo = 'tiktok-shop'; // NHỚ THAY BẰNG TÊN REPO MỚI CỦA BẠN NẾU CÓ
+        const owner = 'phuitv';
+        const repo = 'tiktok-shop';
         const path = 'products.json';
         
         const { data: currentFile } = await octokit.repos.getContent({ owner, repo, path });
@@ -102,7 +101,7 @@ exports.handler = async (event) => {
 
         return {
             statusCode: 200,
-            body: JSON.stringify({ message: `Thêm sản phẩm "${newProduct.name}" thành công!` })
+            body: JSON.stringify({ message: `Thêm sản phẩm "${productName}" thành công!` })
         };
 
     } catch (error) {
