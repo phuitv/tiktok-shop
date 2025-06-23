@@ -34,9 +34,9 @@ exports.handler = async (event) => {
         const $ = cheerio.load(response.data); // Tải HTML vào Cheerio
 
         // Lấy thông tin sản phẩm bằng cú pháp giống jQuery
-        const productName = $('h1[class*="pdp-product-name"]').text().trim();
-        const productPrice = $('div[class*="pdp-price_format-product"]').text().trim();
-        const imageUrl = $('div[class*="pdp-main-image-item"] img').attr('src');
+        const productName = $('[data-e2e="pdp-product-name"]').text().trim();
+        const productPrice = $('[data-e2e="pdp-price"]').text().trim();
+        const imageUrl = $('[data-e2e="pdp-main-image"] img').attr('src');
 
         console.log("Data scraped successfully:", { productName, productPrice, imageUrl });
 
