@@ -25,7 +25,7 @@ exports.handler = async (event) => {
             params: {
                 api_key: apiKey,
                 url: productLink,
-                // KHÔNG CÓ extract_rules ở đây
+                render_js: true
             }
         });
         
