@@ -34,14 +34,43 @@ exports.handler = async (event) => {
         const $ = cheerio.load(response.data); // Tải HTML vào Cheerio
 
         // Lấy thông tin sản phẩm bằng cú pháp giống jQuery
-        const productName = $('[data-e2e="pdp-product-name"]').text().trim();
-        const productPrice = $('[data-e2e="pdp-price"]').text().trim();
-        const imageUrl = $('[data-e2e="pdp-main-image"] img').attr('src');
+        // === LOGIC SCRAPING MỚI NHẤT: TỪ BIẾN __PDP_INITIAL_STATE__ ===
+        let scriptContent = '';
+        // Lặp qua tất cả các thẻ script để tìm thẻ chứa biến của chúng ta
+        $('script').each((index, element) => {
+            const scriptText = $(element).html();
+            if (scriptText && scriptText.includes('window.__PDP_INITIAL_STATE__')) {
+                scriptContent = scriptText;
+                return false; // Dừng vòng lặp khi đã tìm thấy
+            }
+        });
 
-        console.log("Data scraped successfully:", { productName, productPrice, imageUrl });
+        if (!scriptContent) {
+            throw new Error("Không tìm thấy script chứa __PDP_INITIAL_STATE__.");
+        }
 
-        if (!productName || !productPrice || !imageUrl) {
-            throw new Error("Không thể lấy đủ thông tin sản phẩm. Link hoặc selector trên trang TikTok có thể đã thay đổi.");
+        // Tách chuỗi JSON ra khỏi script
+        // Bỏ đi "window.__PDP_INITIAL_STATE__ = " ở đầu và dấu ";" ở cuối
+        const jsonString = scriptContent.replace('window.__PDP_INITIAL_STATE__ = ', '').slice(0, -1);
+        const pageData = JSON.parse(jsonString);
+
+        // Truy cập vào dữ liệu sản phẩm
+        const productDetail = pageData?.product?.productDetail;
+
+        if (!productDetail) {
+            throw new Error("Không tìm thấy 'productDetail' trong dữ liệu __PDP_INITIAL_STATE__.");
+        }
+
+        const productName = productDetail.name;
+        const productPriceNumber = productDetail.price?.salePrice;
+        const imageUrl = productDetail.mainPictures?.[0]?.url;
+
+        const productPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(productPriceNumber);
+
+        console.log("Data scraped successfully from __PDP_INITIAL_STATE__:", { productName, productPrice, imageUrl });
+
+        if (!productName || !productPriceNumber || !imageUrl) {
+            throw new Error("Không thể trích xuất đủ thông tin từ dữ liệu __PDP_INITIAL_STATE__.");
         }
 
         // --- Phần cập nhật file trên GitHub (Giữ nguyên) ---
