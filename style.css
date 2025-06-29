@@ -179,3 +179,42 @@ footer {
         grid-template-columns: repeat(3, 1fr);  /* Chuyển thành 3 cột */
     }
 }
+
+/* --- CSS cho Phân trang --- */
+#pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.page-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    min-width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.page-btn:hover {
+    background-color: #f0f2f5;
+    border-color: #3498db;
+}
+
+/* Kiểu cho nút của trang đang được chọn */
+.page-btn.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+    cursor: default;
+}
