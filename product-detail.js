@@ -32,26 +32,77 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
+function setupSlider() {
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        // Ẩn slide hiện tại
+        slides[currentSlide].classList.remove('active');
+        // Cập nhật chỉ số slide mới
+        currentSlide = index;
+        // Hiện slide mới
+        slides[currentSlide].classList.add('active');
+    }
+
+    prevBtn.addEventListener('click', () => {
+        let newIndex = currentSlide - 1;
+        if (newIndex < 0) {
+            newIndex = slides.length - 1; // Quay về ảnh cuối
+        }
+        showSlide(newIndex);
+    });
+
+    nextBtn.addEventListener('click', () => {
+        let newIndex = currentSlide + 1;
+        if (newIndex >= slides.length) {
+            newIndex = 0; // Quay về ảnh đầu
+        }
+        showSlide(newIndex);
+    });
+}
+
 // Hàm để hiển thị chi tiết sản phẩm
 function displayProductDetails(product) {
     const detailContainer = document.getElementById('detail-container');
-
-    // Cập nhật tiêu đề trang
     document.title = product.name;
 
-    // Tạo cấu trúc HTML cho trang chi tiết
+    // Tạo HTML cho các ảnh trong slider
+    const imagesHtml = product.imageUrls.map((url, index) => `
+        <div class="slide ${index === 0 ? 'active' : ''}">
+            <img src="${url}" alt="${product.name} - ảnh ${index + 1}">
+        </div>
+    `).join('');
+
+    // Cập nhật cấu trúc HTML cho trang chi tiết
     detailContainer.innerHTML = `
         <div class="product-detail-image">
-            <img src="${product.imageUrl}" alt="${product.name}">
+            <div class="slider-container">
+                <div class="slider">
+                    ${imagesHtml}
+                </div>
+                <!-- Chỉ hiển thị nút nếu có nhiều hơn 1 ảnh -->
+                ${product.imageUrls.length > 1 ? `
+                    <button class="slider-btn prev" id="prev-btn">‹</button>
+                    <button class="slider-btn next" id="next-btn">›</button>
+                ` : ''}
+            </div>
         </div>
         <div class="product-detail-info">
             <h1 class="product-detail-name">${product.name}</h1>
             <p class="product-detail-price">${product.price}</p>
             <p class="product-detail-description">${product.description || 'Chưa có mô tả cho sản phẩm này.'}</p>
             <a href="${product.tiktokLink}" target="_blank" rel="noopener noreferrer" class="product-link buy-button">
-                Mua ngay trên TikTok
+                Mua ngay
             </a>
             <a href="javascript:history.back()" class="back-link">← Quay lại</a>
         </div>
     `;
+
+    // Sau khi HTML được tạo, thêm logic cho slider
+    if (product.imageUrls.length > 1) {
+        setupSlider();
+    }
 }

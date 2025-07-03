@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('product-card');
             card.innerHTML = `
                 <a href="product-detail.html?id=${product.id}" class="card-link-wrapper">
-                    <img src="${product.imageUrl}" alt="${product.name}" class="product-image">
+                    <img src="${product.imageUrls[0]}" alt="${product.name}" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
                         <p class="product-price">${product.price}</p>
