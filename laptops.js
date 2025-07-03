@@ -48,12 +48,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.classList.add('product-card');
             card.innerHTML = `
-                <img src="${product.imageUrl}" alt="${product.name}" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-price">${product.price}</p>
-                    <a href="${product.tiktokLink}" target="_blank" rel="noopener noreferrer" class="product-link">Xem trên Tiktok</a>
-                </div>
+                <a href="product-detail.html?id=${product.id}" class="card-link-wrapper">
+                    <img src="${product.imageUrl}" alt="${product.name}" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">${product.name}</h3>
+                        <p class="product-price">${product.price}</p>
+                        <span class="product-link-fake">Xem chi tiết</span>
+                    </div>
+                </a>
             `;
             productGrid.appendChild(card);
         });
