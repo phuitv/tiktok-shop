@@ -454,5 +454,50 @@
         "imageUrl": "images/57.webp",
         "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
         "category": "Bóng Đá"
+    },
+    {
+        "id": 58,
+        "name": "Laptop Dell Vostro 3490 - Like new 96%",
+        "price": "62.000đ",
+        "imageUrl": "images/58.jpg",
+        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "category": "Laptop",
+        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+    },
+    {
+        "id": 59,
+        "name": "Laptop Lenovo Thinkpad X280",
+        "price": "62.000đ",
+        "imageUrl": "images/59.jpg",
+        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "category": "Laptop",
+        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+    },
+    {
+        "id": 60,
+        "name": "Laptop Dell Latitude 5410",
+        "price": "62.000đ",
+        "imageUrl": "images/60.webp",
+        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "category": "Laptop",
+        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+    },
+    {
+        "id": 61,
+        "name": "Laptop Dell Latitude 7290",
+        "price": "62.000đ",
+        "imageUrl": "images/61.jpg",
+        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "category": "Laptop",
+        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+    },
+    {
+        "id": 62,
+        "name": "Laptop Dell Latitude 7390",
+        "price": "62.000đ",
+        "imageUrl": "images/62.jpg",
+        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "category": "Laptop",
+        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
     }
 ]
