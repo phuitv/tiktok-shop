@@ -90,14 +90,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Lọc danh mục
-    categoryMenu.addEventListener('click', (event) => {
-        if (event.target.classList.contains('category-btn')) {
-            document.querySelector('.category-btn.active').classList.remove('active');
-            event.target.classList.add('active');
-            currentPage = 1; // Khi lọc, luôn quay về trang 1
-            render();
-        }
-    });
+    // categoryMenu.addEventListener('click', (event) => {
+    //     if (event.target.classList.contains('category-btn')) {
+    //         document.querySelector('.category-btn.active').classList.remove('active');
+    //         event.target.classList.add('active');
+    //         currentPage = 1; // Khi lọc, luôn quay về trang 1
+    //         render();
+    //     }
+    // });
 
     // === TẢI DỮ LIỆU BAN ĐẦU ===
     fetch('./products.json')

@@ -30,6 +30,47 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Lỗi tải dữ liệu:', error);
             detailContainer.innerHTML = '<p class="error">Lỗi khi tải dữ liệu sản phẩm.</p>';
         });
+
+    // === LOGIC MỚI CHO POP-UP ===
+    function initializeModal() {
+        const modal = document.getElementById('contact-modal');
+        const openBtn = document.getElementById('open-contact-btn');
+        const closeBtn = document.getElementById('close-modal-btn');
+
+        // Nếu không tìm thấy các phần tử thì không làm gì cả
+        if (!modal || !openBtn || !closeBtn) {
+            console.error('Modal elements not found!');
+            return;
+        }
+
+        // Hàm để mở pop-up
+        const openModal = () => {
+            modal.style.display = 'flex';
+        };
+
+        // Hàm để đóng pop-up
+        const closeModal = () => {
+            modal.style.display = 'none';
+        };
+
+        // Gán sự kiện cho các nút
+        openBtn.addEventListener('click', openModal);
+        closeBtn.addEventListener('click', closeModal);
+
+        // Đóng pop-up khi nhấn vào lớp phủ nền
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Đóng pop-up khi nhấn phím Escape
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modal.style.display === 'flex') {
+                closeModal();
+            }
+        });
+    }
 });
 
 function setupSlider() {
@@ -69,21 +110,36 @@ function displayProductDetails(product) {
     const detailContainer = document.getElementById('detail-container');
     document.title = product.name;
 
-    // Tạo HTML cho các ảnh trong slider
+    // --- LOGIC MỚI CHO PHẦN MÔ TẢ ---
+    let descriptionHtml = '';
+    // Kiểm tra xem 'description' có tồn tại và có phải là một mảng không
+    if (product.description && Array.isArray(product.description)) {
+        // Nếu là mảng, tạo ra một danh sách <ul>
+        const listItems = product.description.map(item => `<li>${item}</li>`).join('');
+        descriptionHtml = `<ul class="product-description-list">${listItems}</ul>`;
+    } else if (product.description) {
+        // Nếu là chuỗi (string), hiển thị như một đoạn văn <p>
+        descriptionHtml = `<p class="product-detail-description">${product.description}</p>`;
+    } else {
+        // Nếu không có mô tả
+        descriptionHtml = '<p class="product-detail-description">Chưa có mô tả cho sản phẩm này.</p>';
+    }
+    // --- KẾT THÚC LOGIC MỚI ---
+
+    // Tạo HTML cho các ảnh trong slider (giữ nguyên)
     const imagesHtml = product.imageUrls.map((url, index) => `
         <div class="slide ${index === 0 ? 'active' : ''}">
             <img src="${url}" alt="${product.name} - ảnh ${index + 1}">
         </div>
     `).join('');
 
-    // Cập nhật cấu trúc HTML cho trang chi tiết
+    // Cập nhật cấu trúc HTML cho trang chi tiết, chèn descriptionHtml vào đúng vị trí
     detailContainer.innerHTML = `
         <div class="product-detail-image">
             <div class="slider-container">
                 <div class="slider">
                     ${imagesHtml}
                 </div>
-                <!-- Chỉ hiển thị nút nếu có nhiều hơn 1 ảnh -->
                 ${product.imageUrls.length > 1 ? `
                     <button class="slider-btn prev" id="prev-btn">‹</button>
                     <button class="slider-btn next" id="next-btn">›</button>
@@ -93,16 +149,35 @@ function displayProductDetails(product) {
         <div class="product-detail-info">
             <h1 class="product-detail-name">${product.name}</h1>
             <p class="product-detail-price">${product.price}</p>
-            <p class="product-detail-description">${product.description || 'Chưa có mô tả cho sản phẩm này.'}</p>
-            <a href="${product.tiktokLink}" target="_blank" rel="noopener noreferrer" class="product-link buy-button">
-                Mua ngay
-            </a>
+            
+            <!-- Chèn biến descriptionHtml vào đây -->
+            ${descriptionHtml}
+            
+            <button id="open-contact-btn" class="product-link buy-button">
+                Liên hệ mua ngay
+            </button>
             <a href="javascript:history.back()" class="back-link">← Quay lại</a>
         </div>
     `;
 
-    // Sau khi HTML được tạo, thêm logic cho slider
+    // Khởi tạo slider và modal (giữ nguyên)
     if (product.imageUrls.length > 1) {
         setupSlider();
     }
+    initializeModalLogic(); 
+}
+
+// TẠO HÀM KHỞI TẠO LOGIC RIÊNG
+function initializeModalLogic() {
+    const modal = document.getElementById('contact-modal');
+    const openBtn = document.getElementById('open-contact-btn');
+    const closeBtn = document.getElementById('close-modal-btn');
+
+    if (!modal || !openBtn || !closeBtn) return;
+
+    openBtn.addEventListener('click', () => modal.style.display = 'flex');
+    closeBtn.addEventListener('click', () => modal.style.display = 'none');
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.style.display = 'none';
+    });
 }

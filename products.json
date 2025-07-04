@@ -457,19 +457,19 @@
     },
     {
         "id": 58,
-        "name": "Laptop Dell Vostro 3490 - Like new 96%",
-        "price": "62.000đ",
+        "name": "Laptop Dell Vostro 3490 - Like new 96% - i3-10110U - Ram 12G - SSD 256G - 14 inch FHD",
+        "price": "5.500.000đ",
         "imageUrls": [
             "images/58.jpg"
         ],
-        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "tiktokLink": "https://khoavang.vn/dell-vostro-3490-core-i3-12g-256g-14fhd-p4888.html",
         "category": "Laptop",
         "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
     },
     {
         "id": 59,
-        "name": "Laptop Lenovo Thinkpad X280",
-        "price": "62.000đ",
+        "name": "Laptop Lenovo Thinkpad X280 - 12.5 inch/i5-8250U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
         "imageUrls": [
             "images/59.jpg", 
             "images/59-1.jpg", 
@@ -480,70 +480,344 @@
             "images/59-6.png", 
             "images/59-7.jpg"
         ],
-        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-lenovo-thinkpad-x280-moi-cu-gia-re-core-i5-the-he-8-doanh-nhan-nho-gon-nhe-sieu-ben/",
         "category": "Laptop",
-        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+        "description": [
+            "Màn hình Display: 12.5 inch",
+            "Bộ xử lý CPU: intel Core i5-8250U, 8350U",
+            "Xung nhịp Turbo: 1.70 GHz đến 3.60 GHz",
+            "Card đồ họa GPU: intel UHD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.2 kg",
+            "Bảo Hành 24 Tháng"
+        ]
     },
     {
         "id": 60,
-        "name": "Laptop Dell Latitude 5410",
-        "price": "62.000đ",
+        "name": "Laptop Dell Latitude 5410 - 14.1 inch/i5-10310U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
         "imageUrls": [
-            "images/59.jpg", 
-            "images/59-1.jpg", 
-            "images/59-2.png", 
-            "images/59-3.png", 
-            "images/59-4.jpg", 
-            "images/59-5.jpg", 
-            "images/59-6.png", 
-            "images/59-7.jpg"
+            "images/60.webp", 
+            "images/60.jpg", 
+            "images/60-2.webp", 
+            "images/60-3.webp"
         ],
-        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-mua-laptop-dell-latitude-5410-voi-gia-re-kinh-khung-intel-core-i5-10310u-the-he-10-doanh-nhan-van-phong-cao-cap/",
         "category": "Laptop",
-        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+        "description": [
+            "Màn hình Display: 14.1 inch, tích hợp công nghệ chống hư mắt",
+            "Bộ xử lý CPU: intel Core i5-10310U",
+            "Xung nhịp Turbo: 1.70 GHz đến 4.40 GHz",
+            "Card đồ họa GPU: Intel Graphics UHD",
+            "Bộ nhớ Ram Memory: 8GB, up max 64GB",
+            "Ổ cứng Hard Drive: SSD 256GB, up 10.000GB hoặc cao hơn",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.4 kg",
+            "Bảo Hành 24 Tháng"
+        ]
     },
     {
         "id": 61,
-        "name": "Laptop Dell Latitude 7290",
-        "price": "62.000đ",
+        "name": "Laptop Lenovo Thinkpad L380 - 13.3 inch/i5-8250U/Ram 16GB/SSD 256GB",
+        "price": "5.600.000đ",
         "imageUrls": [
-            "images/59.jpg", 
-            "images/59-1.jpg", 
-            "images/59-2.png", 
-            "images/59-3.png", 
-            "images/59-4.jpg", 
-            "images/59-5.jpg", 
-            "images/59-6.png", 
-            "images/59-7.jpg"
+            "images/61.jpg", 
+            "images/61-1.jpg", 
+            "images/61-2.png", 
+            "images/61-3.jpg"
         ],
-        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-lenovo-l380-gia-si-sieu-re-moi-cu-core-i5-8250u-the-he-8-mong-nhe-dep/",
         "category": "Laptop",
-        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+        "description": [
+            "Màn hình Display: 13.3 inch",
+            "Bộ xử lý CPU: intel Core i5-8250U",
+            "Xung nhịp Turbo: 1.60 GHz đến 3.40 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.4 kg",
+            "Bảo Hành 24 Tháng"
+        ]
     },
     {
         "id": 62,
-        "name": "Laptop Dell Latitude 7390",
-        "price": "62.000đ",
+        "name": "Laptop Dell Latitude 5490 - 14 inch/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
         "imageUrls": [
-            "images/59.jpg", 
-            "images/59-1.jpg", 
-            "images/59-2.png", 
-            "images/59-3.png", 
-            "images/59-4.jpg", 
-            "images/59-5.jpg", 
-            "images/59-6.png", 
-            "images/59-7.jpg"
+            "images/62.jpg", 
+            "images/62-1.webp", 
+            "images/62-2.jpg"
         ],
-        "tiktokLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-dell-latitude-5490-cu-moi-like-new-gia-re-man-hinh-14-inch-core-i5-8250u-the-he-8-uhd-intel-620-mong-nhe/",
         "category": "Laptop",
-        "description": "Core i3-10110U - Ram 12G - SSD 256G - 14 inch FHD"
+        "description": [
+            "Màn hình Display: 14 inch",
+            "Bộ xử lý CPU: intel Core i5-8350U",
+            "Xung nhịp Turbo: 1.60 GHz đến 3.40 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.2 kg",
+            "Bảo Hành 24 Tháng"
+        ]
     },
     {
         "id": 63,
-        "name": "[Chính hãng] giày đá bóng Vp16 pro chuyên sân cỏ nhân tạo (hỗ trợ đổi size, đổi mẫu)",
-        "price": "2.350.000đ",
-        "imageUrl": "images/63.webp",
-        "tiktokLink": "https://vt.tiktok.com/ZSBMbPQbe/",
-        "category": "Bóng Đá"
+        "name": "Laptop Dell Latitude 5590 - 15.6 inch/i5-8350U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
+        "imageUrls": [
+            "images/63.png", 
+            "images/63-1.png", 
+            "images/63-2.jpg", 
+            "images/63-3.png"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-dell-latitude-5590-cu-moi-gia-re-man-hinh-15-6-inch-core-i5-8250u-the-he-8-uhd-intel-620/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 15.6 inch",
+            "Bộ xử lý CPU: intel Core i5-8350U",
+            "Xung nhịp Turbo: 1.70 GHz đến 3.60 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.2 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Laptop Dell Latitude 3590 - 15.6 inch/i5-8250U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
+        "imageUrls": [
+            "images/64.jpg", 
+            "images/64-1.jpg", 
+            "images/64-2.jpg", 
+            "images/64-3.jpg", 
+            "images/64-4.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/mua-ban-laptop-dell-latitude-3590-intel-core-i5-8250u-16gb-256gb-gia-si-sieu-re-moi-cu-bao-mat-cao-van-phong-do-hoa-may-tinh-dell-latitude-intel-core-i5-cho-van-phong/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 15.6 inch",
+            "Bộ xử lý CPU: intel Core i5-8250U",
+            "Xung nhịp Turbo: 1.60 GHz đến 3.40 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 2.02 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Laptop Lenovo Thinkpad T580 - 15.6 inch/i5-8250U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
+        "imageUrls": [
+            "images/65.jpg", 
+            "images/65-1.jpg", 
+            "images/65-2.jpg", 
+            "images/65-3.jpg", 
+            "images/65-4.jpg", 
+            "images/65-5.jpg", 
+            "images/65-6.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-lenovo-thinkpad-t580-core-i5-16gb-256gb-gia-si-sieu-re-moi-cu-doanh-nhan-cao-cap-manh-me-lenovo-cao-cap-chat-luong/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 15.6 inch",
+            "Bộ xử lý CPU: intel Core i5-8250U",
+            "Xung nhịp Turbo: 1.70 GHz đến 3.60 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.95 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Laptop HP Elitebook 840-G5 - 14 inch/i5-8250U/Ram 8GB/SSD 256GB",
+        "price": "5.600.000đ",
+        "imageUrls": [
+            "images/66.png", 
+            "images/66-1.png", 
+            "images/66-2.jpg", 
+            "images/66-3.jpg", 
+            "images/66-4.jpg", 
+            "images/66-5.jpg", 
+            "images/66-6.jpg", 
+            "images/66-7.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-hp-elitebook-840-g5-cu-moi-gia-re-14-inch-core-i5-8250u-the-he-8-do-hoa-uhd-intel-620/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 14 inch",
+            "Bộ xử lý CPU: intel Core i5-8250U",
+            "Xung nhịp Turbo: 1.60 GHz đến 3.40 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.2 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Laptop Dell Latitude 7400 - 14 inch/i7-8650U/Ram 8GB/SSD 256GB",
+        "price": "6.500.000đ",
+        "imageUrls": [
+            "images/67.png", 
+            "images/67-1.png", 
+            "images/67-2.png", 
+            "images/67-3.png", 
+            "images/67-4.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-dell-latitude-7400-cu-moi-gia-re-man-hinh-14-inch-core-i7-8650u-the-he-8-uhd-intel-620/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 14 inch",
+            "Bộ xử lý CPU: intel Core i7-8650U",
+            "Xung nhịp Turbo: 1.90 GHz đến 4.20 GHz",
+            "Card đồ họa GPU: Intel HD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.2 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Laptop Dell Precision 7510 (có card rời) - 15.6 inch/i7–6820HQ/Ram 8GB/SSD 256GB/NVIDIA Quadro M1000M 4GB",
+        "price": "6.500.000đ",
+        "imageUrls": [
+            "images/68.jpg", 
+            "images/68-1.png", 
+            "images/68-2.jpeg", 
+            "images/68-3.jpeg", 
+            "images/68-4.jpg", 
+            "images/68-5.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-dell-precision-7510-cu-moi-gia-re-man-hinh-15-6-inch-core-i7-7820hq-the-he-6-quadro-m1000m/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 15.6 inch",
+            "Bộ xử lý CPU: intel Core i7–6820HQ",
+            "Xung nhịp Turbo: 2.70 GHz đến 3.60 GHz",
+            "Card đồ họa GPU: NVIDIA Quadro M1000M 4GB",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 2.5 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Laptop Dell Latitude 5491 (có card rời) - 14 inch/i5-8400H/Ram 8GB/SSD 256GB/MX130 2GB",
+        "price": "6.500.000đ",
+        "imageUrls": [
+            "images/69.jpg", 
+            "images/69-1.webp", 
+            "images/69-2.jpg", 
+            "images/69-3.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/ban-laptop-dell-latitude-5491-cu-va-moi-gia-thap-khong-dau-co-the-thap-hon-intel-core-i5-8400h-the-he-8-van-phong-doanh-nhan-pin-trau-dai-lau/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 14 inch",
+            "Bộ xử lý CPU: intel Core i5-8400H",
+            "Xung nhịp Turbo: 2.50 GHz đến 4.20 GHz",
+            "Card đồ họa GPU: Nvidia GeForce MX130 2GB",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.4 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Laptop Dell Latitude 5290 Tablet Cảm Ứng 2 in 1 - 12.5 inch/i5-8250U/Ram 8GB/SSD 256GB",
+        "price": "6.000.000đ",
+        "imageUrls": [
+            "images/70.jpg", 
+            "images/70-1.jpg", 
+            "images/70-2.jpg", 
+            "images/70-3.jpg", 
+            "images/70-4.jpg"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/mua-ban-laptop-dell-latitude-5290-tablet-2-in-1-mua-voi-gia-si-sieu-re-moi-cu-intel-core-i5-8250u-8gb-256gb-uhd-graphics-620-laptop-cam-ung-2-trong-1/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 12.5 inch FHD cảm ứng",
+            "Bộ xử lý CPU: intel Core i5-8250U",
+            "Xung nhịp Turbo: 1.60 GHz đến 3.40 GHz",
+            "Card đồ họa GPU: Intel UHD Graphics 620",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Laptop Dell Latitude 5310 - 13.3 inch/i5-10210U/Ram 8GB/SSD 256GB",
+        "price": "6.900.000đ",
+        "imageUrls": [
+            "images/71.jpg", 
+            "images/71-1.jpg", 
+            "images/71-2.jpg", 
+            "images/71-3.jpg", 
+            "images/71-4.png", 
+            "images/71-5.png"
+        ],
+        "tiktokLink": "https://laptopgiasi.vn/san-pham/mua-ban-laptop-dell-latitude-5310-cu-moi-gia-re-intel-core-i5-10210u-sinh-vien-cau-hinh-vuot-troi-van-phong/",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 13.3 inch",
+            "Bộ xử lý CPU: intel Core i5-10210U",
+            "Xung nhịp Turbo: 1.60 GHz đến 4.20 GHz",
+            "Card đồ họa GPU: Intel UHD Graphics for 10th",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD 256GB",
+            "Pin Battery: Nguyên zin theo máy",
+            "Trọng lượng Weight: 1.24 kg",
+            "Bảo Hành 24 Tháng"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Laptop Dell Latitude 3410 - 14 inch/i5-10210U/Ram 8GB/SSD 256GB/MX230 2G",
+        "price": "6.900.000đ",
+        "imageUrls": [
+            "images/72.jpg", 
+            "images/72-1.jpg", 
+            "images/72-2.jpg", 
+            "images/72-3.jpg", 
+            "images/72-4.jpg"
+        ],
+        "tiktokLink": "https://kimlongcenter.com/san-pham/dell-latitude-3410-i5-10210u-8869.html",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 14 inch",
+            "Bộ xử lý CPU: intel Core i5-10210U",
+            "Xung nhịp Turbo: 1.60 GHz đến 4.20 GHz",
+            "Card đồ họa GPU: NVIDIA Geforce MX230 2G",
+            "Bộ nhớ Ram Memory: 8GB",
+            "Ổ cứng Hard Drive: SSD M.2 PCIe NVMe 256GB",
+            "Pin Battery: 4 cell",
+            "Trọng lượng Weight: 1.53 kg",
+            "Bảo Hành 03 Tháng"
+        ]
     }
 ]
