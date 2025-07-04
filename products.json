@@ -819,5 +819,26 @@
             "Trọng lượng Weight: 1.53 kg",
             "Bảo Hành 03 Tháng"
         ]
+    },
+    {
+        "id": 73,
+        "name": "Laptop Dell Latitude 5320 - 13.3 inch/i5-1145G7/Ram 16GB/SSD 256GB",
+        "price": "7.500.000đ",
+        "imageUrls": [
+            "images/73.jpg"
+        ],
+        "tiktokLink": "https://kimlongcenter.com/san-pham/dell-latitude-5320-i5-1145g7-8032.html",
+        "category": "Laptop",
+        "description": [
+            "Màn hình Display: 13.3 inch FHD",
+            "Bộ xử lý CPU: intel Core i5-1145G7",
+            "Xung nhịp Turbo: 1.60 GHz đến 4.20 GHz",
+            "Card đồ họa GPU: Intel Iris Xe Graphics",
+            "Bộ nhớ Ram Memory: 16GB",
+            "Ổ cứng Hard Drive: SSD M.2 PCIe NVMe 256GB",
+            "Pin Battery: 4 cell, 63Wh",
+            "Trọng lượng Weight: 1.18 kg",
+            "Bảo Hành 03 Tháng"
+        ]
     }
 ]
