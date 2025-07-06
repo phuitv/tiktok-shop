@@ -23,15 +23,27 @@
                 <input type="text" id="search-input" placeholder="Nhập tên sản phẩm...">
             </div>
 
-            <!-- Thanh điều hướng Menu -->
-             <nav id="category-menu">
-                <button class="category-btn active" data-category="Tất Cả">Tất Cả</button>
-                <button class="category-btn" data-category="Bóng Đá">Bóng Đá</button>
-                <button class="category-btn" data-category="Thời Trang">Thời Trang</button>
-                <button class="category-btn" data-category="Gia Dụng">Gia Dụng</button>
-                <button class="category-btn" data-category="Cho Bé">Cho Bé</button>
-                <button class="category-btn" data-category="Đồ Chơi Xe Máy">Đồ Chơi Xe Máy</button>
-             </nav>
+            <!-- === MENU DROPDOWN === -->
+            <div class="dropdown-menu-container">
+                <button class="dropdown-btn" id="category-dropdown-btn">
+                    Danh Mục 
+                    <span class="arrow-down"></span>
+                </button>
+                <div class="dropdown-content" id="category-dropdown-content">
+                    <a href="#" class="dropdown-item active" data-category="Tất Cả">Tất cả sản phẩm</a>
+                    <a href="#" class="dropdown-item" data-category="Bóng Đá">Bóng Đá</a>
+                    <a href="#" class="dropdown-item" data-category="Thời Trang">Thời Trang</a>
+                    <a href="#" class="dropdown-item" data-category="Làm Đẹp">Làm Đẹp</a>
+                    <a href="#" class="dropdown-item" data-category="Gia Dụng">Gia Dụng</a>
+                    <a href="#" class="dropdown-item" data-category="Cho Bé">Cho Bé</a>
+                    <a href="#" class="dropdown-item" data-category="Đồ Ăn">Đồ Ăn</a>
+                    <a href="#" class="dropdown-item" data-category="Đồ Công Nghệ">Đồ Công Nghệ</a>
+                    <a href="#" class="dropdown-item" data-category="Đồ Chơi Xe Máy">Đồ Chơi Xe Máy</a>
+                    <a href="laptops.html" class="dropdown-item">Laptop</a>
+                    <!-- Thêm các danh mục khác tại đây -->
+                </div>
+            </div>
+            <!-- =========================== -->
         </header>
 
         <main id="product-grid">

@@ -7,9 +7,9 @@ body {
 
 header {
     /* background-color: #2c3e50; */
-    background-image: url('https://phuitv.github.io/tiktok-shop/images/background-header.png');
+    background-image: url('../images/banner-fb1.png');
     background-size: cover; /* Phóng to/thu nhỏ để ảnh luôn lấp đầy header */
-    background-position: center center; /* Căn giữa ảnh nền */
+    background-position: center 47%; /* Căn giữa ảnh nền */
     background-repeat: no-repeat;   /* Không lặp lại ảnh */
 
     /* (QUAN TRỌNG) Lớp phủ để làm chữ dễ đọc hơn */
@@ -18,8 +18,7 @@ header {
     
     color: white;
     text-align: center;
-    /* padding: 1rem 0; */
-    padding: 4rem 1rem; /* Tăng padding để header cao hơn, ảnh có không gian hiển thị */
+    padding: 1rem 0rem; /* Tăng padding để header cao hơn, ảnh có không gian hiển thị */
 }
 
 /* Thêm lớp phủ đẻ chữ dễ đọc */
@@ -130,38 +129,6 @@ footer {
 #search-input:focus {
     border-color: #3498db;
     box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
-}
-
-#category-menu {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 10px;  /* Khoảng cách giữa các nút */
-    flex-wrap: wrap;    /* Cho phép các nút xuống dòng trên màn hình nhỏ */
-}
-
-.category-btn {
-    padding: 10px 20px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: white;
-    background-color: transparent;  /* Nền trong suốt */
-    border: 2px solid rgba(255, 255, 255, 0.5); /* Viền mờ */
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-.category-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: white;
-}
-
-/* Style cho nút đang được chọn (active) */
-.category-btn.active {
-    background-color: white;
-    color: #2c3e50; /* Màu nền cũ của header */
-    border-color: white;
 }
 
 /* --- CSS cho màn hình lớn hơn (Responsive) --- */
@@ -478,4 +445,110 @@ footer {
 
 .product-description-list li {
     margin-bottom: 0.5rem; /* Khoảng cách giữa các dòng */
+}
+
+/* --- CSS cho Dropdown Menu --- */
+.dropdown-menu-container {
+    position: relative; /* Làm mốc cho menu con */
+    display: inline-block; /* Để container chỉ chiếm chiều rộng cần thiết */
+    margin-top: 1rem;
+}
+
+.dropdown-btn {
+    background-color: white;
+    color: #2c3e50; /* Màu chữ đậm */
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+}
+
+.dropdown-btn:hover {
+    background-color: #f1f1f1;
+}
+
+/* Tạo mũi tên đi xuống */
+.arrow-down {
+    border: solid #2c3e50;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Menu con */
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    top: calc(100% + 1px); /* Định vị menu con ngay dưới nút cha (100%) và thêm 1 khoảng đệm nhỏ 5px */
+    left: 50%; /* Căn giữa menu con theo chiều ngang */
+    transform: translateX(-50%); /* Dịch chuyển menu con về bên trái 50% chiều rộng của chính nó để căn giữa hoàn hảo */
+    
+    /* Hiệu ứng */
+    opacity: 0;
+    visibility: hidden; /* Dùng visibility để ẩn hoàn toàn, tốt hơn cho hiệu suất */
+    transition: opacity 0.2s ease, visibility 0.2s ease, top 0.2s ease;
+}
+
+/* Hiển thị menu con khi hover vào container (cho máy tính) hoặc show (cho điện thoại) */
+.dropdown-menu-container:hover .dropdown-content,
+.dropdown-content.show {
+    opacity: 1;
+    visibility: visible; /* Làm cho menu hiện ra */
+    top: calc(100% + 1px); /* Dịch chuyển menu xuống một chút khi hiện ra để tạo hiệu ứng */
+}
+
+/* Các mục trong menu con */
+.dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+/* Mục đang được chọn (active) */
+.dropdown-item.active {
+    background-color: #3498db;
+    color: white;
+}
+
+/* --- CSS cho nút điều hướng trong Header --- */
+.header-nav {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.back-to-home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.15); /* Nền mờ để nổi bật nhẹ */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s;
+}
+
+.back-to-home-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }

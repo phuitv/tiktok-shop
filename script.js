@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // === Lấy các phần tử trên trang ===
     const productGrid = document.getElementById('product-grid');
     const searchInput = document.getElementById('search-input');
-    const categoryMenu = document.getElementById('category-menu');
+    const categoryDropdownContent = document.getElementById('category-dropdown-content');
+    const categoryDropdownBtn = document.getElementById('category-dropdown-btn');
     const paginationControls = document.getElementById('pagination-controls');
 
     // === Biến trạng thái ===
@@ -15,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const render = () => {
         // 1. Lọc sản phẩm theo danh mục và từ khóa
         let filteredProducts = allProducts;
-        const currentCategory = document.querySelector('.category-btn.active').dataset.category;
+        const activeItem = document.querySelector('.dropdown-item.active');
+        const currentCategory = activeItem ? activeItem.dataset.category : 'Tất Cả';
         if (currentCategory !== 'Tất Cả') {
             filteredProducts = allProducts.filter(product => product.category === currentCategory);
         }
@@ -88,12 +90,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Lọc danh mục
-    categoryMenu.addEventListener('click', (event) => {
-        if (event.target.classList.contains('category-btn')) {
-            document.querySelector('.category-btn.active').classList.remove('active');
-            event.target.classList.add('active');
-            currentPage = 1; // Khi lọc, luôn quay về trang 1
+    categoryDropdownContent.addEventListener('click', (event) => {
+        const target = event.target;
+        
+        // Chỉ xử lý khi click vào một .dropdown-item và nó không phải là link đến trang khác
+        if (target.classList.contains('dropdown-item') && target.href.endsWith('#')) {
+            // Cập nhật giao diện
+            const currentActive = document.querySelector('.dropdown-item.active');
+            if (currentActive) {
+                currentActive.classList.remove('active');
+            }
+            target.classList.add('active');
+
+            // Cập nhật text của nút cha
+            categoryDropdownBtn.firstChild.textContent = target.textContent + ' ';
+            
+            // Lọc và render lại
+            currentPage = 1; 
             render();
+
+            // Ẩn dropdown đi (quan trọng cho di động)
+            categoryDropdownContent.classList.remove('show');
         }
     });
 
@@ -108,4 +125,18 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Lỗi khi tải dữ liệu sản phẩm:', error);
             productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
         });
+
+    // Logic cho việc mở/đóng dropdown trên click
+    categoryDropdownBtn.addEventListener('click', () => {
+        categoryDropdownContent.classList.toggle('show');
+    });
+
+    // Đóng dropdown khi click ra ngoài
+    window.addEventListener('click', (event) => {
+        if (!event.target.matches('.dropdown-btn') && !event.target.closest('.dropdown-btn')) {
+            if (categoryDropdownContent.classList.contains('show')) {
+                categoryDropdownContent.classList.remove('show');
+            }
+        }
+    });
 });
