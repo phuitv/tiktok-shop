@@ -1,45 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // === Lấy các phần tử trên trang ===
+    // === LẤY CÁC PHẦN TỬ TRANG ===
     const productGrid = document.getElementById('product-grid');
     const searchInput = document.getElementById('search-input');
-    const categoryDropdownContent = document.getElementById('category-dropdown-content');
-    const categoryDropdownBtn = document.getElementById('category-dropdown-btn');
     const paginationControls = document.getElementById('pagination-controls');
+    const categoryDropdownBtn = document.getElementById('category-dropdown-btn');
+    const categoryDropdownContent = document.getElementById('category-dropdown-content');
 
-    // === Biến trạng thái ===
-    let allProducts = []; // Lưu trữ toàn bộ sản phẩm từ JSON
-    let currentPage = 1;  // Trang hiện tại, mặc định là 1
-    const productsPerPage = 12; // Số sản phẩm trên mỗi trang
+    // === BIẾN TRẠNG THÁI ===
+    let allProducts = [];
+    let currentPage = 1;
+    const productsPerPage = 12; // Bạn có thể thay đổi số này
 
-    // === HÀM CHÍNH: RENDER MỌI THỨ ===
-    // Hàm này sẽ được gọi mỗi khi có thay đổi (tải trang, tìm kiếm, lọc, chuyển trang)
+    // === HÀM RENDER CHÍNH ===
+    // Chịu trách nhiệm lọc và hiển thị lại toàn bộ trang
     const render = () => {
-        // 1. Lọc sản phẩm theo danh mục và từ khóa
         let filteredProducts = allProducts;
-        const activeItem = document.querySelector('.dropdown-item.active');
-        const currentCategory = activeItem ? activeItem.dataset.category : 'Tất Cả';
+        const activeItem = categoryDropdownContent.querySelector('.dropdown-item.active');
+        
+        // Luôn có một activeItem như đã thiết lập trong HTML
+        const currentCategory = activeItem.dataset.category;
+
+        // 1. Lọc theo danh mục
         if (currentCategory !== 'Tất Cả') {
             filteredProducts = allProducts.filter(product => product.category === currentCategory);
         }
+
+        // 2. Lọc tiếp theo từ khóa tìm kiếm
         const searchTerm = searchInput.value.toLowerCase();
         if (searchTerm) {
             filteredProducts = filteredProducts.filter(product => product.name.toLowerCase().includes(searchTerm));
         }
 
-        // 2. Tính toán phân trang
+        // 3. Tính toán phân trang
         const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+        // Đảm bảo currentPage không lớn hơn tổng số trang (quan trọng khi kết quả lọc ít đi)
+        if (currentPage > totalPages) {
+            currentPage = 1;
+        }
         const startIndex = (currentPage - 1) * productsPerPage;
-        const endIndex = startIndex + productsPerPage;
-        const productsForCurrentPage = filteredProducts.slice(startIndex, endIndex);
+        const productsForCurrentPage = filteredProducts.slice(startIndex, startIndex + productsPerPage);
 
-        // 3. Hiển thị sản phẩm của trang hiện tại
+        // 4. Hiển thị sản phẩm và phân trang
         displayProductCards(productsForCurrentPage);
-
-        // 4. Hiển thị các nút điều khiển phân trang
         setupPagination(totalPages, filteredProducts.length > 0);
     };
 
-    // === HÀM PHỤ: Chỉ để hiển thị card sản phẩm ===
+    // === HÀM HIỂN THỊ CARD SẢN PHẨM ===
     const displayProductCards = (products) => {
         productGrid.innerHTML = '';
         if (products.length === 0) {
@@ -60,72 +66,65 @@ document.addEventListener('DOMContentLoaded', () => {
             productGrid.appendChild(card);
         });
     };
-
-    // === HÀM PHỤ: Tạo và quản lý các nút phân trang ===
+    
+    // === HÀM PHÂN TRANG ===
     const setupPagination = (totalPages, hasProducts) => {
         paginationControls.innerHTML = '';
-        if (!hasProducts || totalPages <= 1) return; // Không hiển thị nếu không có SP hoặc chỉ có 1 trang
-
+        if (!hasProducts || totalPages <= 1) return;
         for (let i = 1; i <= totalPages; i++) {
             const pageBtn = document.createElement('button');
             pageBtn.classList.add('page-btn');
             pageBtn.textContent = i;
-            if (i === currentPage) {
-                pageBtn.classList.add('active');
-            }
+            if (i === currentPage) pageBtn.classList.add('active');
             pageBtn.addEventListener('click', () => {
                 currentPage = i;
-                render(); // Gọi lại hàm render chính để cập nhật mọi thứ
-                window.scrollTo(0, 0); // Tự động cuộn lên đầu trang
+                render();
+                window.scrollTo(0, 0);
             });
             paginationControls.appendChild(pageBtn);
         }
     };
 
-    // === LẮNG NGHE SỰ KIỆN ===
-    // Tìm kiếm
-    searchInput.addEventListener('input', () => {
-        currentPage = 1; // Khi tìm kiếm, luôn quay về trang 1
-        render();
+    // === LOGIC ĐỂ ĐIỀU KHIỂN DROPDOWN ===
+    // 1. Mở/đóng menu khi click vào nút chính
+    categoryDropdownBtn.addEventListener('click', (event) => {
+        // Ngăn sự kiện click này "nổi bọt" lên window, tránh việc menu vừa mở đã bị đóng ngay
+        event.stopPropagation(); 
+        categoryDropdownContent.classList.toggle('show');
     });
 
-    // Lọc danh mục
+    // 2. Xử lý khi chọn một mục trong menu
     categoryDropdownContent.addEventListener('click', (event) => {
-        // Sử dụng .closest() để đảm bảo luôn bắt được đúng thẻ <a>
-        // ngay cả khi người dùng click vào chữ bên trong
         const target = event.target.closest('.dropdown-item');
+        if (!target) return;
 
-        // Nếu không click vào một mục nào cả thì không làm gì
-        if (!target) {
-            return;
-        }
+        event.preventDefault(); // Ngăn hành vi của thẻ <a>
 
-        // Kiểm tra xem đây có phải là link lọc không
-        if (target.getAttribute('href') === '#') {
-            // Nếu là link lọc, ngăn trang tải lại và thực hiện logic lọc
-            event.preventDefault();
+        // Cập nhật giao diện
+        const currentActive = categoryDropdownContent.querySelector('.dropdown-item.active');
+        if (currentActive) currentActive.classList.remove('active');
+        target.classList.add('active');
+        categoryDropdownBtn.firstChild.textContent = target.textContent.trim() + ' ';
+        
+        // Render lại trang
+        currentPage = 1; 
+        render();
 
-            // Cập nhật giao diện (xóa/thêm class 'active')
-            const currentActive = categoryDropdownContent.querySelector('.dropdown-item.active');
-            if (currentActive) {
-                currentActive.classList.remove('active');
-            }
-            target.classList.add('active');
-
-            // Cập nhật text của nút cha
-            if (categoryDropdownBtn) {
-                categoryDropdownBtn.firstChild.textContent = target.textContent.trim() + ' ';
-            }
-            
-            // Reset phân trang và render lại sản phẩm
-            currentPage = 1; 
-            render();
-        }
-        // else: Nếu đây là một link thật (href="laptops.html"), chúng ta không làm gì cả
-        // và để trình duyệt tự động chuyển trang.
-
-        // Dù là link lọc hay link thật, sau khi click, hãy luôn ẩn menu đi.
+        // **QUAN TRỌNG**: Ẩn menu đi sau khi đã chọn
         categoryDropdownContent.classList.remove('show');
+    });
+
+    // 3. Đóng menu khi click ra ngoài
+    window.addEventListener('click', () => {
+        if (categoryDropdownContent.classList.contains('show')) {
+            categoryDropdownContent.classList.remove('show');
+        }
+    });
+
+    // === SỰ KIỆN TÌM KIẾM ===
+    searchInput.addEventListener('input', () => {
+        currentPage = 1;
+        render();
     });
 
     // === TẢI DỮ LIỆU BAN ĐẦU ===
@@ -133,24 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             allProducts = data;
-            render(); // Lần render đầu tiên sau khi có dữ liệu
+            render();
         })
         .catch(error => {
             console.error('Lỗi khi tải dữ liệu sản phẩm:', error);
             productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
         });
-
-    // Logic cho việc mở/đóng dropdown trên click
-    categoryDropdownBtn.addEventListener('click', () => {
-        categoryDropdownContent.classList.toggle('show');
-    });
-
-    // Đóng dropdown khi click ra ngoài
-    window.addEventListener('click', (event) => {
-        if (!event.target.matches('.dropdown-btn') && !event.target.closest('.dropdown-btn')) {
-            if (categoryDropdownContent.classList.contains('show')) {
-                categoryDropdownContent.classList.remove('show');
-            }
-        }
-    });
 });
