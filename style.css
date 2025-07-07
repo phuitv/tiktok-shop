@@ -503,12 +503,22 @@ footer {
     transition: opacity 0.2s ease, visibility 0.2s ease, top 0.2s ease;
 }
 
-/* Hiển thị menu con khi hover vào container (cho máy tính) hoặc show (cho điện thoại) */
-.dropdown-menu-container:hover .dropdown-content,
+/* Quy tắc cho Click (hoạt động trên mọi thiết bị) */
 .dropdown-content.show {
     opacity: 1;
-    visibility: visible; /* Làm cho menu hiện ra */
-    top: calc(100% + 1px); /* Dịch chuyển menu xuống một chút khi hiện ra để tạo hiệu ứng */
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) scaleY(1);
+}
+
+/* Quy tắc cho Hover (CHỈ hoạt động trên các thiết bị có con trỏ chuột) */
+@media (hover: hover) and (pointer: fine) {
+    .dropdown-menu-container:hover .dropdown-content {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateX(-50%) scaleY(1);
+    }
 }
 
 /* Các mục trong menu con */
