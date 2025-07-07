@@ -86,41 +86,50 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // === LOGIC ĐỂ ĐIỀU KHIỂN DROPDOWN ===
-    // 1. Mở/đóng menu khi click vào nút chính
-    categoryDropdownBtn.addEventListener('click', (event) => {
-        // Ngăn sự kiện click này "nổi bọt" lên window, tránh việc menu vừa mở đã bị đóng ngay
-        event.stopPropagation(); 
-        categoryDropdownContent.classList.toggle('show');
-    });
-/*
-    // 2. Xử lý khi chọn một mục trong menu
-    categoryDropdownContent.addEventListener('click', (event) => {
-        const target = event.target.closest('.dropdown-item');
-        if (!target) return;
+    document.addEventListener('click', event => {
+        // Kiểm tra xem có phải click vào nút dropdown hay không
+        const isDropdownButton = event.target.closest('.dropdown-btn');
+        // Tìm menu content gần nhất với nút được click (nếu có)
+        const dropdownContent = isDropdownButton ? isDropdownButton.nextElementSibling : null;
 
-        event.preventDefault(); // Ngăn hành vi của thẻ <a>
-
-        // Cập nhật giao diện
-        const currentActive = categoryDropdownContent.querySelector('.dropdown-item.active');
-        if (currentActive) currentActive.classList.remove('active');
-        target.classList.add('active');
-        categoryDropdownBtn.firstChild.textContent = target.textContent.trim() + ' ';
+        // 1. Mở/đóng menu khi click vào nút chính
+        if (isDropdownButton) {
+            // Toggle menu tương ứng với nút vừa click
+            dropdownContent.classList.toggle('show');
+        }
         
-        // Render lại trang
-        currentPage = 1; 
-        render();
+        // 2. Đóng TẤT CẢ các menu khác đang mở (nếu có nhiều menu)
+        document.querySelectorAll('.dropdown-content.show').forEach(openDropdown => {
+            if (openDropdown !== dropdownContent) {
+                openDropdown.classList.remove('show');
+            }
+        });
 
-        // **QUAN TRỌNG**: Ẩn menu đi sau khi đã chọn
-        categoryDropdownContent.classList.remove('show');
-    });
+        // 3. Xử lý khi click vào một mục trong menu
+        const targetItem = event.target.closest('.dropdown-item');
+        if (targetItem && targetItem.closest('.dropdown-content.show')) {
+            // Nếu là link lọc
+            if (targetItem.getAttribute('href') === '#') {
+                event.preventDefault();
 
-    // 3. Đóng menu khi click ra ngoài
-    window.addEventListener('click', () => {
-        if (categoryDropdownContent.classList.contains('show')) {
-            categoryDropdownContent.classList.remove('show');
+                // Cập nhật giao diện
+                const currentDropdown = targetItem.closest('.dropdown-content');
+                currentDropdown.querySelector('.dropdown-item.active')?.classList.remove('active');
+                targetItem.classList.add('active');
+                
+                const btn = currentDropdown.previousElementSibling;
+                if (btn) {
+                    btn.firstChild.textContent = targetItem.textContent.trim() + ' ';
+                }
+                
+                // Render lại
+                currentPage = 1; 
+                render();
+            }
+            // Nếu là link thật, cứ để nó chuyển trang bình thường
         }
     });
-*/
+    
     // === SỰ KIỆN TÌM KIẾM ===
     searchInput.addEventListener('input', () => {
         currentPage = 1;
