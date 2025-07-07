@@ -91,27 +91,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Lọc danh mục
     categoryDropdownContent.addEventListener('click', (event) => {
-        const target = event.target;
-        
-        // Chỉ xử lý khi click vào một .dropdown-item và nó không phải là link đến trang khác
-        if (target.classList.contains('dropdown-item') && target.href.endsWith('#')) {
-            // Cập nhật giao diện
-            const currentActive = document.querySelector('.dropdown-item.active');
+        // Sử dụng .closest() để đảm bảo luôn bắt được đúng thẻ <a>
+        // ngay cả khi người dùng click vào chữ bên trong
+        const target = event.target.closest('.dropdown-item');
+
+        // Nếu không click vào một mục nào cả thì không làm gì
+        if (!target) {
+            return;
+        }
+
+        // Kiểm tra xem đây có phải là link lọc không
+        if (target.getAttribute('href') === '#') {
+            // Nếu là link lọc, ngăn trang tải lại và thực hiện logic lọc
+            event.preventDefault();
+
+            // Cập nhật giao diện (xóa/thêm class 'active')
+            const currentActive = categoryDropdownContent.querySelector('.dropdown-item.active');
             if (currentActive) {
                 currentActive.classList.remove('active');
             }
             target.classList.add('active');
 
             // Cập nhật text của nút cha
-            categoryDropdownBtn.firstChild.textContent = target.textContent + ' ';
+            if (categoryDropdownBtn) {
+                categoryDropdownBtn.firstChild.textContent = target.textContent.trim() + ' ';
+            }
             
-            // Lọc và render lại
+            // Reset phân trang và render lại sản phẩm
             currentPage = 1; 
             render();
-
-            // Ẩn dropdown đi (quan trọng cho di động)
-            categoryDropdownContent.classList.remove('show');
         }
+        // else: Nếu đây là một link thật (href="laptops.html"), chúng ta không làm gì cả
+        // và để trình duyệt tự động chuyển trang.
+
+        // Dù là link lọc hay link thật, sau khi click, hãy luôn ẩn menu đi.
+        categoryDropdownContent.classList.remove('show');
     });
 
     // === TẢI DỮ LIỆU BAN ĐẦU ===
