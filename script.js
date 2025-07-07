@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         event.stopPropagation(); 
         categoryDropdownContent.classList.toggle('show');
     });
-
+/*
     // 2. Xử lý khi chọn một mục trong menu
     categoryDropdownContent.addEventListener('click', (event) => {
         const target = event.target.closest('.dropdown-item');
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             categoryDropdownContent.classList.remove('show');
         }
     });
-
+*/
     // === SỰ KIỆN TÌM KIẾM ===
     searchInput.addEventListener('input', () => {
         currentPage = 1;
