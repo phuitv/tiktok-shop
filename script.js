@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Cập nhật text nút cha
                 const mainBtn = dropdownContent.previousElementSibling;
                 if (mainBtn) {
-                    mainBtn.firstChild.textContent = dropdownItem.textContent.trim() + ' ';
+                    mainBtn.firstChild.textContent = mainBtn.firstChild.textContent.replace(/.*(?= )/, dropdownItem.textContent.trim());
                 }
 
                 // Render lại sản phẩm
@@ -115,8 +115,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             // Nếu là link thật, trình duyệt sẽ tự chuyển trang
 
-            // Sau khi xử lý xong thì đóng menu lại
-            dropdownContent.classList.remove('show');
+            // Luôn đóng menu sau khi click, nhưng với một chút trì hoãn
+            setTimeout(() => {
+                dropdownContent.classList.remove('show');
+            }, 10);
+            
             return; // Kết thúc, không làm gì thêm
         }
 
