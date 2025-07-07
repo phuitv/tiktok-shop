@@ -87,49 +87,60 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === LOGIC ĐỂ ĐIỀU KHIỂN DROPDOWN ===
     document.addEventListener('click', event => {
-        // Kiểm tra xem có phải click vào nút dropdown hay không
-        const isDropdownButton = event.target.closest('.dropdown-btn');
-        // Tìm menu content gần nhất với nút được click (nếu có)
-        const dropdownContent = isDropdownButton ? isDropdownButton.nextElementSibling : null;
+        const dropdownBtn = event.target.closest('.dropdown-btn');
+        const dropdownItem = event.target.closest('.dropdown-item');
 
-        // 1. Mở/đóng menu khi click vào nút chính
-        if (isDropdownButton) {
-            // Toggle menu tương ứng với nút vừa click
-            dropdownContent.classList.toggle('show');
-        }
-        
-        // 2. Đóng TẤT CẢ các menu khác đang mở (nếu có nhiều menu)
-        document.querySelectorAll('.dropdown-content.show').forEach(openDropdown => {
-            if (openDropdown !== dropdownContent) {
-                openDropdown.classList.remove('show');
-            }
-        });
-
-        // 3. Xử lý khi click vào một mục trong menu
-        const targetItem = event.target.closest('.dropdown-item');
-        if (targetItem && targetItem.closest('.dropdown-content.show')) {
-            // Nếu là link lọc
-            if (targetItem.getAttribute('href') === '#') {
+        // Trường hợp 1: Click vào một mục trong menu con
+        if (dropdownItem) {
+            const dropdownContent = dropdownItem.closest('.dropdown-content');
+            
+            // Nếu là link lọc (#)
+            if (dropdownItem.getAttribute('href') === '#') {
                 event.preventDefault();
 
-                // Cập nhật giao diện
-                const currentDropdown = targetItem.closest('.dropdown-content');
-                currentDropdown.querySelector('.dropdown-item.active')?.classList.remove('active');
-                targetItem.classList.add('active');
+                // Cập nhật giao diện active
+                const currentActive = dropdownContent.querySelector('.dropdown-item.active');
+                if (currentActive) currentActive.classList.remove('active');
+                dropdownItem.classList.add('active');
                 
-                const btn = currentDropdown.previousElementSibling;
-                if (btn) {
-                    btn.firstChild.textContent = targetItem.textContent.trim() + ' ';
+                // Cập nhật text nút cha
+                const mainBtn = dropdownContent.previousElementSibling;
+                if (mainBtn) {
+                    mainBtn.firstChild.textContent = dropdownItem.textContent.trim() + ' ';
                 }
-                
-                // Render lại
-                currentPage = 1; 
+
+                // Render lại sản phẩm
+                currentPage = 1;
                 render();
             }
-            // Nếu là link thật, cứ để nó chuyển trang bình thường
+            // Nếu là link thật, trình duyệt sẽ tự chuyển trang
+
+            // Sau khi xử lý xong thì đóng menu lại
+            dropdownContent.classList.remove('show');
+            return; // Kết thúc, không làm gì thêm
         }
+
+        // Trường hợp 2: Click vào nút chính để mở/đóng menu
+        if (dropdownBtn) {
+            const dropdownContentToShow = dropdownBtn.nextElementSibling;
+            // Đóng tất cả các menu khác trước khi mở menu mới
+            document.querySelectorAll('.dropdown-content.show').forEach(openDropdown => {
+                if (openDropdown !== dropdownContentToShow) {
+                    openDropdown.classList.remove('show');
+                }
+            });
+            // Sau đó toggle menu hiện tại
+            dropdownContentToShow.classList.toggle('show');
+            return; // Kết thúc, không làm gì thêm
+        }
+        
+        // Trường hợp 3: Click ra ngoài
+        // Nếu không click vào nút chính hoặc mục con, đóng tất cả các menu đang mở
+        document.querySelectorAll('.dropdown-content.show').forEach(openDropdown => {
+            openDropdown.classList.remove('show');
+        });
     });
-    
+
     // === SỰ KIỆN TÌM KIẾM ===
     searchInput.addEventListener('input', () => {
         currentPage = 1;
