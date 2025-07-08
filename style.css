@@ -640,9 +640,9 @@ footer {
     }
 
     /* Tùy chọn: Giảm padding của header để tiết kiệm không gian */
-    header {
+    /* header {
         padding: 3rem 1rem;
-    }
+    } */
 }
 
 /* Tùy chọn: Thêm một mức nữa cho màn hình rất nhỏ */
