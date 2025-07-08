@@ -40,6 +40,17 @@ header h1 {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Thêm bóng để chữ nổi hơn */
 }
 
+/* --- CSS cho dòng chữ Lưu ý giá --- */
+.price-note {
+    font-size: 1.2rem; /* Kích thước nhỏ hơn h1 một chút cho có sự phân cấp */
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Giống h1 */
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 0 1rem; /* Thêm padding để không bị dính vào cạnh màn hình nhỏ */
+}
+
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -643,6 +654,33 @@ footer {
     /* header {
         padding: 3rem 1rem;
     } */
+
+    .price-note {
+        font-size: 0.9rem; /* Làm cho nó nhỏ hơn trên di động */
+        line-height: 1.4; /* Tăng khoảng cách dòng cho dễ đọc */
+    }
+
+    /* === THU NHỎ NÚT DROPDOWN "DANH MỤC" === */
+    .dropdown-btn {
+        padding: 8px 18px; /* Giảm padding */
+        font-size: 0.9rem; /* Giảm kích thước chữ */
+    }
+    
+    .dropdown-btn .arrow-down {
+        border-width: 0 2px 2px 0; /* Làm mũi tên nhỏ lại một chút */
+        padding: 2.5px;
+    }
+
+    /* === THU NHỎ CÁC NÚT LỌC NỀN TẢNG === */
+    .platform-filter-btn {
+        padding: 6px 12px; /* Giảm padding */
+        font-size: 0.85rem; /* Giảm kích thước chữ */
+        gap: 5px; /* Giảm khoảng cách giữa logo và chữ */
+    }
+    
+    .platform-filter-btn img {
+        height: 16px; /* Giảm kích thước logo */
+    }
 }
 
 /* Tùy chọn: Thêm một mức nữa cho màn hình rất nhỏ */

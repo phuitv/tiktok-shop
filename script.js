@@ -32,7 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (activeCategoryItem) {
             const currentCategory = activeCategoryItem.dataset.category;
             if (currentCategory && currentCategory !== 'Tất Cả') {
-                filteredProducts = filteredProducts.filter(p => p.category === currentCategory);
+                // Lọc những sản phẩm mà mảng 'category' của nó CÓ CHỨA 'currentCategory'
+                filteredProducts = filteredProducts.filter(product => 
+                    product.category && product.category.includes(currentCategory)
+                );
             }
         }
 
@@ -204,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
             const sortedProducts = data.sort((a, b) => b.id - a.id);
-            
+
             allProducts = sortedProducts;
             render();
         })
