@@ -76,8 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('./products.json')
         .then(response => response.json())
         .then(data => {
-            // Lọc để chỉ lấy sản phẩm có category là "Laptop"
-            allLaptopProducts = data.filter(product => product.category === 'Laptop');
+            allLaptopProducts = data
+                .filter(product => product.category === 'Laptop')   // Lọc để chỉ lấy sản phẩm có category là "Laptop"
+                .sort((a, b) => b.id - a.id);   // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
+
             renderLaptops(); // Render lần đầu
         })
         .catch(error => {

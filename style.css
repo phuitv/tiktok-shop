@@ -33,6 +33,13 @@ header::before {
     z-index: -1;    /* Đặt lớp phủ NẰM DƯỚI nội dung của header */
 }
 
+header h1 {
+    font-size: 2.5rem; /* Kích thước chữ cho màn hình lớn */
+    margin-bottom: 0.5rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Thêm bóng để chữ nổi hơn */
+}
+
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -561,4 +568,86 @@ footer {
 
 .back-to-home-btn:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* --- CSS cho các nút Affiliate theo nền tảng --- */
+
+/* Nút TikTok (mặc định có thể đã giống, nhưng chúng ta làm rõ ràng hơn) */
+.product-link.platform-tiktok {
+    background-color: #000000; /* Màu đen */
+    color: white;
+    border: 1px solid #000000;
+}
+.product-link.platform-tiktok:hover {
+    background-color: #333333; /* Màu đen nhạt hơn khi hover */
+}
+
+/* Nút Shopee */
+.product-link.platform-shopee {
+    background-color: #EE4D2D; /* Màu cam đặc trưng của Shopee */
+    color: white;
+    border: 1px solid #EE4D2D;
+}
+.product-link.platform-shopee:hover {
+    background-color: #f06a4b; /* Màu cam nhạt hơn khi hover */
+}
+
+/* --- CSS cho Nút Lọc Nền tảng --- */
+.platform-filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1.5rem;
+}
+
+.platform-filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.platform-filter-btn img {
+    height: 20px;
+}
+
+.platform-filter-btn:hover {
+    border-color: #333;
+}
+
+/* Kiểu cho nút đang được chọn (active) */
+.platform-filter-btn.active {
+    border-color: #3498db;
+    background-color: #eaf5fc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- CSS Responsive cho Header trên màn hình nhỏ --- */
+
+/* Áp dụng khi chiều rộng màn hình nhỏ hơn hoặc bằng 600px */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem; /* <-- Kích thước chữ nhỏ hơn đáng kể */
+        /* Bạn có thể thêm các điều chỉnh khác ở đây nếu cần */
+    }
+
+    /* Tùy chọn: Giảm padding của header để tiết kiệm không gian */
+    header {
+        padding: 3rem 1rem;
+    }
+}
+
+/* Tùy chọn: Thêm một mức nữa cho màn hình rất nhỏ */
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 1.5rem; /* <-- Càng nhỏ hơn nữa */
+    }
 }

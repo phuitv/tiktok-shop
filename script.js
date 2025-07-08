@@ -5,33 +5,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const paginationControls = document.getElementById('pagination-controls');
     const categoryDropdownBtn = document.getElementById('category-dropdown-btn');
     const categoryDropdownContent = document.getElementById('category-dropdown-content');
+    const platformFilterControls = document.querySelector('.platform-filter-controls');
 
     // === BIẾN TRẠNG THÁI ===
     let allProducts = [];
     let currentPage = 1;
     const productsPerPage = 12; // Bạn có thể thay đổi số này
+    let activePlatformFilter = null; // null có nghĩa là không có bộ lọc nào được áp dụng
 
     // === HÀM RENDER CHÍNH ===
     // Chịu trách nhiệm lọc và hiển thị lại toàn bộ trang
     const render = () => {
+        console.log(`Rendering with filters: Platform='${activePlatformFilter}', Category='${document.querySelector('.dropdown-item.active')?.dataset.category}'`);
         let filteredProducts = allProducts;
-        const activeItem = categoryDropdownContent.querySelector('.dropdown-item.active');
         
         // Luôn có một activeItem như đã thiết lập trong HTML
-        const currentCategory = activeItem.dataset.category;
+//        const currentCategory = activeItem.dataset.category;
 
-        // 1. Lọc theo danh mục
-        if (currentCategory !== 'Tất Cả') {
-            filteredProducts = allProducts.filter(product => product.category === currentCategory);
+        // LỌC THEO NỀN TẢNG (NẾU CÓ)
+        if (activePlatformFilter) {
+            filteredProducts = filteredProducts.filter(product => product.platform === activePlatformFilter);
         }
 
-        // 2. Lọc tiếp theo từ khóa tìm kiếm
+        // Lọc theo danh mục
+        const activeCategoryItem = categoryDropdownContent.querySelector('.dropdown-item.active');
+        if (activeCategoryItem) {
+            const currentCategory = activeCategoryItem.dataset.category;
+            if (currentCategory && currentCategory !== 'Tất Cả') {
+                filteredProducts = filteredProducts.filter(p => p.category === currentCategory);
+            }
+        }
+
+        // Lọc tiếp theo từ khóa tìm kiếm
         const searchTerm = searchInput.value.toLowerCase();
         if (searchTerm) {
             filteredProducts = filteredProducts.filter(product => product.name.toLowerCase().includes(searchTerm));
         }
 
-        // 3. Tính toán phân trang
+        // Tính toán phân trang
         const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
         // Đảm bảo currentPage không lớn hơn tổng số trang (quan trọng khi kết quả lọc ít đi)
         if (currentPage > totalPages) {
@@ -40,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const startIndex = (currentPage - 1) * productsPerPage;
         const productsForCurrentPage = filteredProducts.slice(startIndex, startIndex + productsPerPage);
 
-        // 4. Hiển thị sản phẩm và phân trang
+        // Hiển thị sản phẩm và phân trang
         displayProductCards(productsForCurrentPage);
         setupPagination(totalPages, filteredProducts.length > 0);
     };
@@ -55,13 +66,27 @@ document.addEventListener('DOMContentLoaded', () => {
         products.forEach(product => {
             const card = document.createElement('div');
             card.classList.add('product-card');
+
+            // Xác định text và class cho nút dựa trên platform
+            let platformText = 'Xem chi tiết';
+            let platformClass = '';
+            if (product.platform === 'tiktok') {
+                platformText = 'Xem trên TikTok';
+                platformClass = 'platform-tiktok';
+            } else if (product.platform === 'shopee') {
+                platformText = 'Xem trên Shopee';
+                platformClass = 'platform-shopee';
+            }
+            
             card.innerHTML = `
-                <img src="${product.imageUrl}" alt="${product.name}" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-price">${product.price}</p>
-                    <a href="${product.tiktokLink}" target="_blank" rel="noopener noreferrer" class="product-link">Xem trên Tiktok</a>
-                </div>
+                <a href="${product.affiliateLink}" target="_blank" class="card-link-wrapper">
+                    <img src="${product.imageUrls ? product.imageUrls[0] : product.imageUrl}" alt="${product.name}" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-name">${product.name}</h3>
+                        <p class="product-price">${product.price}</p>
+                        <span class="product-link ${platformClass}">${platformText}</span>
+                    </div>
+                </a>
             `;
             productGrid.appendChild(card);
         });
@@ -144,17 +169,43 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // === LẮNG NGHE SỰ KIỆN CHỌN NỀN TẢNG ===
+    if (platformFilterControls) {
+        platformFilterControls.addEventListener('click', (event) => {
+            const clickedBtn = event.target.closest('.platform-filter-btn');
+            if (!clickedBtn) return;
+
+            const platform = clickedBtn.dataset.platform;
+
+            if (clickedBtn.classList.contains('active')) {
+                clickedBtn.classList.remove('active');
+                activePlatformFilter = null;
+            } else {
+                platformFilterControls.querySelectorAll('.platform-filter-btn').forEach(btn => btn.classList.remove('active'));
+                clickedBtn.classList.add('active');
+                activePlatformFilter = platform;
+            }
+            currentPage = 1;
+            render();
+        });
+    }
+
     // === SỰ KIỆN TÌM KIẾM ===
-    searchInput.addEventListener('input', () => {
-        currentPage = 1;
-        render();
-    });
+    if(searchInput) {
+        searchInput.addEventListener('input', () => {
+            currentPage = 1;
+            render();
+        });
+    }
 
     // === TẢI DỮ LIỆU BAN ĐẦU ===
     fetch('./products.json')
         .then(response => response.json())
         .then(data => {
-            allProducts = data;
+            // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
+            const sortedProducts = data.sort((a, b) => b.id - a.id);
+            
+            allProducts = sortedProducts;
             render();
         })
         .catch(error => {
