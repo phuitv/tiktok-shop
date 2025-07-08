@@ -655,6 +655,13 @@ footer {
         padding: 3rem 1rem;
     } */
 
+    /* === THU NHỎ Ô TÌM KIẾM === */
+    #search-input {
+        padding: 10px 15px; /* Giảm padding một chút */
+        font-size: 1rem;  /* Giảm kích thước chữ */
+    }
+
+    /* === THU NHỎ LƯU Ý === */
     .price-note {
         font-size: 0.9rem; /* Làm cho nó nhỏ hơn trên di động */
         line-height: 1.4; /* Tăng khoảng cách dòng cho dễ đọc */

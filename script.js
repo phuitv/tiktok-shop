@@ -1,3 +1,8 @@
+// Hàm chuyển đổi chuỗi có dấu thành không dấu
+function removeAccents(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // === LẤY CÁC PHẦN TỬ TRANG ===
     const productGrid = document.getElementById('product-grid');
@@ -19,9 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Rendering with filters: Platform='${activePlatformFilter}', Category='${document.querySelector('.dropdown-item.active')?.dataset.category}'`);
         let filteredProducts = allProducts;
         
-        // Luôn có một activeItem như đã thiết lập trong HTML
-//        const currentCategory = activeItem.dataset.category;
-
         // LỌC THEO NỀN TẢNG (NẾU CÓ)
         if (activePlatformFilter) {
             filteredProducts = filteredProducts.filter(product => product.platform === activePlatformFilter);
@@ -39,10 +41,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Lọc tiếp theo từ khóa tìm kiếm
+        // Lọc tiếp theo từ khóa tìm kiếm (hỗ trợ ko dấu)
         const searchTerm = searchInput.value.toLowerCase();
         if (searchTerm) {
-            filteredProducts = filteredProducts.filter(product => product.name.toLowerCase().includes(searchTerm));
+            // Chuyển từ khóa tìm kiếm sang không dấu
+            const unaccentedSearchTerm = removeAccents(searchTerm);
+
+            filteredProducts = filteredProducts.filter(product => {
+                // Chuyển tên sản phẩm sang không dấu và chữ thường
+                const unaccentedProductName = removeAccents(product.name.toLowerCase());
+                
+                // So sánh hai chuỗi đã được chuẩn hóa
+                return unaccentedProductName.includes(unaccentedSearchTerm);
+            });
         }
 
         // Tính toán phân trang
