@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Băng keo thể thao hộp 24 & 30 cuộn cuốn cổ chân cổ tay chấn tránh chấn thương hỗ trợ thi đấu và tập luyện",
         "price": "100.000đ",
-        "imageUrl": "https://phuitv.github.io/tiktok-shop/images/1-cao-su-non.webp",
+        "imageUrl": "images/1-cao-su-non.webp",
         "affiliateLink": "https://www.tiktok.com/view/product/1729555183415560968?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007517973912782620436%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMfq4iXyTuKPsWXsMoBIIBCzin3ppoFQXokahCArXioFJzcOOM9Acq4l3Y4aN6zbs67cN3f50wrs5S57UdHM6pNrSzXBWbLVk1qtbKP36mhDOugYeSRCjwJ26KIC1XuGd%2FOmBlS932O3pmO8xK+UQfX%2FcoPfuCMKSo%2F4yRbuARP1FnItcQSazgfNCyBCEYNSJNxZ+MkS9NCn4hcoD9y8fGu7s4UYd%2FFhDqs6SGpkov%2FCwmCqaNwkvXyXgtbh5AXeQkUjhBjdmt38%2FScZ1qZN4emdiks4AVAg78jimqkXdlR4hZYsvgac7oCBYWTCTMSuxTX3GsL5ZjD6B%2FgipgdZgafy+a+5tGIA8ePhuHPS2wCbVncWaDtZROyNFyIgQQBV4Dq8wSqDqVqaTLVbV+0g%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750414737&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
@@ -1599,5 +1599,14 @@
         "affiliateLink": "https://s.shopee.vn/AUiu1eXS5z",
         "category": [ "Ăn Uống", "Nguyên Liệu" ],
         "platform": "shopee"
+    },
+    {
+        "id": 152,
+        "name": "Hộp Đựng Đồ Để Bàn Tai Thỏ Dễ Thương Có Chân Đế (Chính Hãng)",
+        "price": "83.000đ",
+        "imageUrl": "images/152.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBHYUkcd/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
