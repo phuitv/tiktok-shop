@@ -68,38 +68,95 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .product-image {
     width: 100%;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0 0; /* Bo góc trên cho đẹp */
+}
+
+.product-image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Giữ tỷ lệ vuông cho ảnh */
+    background-color: white;
+    overflow: hidden; /* Quan trọng để bo góc hoạt động */
+    border-radius: 8px 8px 0 0;
+}
+
+/* Thẻ link bao quanh ảnh */
+.product-image-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+.product-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+} */
+
+/* --- CSS cho Tên sản phẩm đè lên ảnh --- */
+.product-name-overlay {
+    /* Định vị lớp phủ ở dưới cùng của container ảnh */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+
+    /* Lớp gradient từ đen mờ (ở dưới) đến trong suốt (ở trên) */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0) 100%);
+    
+    padding: 2.5rem 0.2rem 1rem 0.2rem; /* Padding: trên, phải, dưới, trái */
+    /* border-radius: 0 0 8px 8px; Bo góc dưới cho khớp với ảnh */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1; /* Mặc định ẩn đi (0) */
+}
+
+.product-name-overlay .product-name {
+    background: none;
+    color: white; /* Chữ màu trắng để nổi trên nền tối */
+    font-size: 1rem; /* Có thể điều chỉnh lại kích thước chữ */
+    margin: 0;
+    /* Ngăn text quá dài và hiển thị dấu "..." */
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Giới hạn chỉ hiển thị tối đa 2 dòng */
+    -webkit-box-orient: vertical;
+}
+
+/* Khi hover vào toàn bộ thẻ a, lớp phủ sẽ hiện ra */
+.card-link-wrapper:hover .product-name-overlay {
+    opacity: 1;
 }
 
 .product-info {
-    padding: 1rem;
+    padding: 0.75rem 1rem 1rem 1rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.product-name {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin: 0 0 0.5rem 0;
-}
-
 .product-price {
     font-size: 1.2rem;
     color: #e74c3c;
-    margin-top: auto;
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 
@@ -113,6 +170,7 @@ main {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.2s;
+    margin-top: auto; /* Đẩy nút xuống dưới cùng */
 }
 
 .product-link:hover {

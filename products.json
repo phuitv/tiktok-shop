@@ -1509,5 +1509,95 @@
         "affiliateLink": "https://s.shopee.vn/5fdbv87ncY",
         "category": [ "Nguyên Liệu", "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 142,
+        "name": "Áo chống nắng nam 2 lớp AVANCOMAN cao cấp chống tia UV, mẫu mới mùa hè 2025",
+        "price": "149.000đ",
+        "imageUrl": "images/142.webp",
+        "affiliateLink": "https://s.shopee.vn/8fHFoWN4XL",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 143,
+        "name": "Áo polo nam BASIC SYMBOL vải cá sấu cotton interlock xuất xịn, thanh lịch, sang trọng - POLOMANOR",
+        "price": "322.800đ",
+        "imageUrl": "images/143.webp",
+        "affiliateLink": "https://s.shopee.vn/8AKzDtzUln",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 144,
+        "name": "GOOJODOQ 2025 Quạt tốc độ cao để bàn 2 trong 1 mới Quạt gió 100 tốc độ Màn hình kỹ thuật số LED quạt turbo có thể điều chỉnh Đèn chiếu...",
+        "price": "369.000đ",
+        "imageUrl": "images/144.webp",
+        "affiliateLink": "https://s.shopee.vn/3LFjT8PF3w",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 145,
+        "name": "Khăn giấy cao cấp treo tường Top Gia Tiểu hạ 10 bịch, Giấy vệ sinh 4 lớp dày dặn an toàn, mềm mịn",
+        "price": "100.000đ",
+        "imageUrl": "images/145.webp",
+        "affiliateLink": "https://s.shopee.vn/3VZ9fYUEfH",
+        "category": [ "Nguyên Liệu", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 146,
+        "name": "Thùng 12 hộp Sữa tươi Vinamilk Green Farm cao đạm, không lactose - hộp 250ml",
+        "price": "300.000đ",
+        "imageUrl": "images/146.webp",
+        "affiliateLink": "https://s.shopee.vn/zHVGckuN",
+        "category": [ "Nguyên Liệu", "Ăn Uống" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 147,
+        "name": "[DEAL COMBO 99K] Thùng 6 Bịch Khăn Giấy Tiểu Hạ TOP GIA 4 Lớp Mềm Mịn, Thành Phần Bột Gỗ Tự Nhiên Thân Thiện An Toàn, Khăn Giấy Vệ Sinh 1000 tờ, 4 lớp Tặng 3 móc treo tiện ích Giấy Vệ Sinh giấy rút đa năng treo tường TG86",
+        "price": "129.000đ",
+        "imageUrl": "images/147.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSButG6UK/",
+        "category": [ "Nguyên Liệu", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 148,
+        "name": "Balo cầu lông đựng vợt, giày, quần áo, hàng nội địa trung siêu đẹp",
+        "price": "490.000đ",
+        "imageUrl": "images/148.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBunXgMq/",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 149,
+        "name": "(SIZE XL - Premium) Combo 6 bịch khăn giấy đa năng treo tường đa sắc tiện lợi TopGia (tặng móc treo tường) Giấy Ăn Khăn Giấy phòng bếp vn Giấy Vệ Sinh giấy rút đa năng treo tường ĐẠT QUY CHUẨN BỘ CÔNG THƯƠNG HN-HCM (DS)",
+        "price": "189.000đ",
+        "imageUrl": "images/149.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBunSJEn/",
+        "category": [ "Nguyên Liệu", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 150,
+        "name": "Combo 48 Băng Cao Su Non Thể Thao Bóng Đá Chất Liệu Cao Su Non Bám Dính Tốt Giúp Cố Định Hạn Chế Chấn Thương",
+        "price": "105.000đ",
+        "imageUrl": "images/150.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBunX7BX/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 151,
+        "name": "[ Thơm ngon - mát lạnh ] Bia (Beer) Cổ Lão gia Size Lớn 1000ml thơm ngon đậm đà tốt cho sức khỏe cực ngon ngày Hè",
+        "price": "80.000đ",
+        "imageUrl": "images/151.webp",
+        "affiliateLink": "https://s.shopee.vn/AUiu1eXS5z",
+        "category": [ "Ăn Uống", "Nguyên Liệu" ],
+        "platform": "shopee"
     }
 ]

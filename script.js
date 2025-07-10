@@ -93,14 +93,20 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             card.innerHTML = `
-                <a href="${product.affiliateLink}" target="_blank" class="card-link-wrapper">
-                    <img src="${product.imageUrls ? product.imageUrls[0] : product.imageUrl}" alt="${product.name}" class="product-image">
-                    <div class="product-info">
+                <div class="product-image-container">
+                    <a href="${product.affiliateLink}" target="_blank">
+                        <img src="${product.imageUrls ? product.imageUrls[0] : product.imageUrl}" alt="${product.name}" class="product-image">
+                    </a>
+                    <div class="product-name-overlay">
                         <h3 class="product-name">${product.name}</h3>
-                        <p class="product-price">${product.price}</p>
-                        <span class="product-link ${platformClass}">${platformText}</span>
                     </div>
-                </a>
+                </div>
+                <div class="product-info">
+                    <p class="product-price">${product.price}</p>
+                    <a href="${product.affiliateLink}" target="_blank" rel="noopener noreferrer" class="product-link ${platformClass}">
+                        ${platformText}
+                    </a>
+                </div>
             `;
             productGrid.appendChild(card);
         });
