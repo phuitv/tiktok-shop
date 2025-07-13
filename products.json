@@ -1725,5 +1725,59 @@
         "affiliateLink": "https://s.shopee.vn/4L8Ibig9pv",
         "category": [ "Nguyên Liệu", "Ăn Uống" ],
         "platform": "shopee"
+    },
+    {
+        "id": 166,
+        "name": "[COMBO vitamin C + D Canxi] Viên Nhai Bổ Sung Vitamin Wonderplus (60 viên/hộp) - Giúp Làn Da Rạng Rỡ - Tăng Cường Đề Kháng - Giúp Xương Chăc Khỏe",
+        "price": "99.000đ",
+        "imageUrl": "images/166.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB4fqsqv/",
+        "category": [ "Làm Đẹp", "Ăn Uống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 167,
+        "name": "Váy cầu lông - dày dặn, mặc thấm hút mồ hôi 7 màu (Trắng+Hồng+Đen+Xanh than+Đỏ đô+Xám+Xanh mint) Thun Sport",
+        "price": "121.000đ",
+        "imageUrl": "images/167.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB4PM2To/",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 168,
+        "name": "10 cuốn cán cầu lông HBT Chính Hãng giá tốt Vợt  Cán Vợt cầu lông, pickleball",
+        "price": "129.000đ",
+        "imageUrl": "images/168.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB4P3DvG/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 169,
+        "name": "Nước giặt OMO Matic 4.1kg (Túi)",
+        "price": "229.000đ",
+        "imageUrl": "images/169.webp",
+        "affiliateLink": "https://s.shopee.vn/40VUzGlOyo",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 170,
+        "name": "Sốt Chấm CayTeDai x1 CAY VỪA - Sốt Muối Chấm Lâm Vlog Cay Tê Dại x1",
+        "price": "85.000 - 165.000đ",
+        "imageUrl": "images/170.webp",
+        "affiliateLink": "https://s.shopee.vn/2qJXbGdPNZ",
+        "category": [ "Nguyên Liệu", "Ăn Uống" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 171,
+        "name": "Thùng 48 hộp thức uống lúa mạch uống liền Nestlé MILO ít đường 48x180ml",
+        "price": "374.000đ",
+        "imageUrl": "images/171.webp",
+        "affiliateLink": "https://s.shopee.vn/BImQUJvjk",
+        "category": [ "Nguyên Liệu", "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
