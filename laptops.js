@@ -1,8 +1,14 @@
-// laptops.js - Phiên bản đã được đơn giản hóa
+// Hàm chuyển đổi chuỗi có dấu thành không dấu
+function removeAccents(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // === Lấy các phần tử cần thiết ===
     const productGrid = document.getElementById('product-grid');
+    const searchInput = document.getElementById('search-input');
     const paginationControls = document.getElementById('pagination-controls');
+    const platformFilterControls = document.querySelector('.platform-filter-controls');
 
     // === Biến trạng thái ===
     let allLaptopProducts = []; // Chỉ chứa sản phẩm laptop
@@ -26,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setupPagination(totalPages);
     };
 
-    // === HÀM PHỤ: Hiển thị card sản phẩm (giữ nguyên) ===
+    // === HÀM PHỤ: Hiển thị card sản phẩm ===
     const displayProductCards = (products) => {
         productGrid.innerHTML = '';
         if (products.length === 0) {
@@ -38,20 +44,25 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('product-card');
             // Đảm bảo lấy ảnh từ mảng imageUrls
             card.innerHTML = `
-                <a href="product-detail.html?id=${product.id}" class="card-link-wrapper">
-                    <img src="${product.imageUrls[0]}" alt="${product.name}" class="product-image">
-                    <div class="product-info">
+                <div class="product-image-container">
+                    <a href="product-detail.html?id=${product.id}">
+                        <img src="${product.imageUrls ? product.imageUrls[0] : product.imageUrl}" 
+                            alt="${product.name}" class="product-image">
+                    </a>
+                    <div class="product-name-overlay">
                         <h3 class="product-name">${product.name}</h3>
-                        <p class="product-price">${product.price}</p>
-                        <span class="product-link-fake">Xem chi tiết</span>
                     </div>
-                </a>
+                </div>
+                <div class="product-info">
+                    <p class="product-price">${product.price}</p>
+                    <a href="product-detail.html?id=${product.id}" class="product-link-fake">Xem chi tiết</a>
+                </div>
             `;
             productGrid.appendChild(card);
         });
     };
 
-    // === HÀM PHỤ: Tạo các nút phân trang (giữ nguyên) ===
+    // === HÀM PHỤ: Tạo các nút phân trang ===
     const setupPagination = (totalPages) => {
         paginationControls.innerHTML = '';
         if (totalPages <= 1) return;
@@ -87,8 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
             productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
         });
         
-    // Chúng ta có thể giữ lại ô tìm kiếm nếu muốn
-    const searchInput = document.getElementById('search-input');
+    // Sự kiện tìm kiếm
     if (searchInput) {
         searchInput.addEventListener('input', () => {
             // Khi tìm kiếm, chúng ta sẽ lọc từ danh sách laptop đã có
@@ -104,4 +114,49 @@ document.addEventListener('DOMContentLoaded', () => {
             setupPagination(totalPages); // Cần điều chỉnh lại hàm này nếu muốn phân trang cho kết quả tìm kiếm
         });
     }
+    
+    // === LOGIC CHO NÚT LÊN ĐẦU TRANG ===
+    const backToTopBtn = document.getElementById('back-to-top-btn');
+
+    if (backToTopBtn) {
+        // Hàm để ẩn/hiện nút
+        const scrollFunction = () => {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        };
+
+        // === HÀM SCROLL MƯỢT MÀ TÙY CHỈNH ===
+        const smoothScrollToTop = () => {
+            const startY = window.pageYOffset; // Vị trí bắt đầu cuộn
+            const startTime = 'now' in window.performance ? performance.now() : new Date().getTime();
+            const duration = 800; // Thời gian cuộn (800ms = 0.8 giây)
+
+            const scroll = () => {
+                const currentTime = 'now' in window.performance ? performance.now() : new Date().getTime();
+                const time = Math.min(1, ((currentTime - startTime) / duration));
+
+                // Hàm easing để tạo hiệu ứng chậm dần ở cuối
+                const easeInOutCubic = t => t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+
+                window.scrollTo(0, startY * (1 - easeInOutCubic(time)));
+
+                if (time < 1) {
+                    requestAnimationFrame(scroll); // Tiếp tục gọi hàm scroll cho đến khi hoàn tất
+                }
+            };
+            
+            requestAnimationFrame(scroll); // Bắt đầu vòng lặp hoạt ảnh
+        };
+        // === KẾT THÚC HÀM SCROLL ===
+
+
+        // Gán sự kiện
+        window.onscroll = () => scrollFunction(); 
+        // Nút sẽ gọi hàm tùy chỉnh
+        backToTopBtn.addEventListener('click', smoothScrollToTop); 
+    }
+    // === KẾT THÚC LOGIC ===
 });

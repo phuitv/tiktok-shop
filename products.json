@@ -1779,5 +1779,68 @@
         "affiliateLink": "https://s.shopee.vn/BImQUJvjk",
         "category": [ "Nguyên Liệu", "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 172,
+        "name": "(1 ĐÔI) Bó gối thể thao, băng đầu gối tập gym GoodFit co giãn 4 chiều, dệt 3D kèm dải Silicon dày dặn GF518K",
+        "price": "119.000đ",
+        "imageUrl": "images/172.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBqnVyEM/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 173,
+        "name": "Balo thể thao  Mini KEEPFLY Daily nhỏ gọn - in ấn logo tên và số (Bảo Hành 365 ngày) - Sport",
+        "price": "78.000đ",
+        "imageUrl": "images/173.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBqnk8WM/",
+        "category": [ "Thời Trang", "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 174,
+        "name": "Viên Nhai Bổ Sung Vitamin C Wonderplus (60 viên x 50mg) - Hương Cam - Giúp Làn Da Rạng Rỡ - Tăng Cường Đề Kháng - Giảm Căng Thẳng",
+        "price": "99.000đ",
+        "imageUrl": "images/174.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBqWRj6V/",
+        "category": [ "Thể Thao", "Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 175,
+        "name": "Nước tẩy trang giúp làm sạch sâu, loại bỏ bụi bẩn và lớp trang điểm 3-in-1 L'Oreal Paris Micellar Water 400ml",
+        "price": "179.000đ",
+        "imageUrl": "images/175.webp",
+        "affiliateLink": "https://s.shopee.vn/7fOp73mOfg",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 176,
+        "name": "Son Bóng Lifter Gloss cho Đôi Môi Đầy Căng Mọng Kẹo cùng Hyaluronic Acid Maybelline New York 5.4ML",
+        "price": "179.000đ",
+        "imageUrl": "images/176.webp",
+        "affiliateLink": "https://s.shopee.vn/6fWHvqiyTM",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 177,
+        "name": "Bộ đôi dầu gội xả ngăn ngừa & giảm gãy rụng tóc, giúp tóc chắc khỏe hơn L’oreal Paris Elseve Full Resist Shampoo 440ml",
+        "price": "469.000đ",
+        "imageUrl": "images/177.webp",
+        "affiliateLink": "https://s.shopee.vn/801fWYA3tL",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 178,
+        "name": "Nước Tẩy Trang làm sạch sâu dịu nhẹ cho mọi loại da (dầu, thường, khô, nhạy cảm) - Garnier Micellar Cleansing Water 400ml",
+        "price": "165.000đ",
+        "imageUrl": "images/178.webp",
+        "affiliateLink": "https://s.shopee.vn/7ASYXAJdSz",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
     }
 ]

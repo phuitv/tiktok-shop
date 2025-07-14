@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // === BIẾN TRẠNG THÁI ===
     let allProducts = [];
     let currentPage = 1;
-    const productsPerPage = 12; // Bạn có thể thay đổi số này
+    const productsPerPage = 12; // Số sp hiển thị trên 1 trang
     let activePlatformFilter = null; // null có nghĩa là không có bộ lọc nào được áp dụng
 
     // === HÀM RENDER CHÍNH ===
@@ -232,4 +232,49 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Lỗi khi tải dữ liệu sản phẩm:', error);
             productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
         });
+
+    // === LOGIC CHO NÚT LÊN ĐẦU TRANG ===
+    const backToTopBtn = document.getElementById('back-to-top-btn');
+
+    if (backToTopBtn) {
+        // Hàm để ẩn/hiện nút
+        const scrollFunction = () => {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        };
+
+        // === HÀM SCROLL MƯỢT MÀ TÙY CHỈNH ===
+        const smoothScrollToTop = () => {
+            const startY = window.pageYOffset; // Vị trí bắt đầu cuộn
+            const startTime = 'now' in window.performance ? performance.now() : new Date().getTime();
+            const duration = 800; // Thời gian cuộn (800ms = 0.8 giây)
+
+            const scroll = () => {
+                const currentTime = 'now' in window.performance ? performance.now() : new Date().getTime();
+                const time = Math.min(1, ((currentTime - startTime) / duration));
+
+                // Hàm easing để tạo hiệu ứng chậm dần ở cuối
+                const easeInOutCubic = t => t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
+
+                window.scrollTo(0, startY * (1 - easeInOutCubic(time)));
+
+                if (time < 1) {
+                    requestAnimationFrame(scroll); // Tiếp tục gọi hàm scroll cho đến khi hoàn tất
+                }
+            };
+            
+            requestAnimationFrame(scroll); // Bắt đầu vòng lặp hoạt ảnh
+        };
+        // === KẾT THÚC HÀM SCROLL ===
+
+
+        // Gán sự kiện
+        window.onscroll = () => scrollFunction(); 
+        // Nút sẽ gọi hàm tùy chỉnh
+        backToTopBtn.addEventListener('click', smoothScrollToTop); 
+    }
+    // === KẾT THÚC LOGIC ===
 });
