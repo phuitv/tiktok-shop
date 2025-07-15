@@ -1695,7 +1695,7 @@
         "name": "Thùng 24 hộp Sữa hạt 9 loại hạt Vinamilk ít đường - hộp 180ml",
         "price": "289.000đ",
         "imageUrl": "images/162.webp",
-        "affiliateLink": "https://s.shopee.vn/10rqd9hxhA",
+        "affiliateLink": "https://s.shopee.vn/10rwkvuDS2",
         "category": [ "Ăn Uống" ],
         "platform": "shopee"
     },
@@ -1803,7 +1803,7 @@
         "name": "Viên Nhai Bổ Sung Vitamin C Wonderplus (60 viên x 50mg) - Hương Cam - Giúp Làn Da Rạng Rỡ - Tăng Cường Đề Kháng - Giảm Căng Thẳng",
         "price": "99.000đ",
         "imageUrl": "images/174.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSBqWRj6V/",
+        "affiliateLink": "https://vt.tiktok.com/ZSBgogWC4/",
         "category": [ "Thể Thao", "Sức Khoẻ" ],
         "platform": "tiktok"
     },
@@ -1841,6 +1841,69 @@
         "imageUrl": "images/178.webp",
         "affiliateLink": "https://s.shopee.vn/7ASYXAJdSz",
         "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 179,
+        "name": "Bột Protein Plant hữu cơ thực vật - Phù hợp với mọi đối tượng, chơi thể thao cần bổ sung protein cho quá trình tập luyện, người thiếu protein trong chế độ ăn, và bận rộn.",
+        "price": "228.000đ",
+        "imageUrl": "images/179.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBp1TkaY/",
+        "category": [ "Sức Khoẻ", "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 180,
+        "name": "Bột Protein Healthy Bean Hữu cơ - Phù hợp với mọi đối tượng, đặc biệt là người tập gym, tập thể dục thể thao cần bổ sung nhiều protein để hỗ trợ cho quá trình tập luyện.",
+        "price": "270.000đ",
+        "imageUrl": "images/180.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBpJmYPu/",
+        "category": [ "Thể Thao", "Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 181,
+        "name": "Gel Massage dưỡng sinh thảo mộc 8S - Hỗ trợ massage dưỡng sinh, mang lại cảm giác thư giãn, dễ chịu",
+        "price": "359.000đ",
+        "imageUrl": "images/181.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBpJ69Qq/",
+        "category": [ "Sức Khoẻ", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 182,
+        "name": "Sạc Dự Phòng 120W Sạc Nhanh 22,5W Dung Lượng Pin 50000mAh Cổng Sạc Tiện Lợi Phù Hợp Mọi Loại Máy",
+        "price": "109.000 - 275.000đ",
+        "imageUrl": "images/182.webp",
+        "affiliateLink": "https://s.shopee.vn/40VYM7hkzi",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 184,
+        "name": "[Hỏa Tốc] Áo Chống Nắng 2 Lớp Unisex UNIM Ngừa Tia UV SPF50 Chất Kim Cương Thông Hơi Tản Nhiệt Làm Mát Khóa Kéo Kín Mặt",
+        "price": "155.700đ",
+        "imageUrl": "images/184.webp",
+        "affiliateLink": "https://s.shopee.vn/5L0vxUkjGT",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 183,
+        "name": "Áo mưa đi xe máy PTLUXURY 1 người và 2 người che phủ toàn thân, kèm kính chắn mưa tiện lợi [Hàng Tốt]",
+        "price": "65.000đ",
+        "imageUrl": "images/183.webp",
+        "affiliateLink": "https://s.shopee.vn/7fOqj5BUg8",
+        "category": [ "Thời Trang", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 185,
+        "name": "Giấy vệ sinh treo tường TopGia thùng 6 bịch đa sắc treo đa năng từ bột giấy thiên nhiên, 1280tờ/4lớp",
+        "price": "119.000đ",
+        "imageUrl": "images/185.webp",
+        "affiliateLink": "https://s.shopee.vn/8Uxxjufj69",
+        "category": [ "Làm Đẹp", "Gia Dụng" ],
         "platform": "shopee"
     }
 ]
