@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // === Lấy các phần tử cần thiết ===
     const productGrid = document.getElementById('product-grid');
     const searchInput = document.getElementById('search-input');
+    const clearSearchBtn = document.getElementById('clear-search-btn');
     const paginationControls = document.getElementById('pagination-controls');
     const platformFilterControls = document.querySelector('.platform-filter-controls');
 
@@ -105,6 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const searchTerm = searchInput.value.toLowerCase();
             const filteredLaptops = allLaptopProducts.filter(p => p.name.toLowerCase().includes(searchTerm));
             
+            // Hiển thị hoặc ẩn nút X dựa trên việc ô input có nội dung hay không
+            if (searchInput.value.length > 0) {
+                clearSearchBtn.classList.add('visible');
+            } else {
+                clearSearchBtn.classList.remove('visible');
+            }
+
             // Tái sử dụng hàm displayProductCards và setupPagination
             currentPage = 1;
             const totalPages = Math.ceil(filteredLaptops.length / productsPerPage);
@@ -115,6 +123,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
+    // Listener cho nút X
+    clearSearchBtn.addEventListener('click', () => {
+        // 1. Xóa nội dung trong ô tìm kiếm
+        searchInput.value = '';
+
+        // 2. Ẩn nút X đi
+        clearSearchBtn.classList.remove('visible');
+
+        // 3. Tự động "focus" lại vào ô tìm kiếm để người dùng có thể gõ ngay
+        searchInput.focus();
+        
+        // 4. Render lại trang để hiển thị tất cả sản phẩm
+        currentPage = 1;
+        render();
+    });
+
     // === LOGIC CHO NÚT LÊN ĐẦU TRANG ===
     const backToTopBtn = document.getElementById('back-to-top-btn');
 

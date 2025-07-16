@@ -311,7 +311,7 @@
         "price": "87.980đ",
         "imageUrl": "images/35.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSkcKEeVH/",
-        "category": [ "Cho Bé" ],
+        "category": [ "Mẹ và Bé" ],
         "platform": "tiktok"
     },
     {
@@ -401,7 +401,7 @@
         "price": "69.887đ",
         "imageUrl": "images/45.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSkcEPbTh/",
-        "category": [ "Cho Bé" ],
+        "category": [ "Mẹ và Bé" ],
         "platform": "tiktok"
     },
     {
@@ -967,7 +967,7 @@
         "price": "150.000đ",
         "imageUrl": "images/81.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSBD73vvQ/",
-        "category": [ "Cho Bé" ],
+        "category": [ "Mẹ và Bé" ],
         "platform": "tiktok"
     },
     {
@@ -1904,6 +1904,86 @@
         "imageUrl": "images/185.webp",
         "affiliateLink": "https://s.shopee.vn/8Uxxjufj69",
         "category": [ "Làm Đẹp", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 186,
+        "name": "[LIVE] Kẹo Dẻo Giấm Táo Hỗ Trợ Tiêu Hóa - 1000mg Giấm Táo Nguyên Chất - NATURE'S KEY",
+        "price": "179.000đ",
+        "originalPrice": 290000,
+        "imageUrl": "images/186.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBGW1dhn/",
+        "category": [ "Ăn Uống", "Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 187,
+        "name": "MUA 1 TẶNG 1 Gel vệ sinh NPC Juicy chai 200ml trầu không - tràm trà, an toàn cho mẹ bầu - dung dịch vệ sinh phụ nữ Women",
+        "price": "128.428đ",
+        "originalPrice": 418000,
+        "imageUrl": "images/187.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBGcYwrM/",
+        "category": [ "Sức Khoẻ", "Làm Đẹp", "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 188,
+        "name": "Tẩy da chết mặt Caryophy 250ml (Caryophy Smart Peeling Gel 250ml)",
+        "price": "299.000đ",
+        "originalPrice": 450000,
+        "imageUrl": "images/188.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBGcFmpj/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 189,
+        "name": "Combo Bổ trứng 60 Viên OvaqPlus, dưỡng chất cần thiết cho phụ nữ chuẩn bị mang thai, bổ trứng [OVAQ NHATDUC]",
+        "price": "705.600đ",
+        "originalPrice": 840000,
+        "imageUrl": "images/189.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBGcGqMd/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 190,
+        "name": "24 Miếng dán mụn COSRX Acne Pimple Master Patch/26 miếng AC Collection Acne Patch/ 18 miếng Clear Fit Master Patch",
+        "price": "90.200 - 269.500đ",
+        "originalPrice": 346500,
+        "imageUrl": "images/190.webp",
+        "affiliateLink": "https://s.shopee.vn/AKPeHADYiv",
+        "category": [ "Làm Đẹp", "Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 191,
+        "name": "[Vt] Mặt nạ đặc biệt TX-Toning 25g * 1 chiếc Axit Tranexamic, chăm sóc Melanin & Tăng sắc tố, da rạng rỡ [Flagship chính thức]",
+        "price": "42.174đ",
+        "originalPrice": 78100,
+        "imageUrl": "images/191.webp",
+        "affiliateLink": "https://s.shopee.vn/60Gf7VfpsO",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 192,
+        "name": "[CLIO] MÀU MỚI | Essential Lip Cheek Tap (Healthy Glow Cheek, Màu trong suốt và trong suốt, Lớp dễ sống động, Đa năng)",
+        "price": "363.440đ",
+        "originalPrice": 519200,
+        "imageUrl": "images/192.webp",
+        "affiliateLink": "https://s.shopee.vn/9zmnt1vUWX",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 193,
+        "name": "[CLIO] Hợp tác HARRY POTTER MỚI | Crystal Glam Tint 3.4g | Son bóng nước, tông màu môi phát sáng, tông màu ngâm mật ong",
+        "price": "327.250đ",
+        "originalPrice": 467500,
+        "imageUrl": "images/193.webp",
+        "affiliateLink": "https://s.shopee.vn/9ADgtdgFRj",
+        "category": [ "Làm Đẹp" ],
         "platform": "shopee"
     }
 ]
