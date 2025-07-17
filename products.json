@@ -1985,5 +1985,64 @@
         "affiliateLink": "https://s.shopee.vn/9ADgtdgFRj",
         "category": [ "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 194,
+        "name": "Combo 2 Tã quần UniDry Siêu khô thoáng gói Super Jumbo mới size M76/L68/XL60/XXL54 Cho Bé Bỉm Quần",
+        "price": "541.000đ",
+        "originalPrice": 759000,
+        "imageUrl": "images/194.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBtgmyxD/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 195,
+        "name": "【VD】Kẹo Dẻo Giấm Táo Nature's Key 1000mg Giấm Táo Nguyên Chất, Bổ Sung Vitamin Thiết Yếu, Thành Phần Tự Nhiên 60 viên",
+        "price": "179.000đ",
+        "originalPrice": 290000,
+        "imageUrl": "images/195.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBtpdpHV/",
+        "category": [ "Sức Khoẻ", "Ăn Uống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 196,
+        "name": "Dầu Gội Gừng I SHOW Giảm Rụng Kích Mọc Tóc Làm Sạch Dầu Nhờn - Dầu Gội Thảo Dược I SHOW Chính Hãng 300ml",
+        "price": "148.000đ",
+        "originalPrice": 199000,
+        "imageUrl": "images/196.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBtggjuR/",
+        "category": [ "Gia Dụng", "Làm Đẹp", "Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 197,
+        "name": "FREESHIP Khay làm đá thông minh AMIZIN Khuôn làm đá viên tròn nhựa dẻo vỉ 33 viên có nắp đậy Hàng cao cấp",
+        "price": "5.500đ",
+        "originalPrice": 7000,
+        "imageUrl": "images/197.webp",
+        "affiliateLink": "https://s.shopee.vn/5fdpGGCYRI",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 198,
+        "name": "Dụng cụ xỏ kim 2in1 - Cây xỏ kim tháo gỡ chỉ đa năng, dụng cụ và phụ kiện may vá gia dụng Thiết kế hai đầu",
+        "price": "16.999đ",
+        "imageUrl": "images/198.webp",
+        "affiliateLink": "https://s.shopee.vn/9UqXpMq1Mz",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 199,
+        "name": "Chì Kẻ Mày 2 Đầu Lâu Trôi Không Lem Chống Nước Bám Màu Bền Màu Không Vón Cục Brow DAZZLE ME",
+        "price": "69.000 - 135.000đ",
+        "originalPrice": 248000,
+        "imageUrl": "images/199.webp",
+        "affiliateLink": "https://s.shopee.vn/4L8S0siRIz",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
     }
 ]

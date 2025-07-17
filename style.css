@@ -734,7 +734,7 @@ footer {
 
     /* === THU NHỎ LƯU Ý === */
     .price-note {
-        font-size: 0.8rem; /* Làm cho nó nhỏ hơn trên di động */
+        font-size: 0.9rem; /* Làm cho nó nhỏ hơn trên di động */
         line-height: 1.4; /* Tăng khoảng cách dòng cho dễ đọc */
         max-width: 90%;
         text-align: center;
