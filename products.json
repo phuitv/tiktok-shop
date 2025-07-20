@@ -2044,5 +2044,75 @@
         "affiliateLink": "https://s.shopee.vn/4L8S0siRIz",
         "category": [ "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 200,
+        "name": "Chai vệ sinh làm sạch vợt pickleball cleaner, xịt mặt vợt pickleball loại bỏ bụi bẩn, mảnh vụn bóng, an toàn trên mọi chất liệu vợt pickleball (Tặng kèm khăn lau chuyên dụng)",
+        "price": "155.000đ",
+        "originalPrice": 199000,
+        "imageUrl": "images/200.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB7kasrQ/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 201,
+        "name": "Cao Xoa Bóp - Phục Thể An (50ml) Hỗ Trợ Tê Bì Tay Chân, Hỗ Trợ Các Vấn Đề Về Xương Khớp - Cải Thiện Khả Năng Vận Động (Thảo Dược Thiên Nhiên)",
+        "price": "109.997đ",
+        "originalPrice": 250000,
+        "imageUrl": "images/201.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB7kHRMY/",
+        "category": [ "Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 202,
+        "name": "[Tặng kèm bao lì xì lộc] Lá Bồ Đề Nhũ Vàng 12 CON GIÁP Tài Lộc, Bình An May Mắn Để Ốp Lưng Điện Thoại, Bỏ Ví/Bóp...",
+        "price": "79.000đ",
+        "originalPrice": 158000,
+        "imageUrl": "images/202.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBcsjD96/",
+        "category": [ "Sức Khoẻ", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 203,
+        "name": "Kem chống nắng MizuMi UV Cooling Body Serum 165ml",
+        "price": "159.000đ",
+        "originalPrice": 262000,
+        "imageUrl": "images/203.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBcsB8BT/",
+        "category": [ "Sức Khoẻ", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 204,
+        "name": "[Vt] Mặt nạ đặc biệt TX-Toning 25g * 1 chiếc Axit Tranexamic, chăm sóc Melanin & Tăng sắc tố, da rạng rỡ [Flagship chính thức]",
+        "price": "55.451đ",
+        "originalPrice": 78100,
+        "imageUrl": "images/204.webp",
+        "affiliateLink": "https://s.shopee.vn/7Km8QLvSHq",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 205,
+        "name": "【Bảo hành tại địa phương】 GOOJODOQ Quạt gấp 3 trong 1 180° im lặng 100 cấp độ có thể điều chỉnh siêu năng lượng gió Quạt di động",
+        "price": "171.800đ",
+        "originalPrice": 320000,
+        "imageUrl": "images/205.webp",
+        "affiliateLink": "https://s.shopee.vn/9fA3D9lCAk",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 206,
+        "name": "[PERIPERA] Collab Queenfluencer MỚI | Ink Mood Glowy Tint 4g (Son bóng nước, Hoàn thiện bóng, Son dưỡng ẩm, Son dưỡng ẩm, Dầu môi bật màu)",
+        "price": "196.350đ",
+        "originalPrice": 280500,
+        "imageUrl": "images/206.webp",
+        "affiliateLink": "https://s.shopee.vn/5Ahdr8RCdR",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
     }
 ]
