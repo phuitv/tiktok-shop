@@ -2121,7 +2121,17 @@
         "price": "165.000đ",
         "originalPrice": 250000,
         "imageUrl": "images/207.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSB3eqyW9/",
+        "affiliateLink": "https://vt.tiktok.com/ZSB3dKQs9/",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 208,
+        "name": "Sữa Tắm Nước Hoa CINDY BLOOM Sexy Rexy & So Slay Hương Thơm Gợi Cảm Quyến Rũ 640gam/Chai",
+        "price": "169.000đ",
+        "originalPrice": 199000,
+        "imageUrl": "images/208.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSB3dKQs9/",
         "category": [ "Gia Dụng", "Làm Đẹp" ],
         "platform": "tiktok"
     }
