@@ -2134,5 +2134,25 @@
         "affiliateLink": "https://vt.tiktok.com/ZSB3dKQs9/",
         "category": [ "Gia Dụng", "Làm Đẹp" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 209,
+        "name": "Bộ Chén Gáo Dừa ( Gồm Chén Và Muỗng ) Làm Từ Dừa",
+        "price": "26.000đ",
+        "originalPrice": 35000,
+        "imageUrl": "images/209.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBwYyLcV/",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 210,
+        "name": "Combo 2 Tã dán UniDry Siêu khô thoáng gói Super Jumbo mới size M76/L68/XL62 Cho Bé",
+        "price": "449.000đ",
+        "originalPrice": 649000,
+        "imageUrl": "images/210.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBw2YNQL/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
     }
 ]
