@@ -2194,5 +2194,55 @@
         "affiliateLink": "https://s.shopee.vn/AKPm65ZxCq",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 215,
+        "name": "Máy tập thể dục tấm Rung mỏng, MERACH, máy thoát bạch huyết, nền tảng Rung tập luyện toàn thân, để giữ gìn sức khỏe và thể dục",
+        "price": "1.407.999đ",
+        "originalPrice": 2079000,
+        "imageUrl": "images/215.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBKVoMWU/",
+        "category": [ "Sức Khoẻ", "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 216,
+        "name": "[TẶNG BÌNH TẶNG 5 GÓI] Mua Hộp 30 gói Trà Đông Trùng Tứ vị Tặng kèm 5 gói, Tặng Bình thủy tinh, Nguyên Liệu Hữu Cơ Sấy Lạnh Táo Đỏ, Kỷ Tử, Nấm Đông Trùng, Long Nhãn ... Tea Nước Trà Chè",
+        "price": "120.000đ",
+        "originalPrice": 270000,
+        "imageUrl": "images/216.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBKqUAhn/",
+        "category": [ "Sức Khoẻ", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 217,
+        "name": "Phấn phủ kiềm dầu PERFECT DIARY chống thấm nước kiểm soát dầu lên đến 12h với 3 màu tùy chọn 7g",
+        "price": "208.000đ",
+        "originalPrice": 519200,
+        "imageUrl": "images/217.webp",
+        "affiliateLink": "https://s.shopee.vn/7fP28qyjaw",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 218,
+        "name": "Phấn phủ Black Magnet CARSLAN kiềm dầu màu đen chống nước chống mồ hôi che phủ bóng dầu cho mặt 8g",
+        "price": "230.900đ",
+        "originalPrice": 500000,
+        "imageUrl": "images/218.webp",
+        "affiliateLink": "https://s.shopee.vn/9KXG84dpe1",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 219,
+        "name": "[MẪU THỬ] Bộ 3 Dưỡng chất cho da dầu mụn Garnier Bright Complete Anti-Acnes Booster Serum 4% 1.5ml x 3",
+        "price": "690.000đ",
+        "originalPrice": 700000,
+        "imageUrl": "images/219.webp",
+        "affiliateLink": "https://s.shopee.vn/1BBYPFjWH0",
+        "category": [ "Làm Đẹp", "Sức Khoẻ" ],
+        "platform": "shopee"
     }
 ]
