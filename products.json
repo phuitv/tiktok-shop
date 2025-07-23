@@ -2244,5 +2244,64 @@
         "affiliateLink": "https://s.shopee.vn/1BBYPFjWH0",
         "category": [ "Làm Đẹp", "Sức Khoẻ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 220,
+        "name": "Lót Giày Bóng Đá Mizunoo Êm, Mềm , Siêu nhẹ hot",
+        "price": "48.000đ",
+        "originalPrice": 80000,
+        "imageUrl": "images/220.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBoHv5dj/",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 221,
+        "name": "Miếng lót giày thể thao Mizuno chính hãng, 1 đôi, êm chân, cắt theo đường viền của mặt sau để điều chính size phù hợp Phụ Kiện Sport",
+        "price": "99.000đ",
+        "imageUrl": "images/221.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBo9eRwN/",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 222,
+        "name": "(HÀNG CAO CẤP TOPGIA - ĐA KHO) Thùng khăn ướt ban mai để bàn 6 bịch 80 tờ, khăn ướt mềm mại rút an toàn lành tính, khăn ướt ban mai đa năng để bàn ĐẠT QUY CHUẨN CỦA BỘ CÔNG THƯƠNG (KU)",
+        "price": "119.000đ",
+        "originalPrice": 200000,
+        "imageUrl": "images/2220.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBox2V6E/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 223,
+        "name": "Combo 2 bịch bỉm quần Bejoyle cao cấp size M/L/XL/XXL/XXXL/S bỉm Bejoyle quần xxl bỉm chính hãng tã quần cho bé bỉm trẻ em bỉm Bejoyle 104 miếng quần Bộ Trẻ mới tập đi",
+        "price": "180.000đ",
+        "originalPrice": 258000,
+        "imageUrl": "images/223.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBoxVcLQ/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 224,
+        "name": "[COMBO 2] Bobby Tã/bỉm dán XS70 Siêu khô thoáng lõi nén cotton soft cho bé sơ sinh",
+        "price": "344.999đ",
+        "originalPrice": 389000,
+        "imageUrl": "images/224.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBox51gn/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 225,
+        "name": "Combo Dây nhảy chuỗi hạt Beaded Rope [Miracle Sport] + Dây rời PVC 6mm - Dây nhảy nghệ thuật,dây nhảy thể thao,cardio+ Rèn luyện thể lực",
+        "price": "147.999đ",
+        "originalPrice": 250000,
+        "imageUrl": "images/225.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSBoxQEth/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
     }
 ]
