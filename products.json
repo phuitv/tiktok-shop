@@ -2333,5 +2333,54 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSe1e1ua/",
         "category": [ "Gia Dụng", "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 229,
+        "name": "Ốp Lưng iPhone TPU Chống Bẩn Lót Nhung, Bảo Vệ Camera - iP 6/6s/7/8/Plus/X/XS/XR/11/12/13/14/15/Pro/Max",
+        "price": "36.900đ",
+        "originalPrice": 49800,
+        "imageUrl": "images/229.webp",
+        "affiliateLink": "https://s.shopee.vn/3qCMjpI5Yu",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 230,
+        "name": "Son Kem Bông Bền Màu Superstay Teddy Tint Maybelline New York 5ml",
+        "price": "219.000đ",
+        "originalPrice": 263127,
+        "imageUrl": "images/230.webp",
+        "affiliateLink": "https://s.shopee.vn/3qCMkAIPBf",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 231,
+        "name": "Dầu dừa tinh khiết Organic VIETCOCO chai PET 250ml",
+        "price": "65.000đ",
+        "imageUrl": "images/231.webp",
+        "affiliateLink": "https://s.shopee.vn/AKPqUMaTlo",
+        "category": [ "Gia Dụng", "Nguyên Liệu", "Ăn Uống" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 232,
+        "name": "Áo Polo Nam YODY – Vải Cotton Mắt Chim Co Giãn – Thoáng Mát, Chống Nhăn – Áo Thun Có Cổ Nam Thời Trang APM7459",
+        "price": "199.000đ",
+        "originalPrice": 349000,
+        "imageUrl": "images/232.webp",
+        "affiliateLink": "https://s.shopee.vn/1VoRyRGNgm",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 233,
+        "name": "[TẶNG STICKER NGẪU NHIÊN] Dép Sục Nam Nữ NESTY Kiểu Dáng Basic Sục Đế Cao Mềm Chống Trượt NE01",
+        "price": "124.500đ",
+        "originalPrice": 198000,
+        "imageUrl": "images/233.webp",
+        "affiliateLink": "https://s.shopee.vn/2g0PMrSn1L",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
