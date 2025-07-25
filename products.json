@@ -2412,5 +2412,55 @@
         "affiliateLink": "https://s.shopee.vn/LcW2gRUbA",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 237,
+        "name": "Viên Uống Chăm Sóc Sắc Đẹp Rau Củ Hồng Nhật Bản 50 Viên, Thanh Nhiệt",
+        "price": "47.404đ",
+        "originalPrice": 69000,
+        "imageUrl": "images/237.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSRhh71j/",
+        "category": [ "Sức Khoẻ", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 238,
+        "name": "Dây Nhảy Thể Lực TDH Boxing 2.0 - Hỗ Trợ Nâng Cao Sức Bền - Cơ Thể Dẻo Dai [pin]",
+        "price": "120.000đ",
+        "originalPrice": 170000,
+        "imageUrl": "images/238.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSRhCodx/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 239,
+        "name": "Ô Mini Bỏ Túi Bảo Vệ 100% UV Nhỏ Gọn Di Động Gấp Mưa Ô Mini Thể Thao & Ngoài Trời",
+        "price": "75.000đ",
+        "originalPrice": 120000,
+        "imageUrl": "images/239.webp",
+        "affiliateLink": "https://s.shopee.vn/4flTlLcmwv",
+        "category": [ "Gia Dụng", "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 240,
+        "name": "Thùng 10 gói khăn ướt Gumi không cồn không parabens cao cấp dành cho em bé",
+        "price": "152.000đ",
+        "originalPrice": 250000,
+        "imageUrl": "images/240.webp",
+        "affiliateLink": "https://s.shopee.vn/7KmGaUOSKS",
+        "category": [ "Mẹ và Bé", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 241,
+        "name": "Dép nhựa quai ngang NESTY chất liệu EVA | Thiết kế khóa cài tiện lợi tăng giảm linh hoạt mã NE15",
+        "price": "111.700đ",
+        "originalPrice": 198000,
+        "imageUrl": "images/241.webp",
+        "affiliateLink": "https://s.shopee.vn/2qJrEjLRUe",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
