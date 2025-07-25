@@ -2462,5 +2462,15 @@
         "affiliateLink": "https://s.shopee.vn/2qJrEjLRUe",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 242,
+        "name": "[LIVE] Mặt Nạ Chăm Sóc Da Hỗ Trợ Cải Thiện Da Halio PureGlow Ultralite Silicone LED Face Mask mặt nạ",
+        "price": "5.938.000đ",
+        "originalPrice": 10720000,
+        "imageUrl": "images/242.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSRyDcT8/",
+        "category": [ "Thời Trang", "Đồ Công Nghệ", "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
