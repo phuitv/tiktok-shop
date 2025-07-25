@@ -2382,5 +2382,35 @@
         "affiliateLink": "https://s.shopee.vn/2g0PMrSn1L",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 234,
+        "name": "Dây cáp nối ổ cứng SSD HDD USB 3.0 To SATA3  2.5/3.5 inch",
+        "price": "165.000đ",
+        "originalPrice": 230000,
+        "imageUrl": "images/234.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSR18cnp/",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 235,
+        "name": "Dây cáp nối ổ cứng USB 3.0 To SATA3 SSD HDD 2.5/3.5 inch",
+        "price": "165.000đ",
+        "originalPrice": 250000,
+        "imageUrl": "images/235.webp",
+        "affiliateLink": "https://s.shopee.vn/9KXKkruLhk",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 236,
+        "name": "Trạm kết nối ổ cứng ORICO USB 3.0 sang SATA với chức năng sao chép ngoại tuyến cho (2,5' 3,5' Inch) Vỏ ổ cứng Hỗ trợ lên đến 36TB",
+        "price": "455.400đ",
+        "originalPrice": 635124,
+        "imageUrl": "images/236.webp",
+        "affiliateLink": "https://s.shopee.vn/LcW2gRUbA",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
