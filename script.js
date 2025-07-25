@@ -3,6 +3,44 @@ function removeAccents(str) {
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
 }
 
+// Hàm Chuyển chuỗi tiền tệ thành số
+function parsePrice(priceString) {
+    if (typeof priceString === 'number') {
+        return priceString; // Nếu đã là số thì trả về luôn
+    }
+    if (typeof priceString !== 'string') {
+        return 0; // Trả về 0 nếu không phải chuỗi
+    }
+    // Loại bỏ tất cả các ký tự không phải là số
+    const numberString = priceString.replace(/[^\d]/g, '');
+    return parseInt(numberString, 10) || 0;
+}
+
+// Hàm bắt đầu đồng hồ đếm ngược
+function startCountdown(endTime, timerElement) {
+    const timerInterval = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = endTime - now;
+
+        if (distance < 0) {
+            clearInterval(timerInterval);
+            timerElement.innerHTML = "Đã kết thúc!";
+            // Tùy chọn: Ẩn toàn bộ khu vực flash sale
+            document.getElementById('flash-sale-section').style.display = 'none';
+            return;
+        }
+
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Thêm số 0 đằng trước nếu nhỏ hơn 10
+        const format = (num) => num.toString().padStart(2, '0');
+
+        timerElement.innerHTML = `Kết thúc trong: <span>${format(hours)}:${format(minutes)}:${format(seconds)}</span>`;
+    }, 1000);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // === LẤY CÁC PHẦN TỬ TRANG ===
     const productGrid = document.getElementById('product-grid');
@@ -12,6 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryDropdownBtn = document.getElementById('category-dropdown-btn');
     const categoryDropdownContent = document.getElementById('category-dropdown-content');
     const platformFilterControls = document.querySelector('.platform-filter-controls');
+    const flashSaleSection = document.getElementById('flash-sale-section');
+    const flashSaleContainer = document.getElementById('flash-sale-container');
+    const countdownTimer = document.getElementById('countdown-timer');
 
     // === BIẾN TRẠNG THÁI ===
     let allProducts = [];
@@ -19,10 +60,222 @@ document.addEventListener('DOMContentLoaded', () => {
     const productsPerPage = 12; // Số sp hiển thị trên 1 trang
     let activePlatformFilter = null; // null có nghĩa là không có bộ lọc nào được áp dụng
 
+    // === HÀM HIỂN THỊ SẢN PHẨM FLASH SALE ===
+    const displayFlashSaleProducts = (products) => {
+        // Cần nhiều hơn 1 sản phẩm để slider hoạt động
+        if (products.length <= 1) {
+            flashSaleSection.style.display = 'none';
+            return;
+        }
+
+        // Cấu trúc HTML cho slider
+        flashSaleContainer.innerHTML = `
+            <div class="flash-sale-slider" id="flash-sale-slider">
+                <!-- Các card sẽ được chèn vào đây -->
+            </div>
+            <div class="flash-sale-nav">
+                <button class="flash-sale-nav-btn" id="flash-sale-prev">‹</button>
+                <button class="flash-sale-nav-btn" id="flash-sale-next">›</button>
+            </div>
+        `;
+
+        const slider = document.getElementById('flash-sale-slider');
+        let latestEndTime = 0;
+        const currencyFormatter = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' });
+
+        products.forEach(product => {
+            // Tìm thời gian kết thúc xa nhất để đặt cho đồng hồ
+            const productEndTime = new Date(product.flashSaleEndTime).getTime();
+            if (productEndTime > latestEndTime) {
+                latestEndTime = productEndTime;
+            }
+
+            const card = document.createElement('a');
+            card.href = product.affiliateLink;
+            card.target = '_blank';
+            card.classList.add('flash-sale-card');
+            
+            // Dùng logic hiển thị giá
+            const salePriceNumber = parsePrice(product.price); // Chuyển giá bán (string) thành số
+            const salePriceFormatted = currencyFormatter.format(salePriceNumber); // Định dạng lại cho đẹp
+            
+            let originalPriceFormatted = '';
+            // So sánh hai con số
+            if (product.originalPrice && product.originalPrice > salePriceNumber) {
+                originalPriceFormatted = currencyFormatter.format(product.originalPrice);
+            }
+
+            // Xác định URL ảnh
+            const imageUrl = (product.imageUrls && product.imageUrls.length > 0) ? product.imageUrls[0] : (product.imageUrl || '');
+
+            card.innerHTML = `
+                <div class="flash-sale-image-container">
+                    <img src="${imageUrl}" alt="${product.name}" class="product-image">
+                    <div class="flash-sale-price-overlay">
+                        <div class="price-line">
+                            <span class="product-price sale">${salePriceFormatted}</span>
+                            ${originalPriceFormatted ? `<span class="product-price original">${originalPriceFormatted}</span>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            slider.appendChild(card);
+        });
+
+        // Bắt đầu đồng hồ đếm ngược với thời gian xa nhất
+        if (latestEndTime > 0) {
+            const countdownTimer = document.getElementById('countdown-timer');
+            startCountdown(latestEndTime, countdownTimer);
+        }
+        
+        // LOGIC ĐIỀU KHIỂN SLIDER
+        const prevBtn = document.getElementById('flash-sale-prev');
+        const nextBtn = document.getElementById('flash-sale-next');
+        const cardWidth = 220 + 16; // 220px chiều rộng card + 1rem (16px) gap
+        let currentIndex = 0;
+        let autoplayInterval;
+
+        // Hàm để di chuyển slider
+        const moveSlider = (index) => {
+            slider.style.transform = `translateX(-${index * cardWidth}px)`;
+            currentIndex = index;
+        };
+
+        // Hàm bắt đầu autoplay
+        const startAutoplay = () => {
+            autoplayInterval = setInterval(() => {
+                let nextIndex = currentIndex + 1;
+                // Nếu đến cuối, quay lại slide đầu tiên
+                if (nextIndex > products.length - (Math.floor(flashSaleContainer.clientWidth / cardWidth))) {
+                    nextIndex = 0;
+                }
+                moveSlider(nextIndex);
+            }, 3000); // 3000ms = 3 giây
+        };
+
+        // Hàm dừng autoplay (khi người dùng tương tác)
+        const stopAutoplay = () => {
+            clearInterval(autoplayInterval);
+        };
+
+        // Gán sự kiện cho các nút
+        nextBtn.addEventListener('click', () => {
+            let nextIndex = currentIndex + 1;
+            if (nextIndex > products.length - (Math.floor(flashSaleContainer.clientWidth / cardWidth))) {
+                nextIndex = currentIndex; // Không cho đi quá cuối
+            }
+            moveSlider(nextIndex);
+        });
+
+        prevBtn.addEventListener('click', () => {
+            let prevIndex = currentIndex - 1;
+            if (prevIndex < 0) {
+                prevIndex = 0; // Không cho đi lùi quá đầu
+            }
+            moveSlider(prevIndex);
+        });
+
+        // Dừng autoplay khi người dùng rê chuột vào và chạy lại khi họ rời đi
+        flashSaleContainer.addEventListener('mouseenter', stopAutoplay);
+        flashSaleContainer.addEventListener('mouseleave', startAutoplay);
+        
+        // Bắt đầu autoplay lần đầu tiên
+        startAutoplay();
+    };
+
+    // === HÀM HIỂN THỊ CARD SẢN PHẨM THƯỜNG ===
+    const displayProductCards = (products) => {
+        productGrid.innerHTML = '';
+        if (products.length === 0) {
+            productGrid.innerHTML = '<p class="no-results">Không tìm thấy sản phẩm nào phù hợp.</p>';
+            return;
+        }
+        products.forEach(product => {
+            const card = document.createElement('div');
+            card.classList.add('product-card');
+
+            // --- LOGIC ĐỂ XỬ LÝ GIÁ ---
+            let priceHtml = '';
+            const currencyFormatter = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' });
+        
+            const salePriceNumber = parsePrice(product.price);
+            const salePriceFormatted = currencyFormatter.format(salePriceNumber);
+            
+            const hasDiscount = product.originalPrice && product.originalPrice > salePriceNumber;
+
+            priceHtml = `
+                <div class="price-container">
+                    <div class="price-line">
+                        <span class="product-price sale">${salePriceFormatted}</span>
+                        ${hasDiscount ? `<span class="product-price original">${currencyFormatter.format(product.originalPrice)}</span>` : ''}
+                    </div>
+                </div>
+            `;
+
+            // Xác định text và class cho nút dựa trên platform
+            let platformText = 'Xem chi tiết';
+            let platformClass = '';
+            if (product.platform === 'tiktok') {
+                platformText = 'Xem trên TikTok';
+                platformClass = 'platform-tiktok';
+            } else if (product.platform === 'shopee') {
+                platformText = 'Xem trên Shopee';
+                platformClass = 'platform-shopee';
+            }
+            
+            // Xác định URL ảnh
+            const imageUrl = (product.imageUrls && product.imageUrls.length > 0) ? product.imageUrls[0] : (product.imageUrl || '');
+
+            card.innerHTML = `
+                <div class="product-image-container">
+                    <a href="${product.affiliateLink}" target="_blank">
+                        <img src="${imageUrl}" alt="${product.name}" class="product-image">
+                    </a>
+                    <div class="product-name-overlay">
+                        <h3 class="product-name">${product.name}</h3>
+                    </div>
+                </div>
+                <div class="product-info">
+                    ${priceHtml}
+                    <a href="${product.affiliateLink}" target="_blank" rel="noopener noreferrer" class="product-link ${platformClass}">
+                        ${platformText}
+                    </a>
+                </div>
+            `;
+            productGrid.appendChild(card);
+        });
+    };
+  
+    // === TẢI DỮ LIỆU BAN ĐẦU ===
+    fetch('./products.json')
+        .then(response => response.json())
+        .then(data => {
+            const now = new Date();
+            const sortedProducts = data.sort((a, b) => b.id - a.id);    // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
+
+            // TÁCH SẢN PHẨM
+            const flashSaleProducts = sortedProducts.filter(p => 
+                p.flashSaleEndTime && new Date(p.flashSaleEndTime) > now
+            );
+            const regularProducts = sortedProducts.filter(p => 
+                !p.flashSaleEndTime || new Date(p.flashSaleEndTime) <= now
+            );
+
+            // Gán dữ liệu cho các phần tương ứng
+            allProducts = regularProducts;
+
+            // Hiển thị
+            displayFlashSaleProducts(flashSaleProducts);
+            render();
+        })
+        .catch(error => {
+            console.error('Lỗi khi tải dữ liệu sản phẩm:', error);
+            productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
+        });
+
     // === HÀM RENDER CHÍNH ===
     // Chịu trách nhiệm lọc và hiển thị lại toàn bộ trang
     const render = () => {
-        console.log(`Rendering with filters: Platform='${activePlatformFilter}', Category='${document.querySelector('.dropdown-item.active')?.dataset.category}'`);
         let filteredProducts = allProducts;
         
         // LỌC THEO NỀN TẢNG (NẾU CÓ)
@@ -70,61 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayProductCards(productsForCurrentPage);
         setupPagination(totalPages, filteredProducts.length > 0);
     };
-
-    // === HÀM HIỂN THỊ CARD SẢN PHẨM ===
-    const displayProductCards = (products) => {
-        productGrid.innerHTML = '';
-        if (products.length === 0) {
-            productGrid.innerHTML = '<p class="no-results">Không tìm thấy sản phẩm nào phù hợp.</p>';
-            return;
-        }
-        products.forEach(product => {
-            const card = document.createElement('div');
-            card.classList.add('product-card');
-
-            // --- LOGIC ĐỂ XỬ LÝ GIÁ ---
-            let priceHtml = '';
-            priceHtml = '<div class="price-line">';
-            priceHtml += `<p class="product-price sale">${product.price}</p>`;
-            if (product.originalPrice && product.originalPrice > 0) {
-                const originalPriceFormatted = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(product.originalPrice);
-                priceHtml += `<span class="product-price original">${originalPriceFormatted}</span>`;
-                priceHtml += '</div>';
-            } else {
-                priceHtml = `<p class="product-price">${product.price}</p>`;
-            }
-
-            // Xác định text và class cho nút dựa trên platform
-            let platformText = 'Xem chi tiết';
-            let platformClass = '';
-            if (product.platform === 'tiktok') {
-                platformText = 'Xem trên TikTok';
-                platformClass = 'platform-tiktok';
-            } else if (product.platform === 'shopee') {
-                platformText = 'Xem trên Shopee';
-                platformClass = 'platform-shopee';
-            }
-            
-            card.innerHTML = `
-                <div class="product-image-container">
-                    <a href="${product.affiliateLink}" target="_blank">
-                        <img src="${product.imageUrls ? product.imageUrls[0] : product.imageUrl}" alt="${product.name}" class="product-image">
-                    </a>
-                    <div class="product-name-overlay">
-                        <h3 class="product-name">${product.name}</h3>
-                    </div>
-                </div>
-                <div class="product-info">
-                    ${priceHtml}
-                    <a href="${product.affiliateLink}" target="_blank" rel="noopener noreferrer" class="product-link ${platformClass}">
-                        ${platformText}
-                    </a>
-                </div>
-            `;
-            productGrid.appendChild(card);
-        });
-    };
-    
+  
     // === HÀM PHÂN TRANG ===
     const setupPagination = (totalPages, hasProducts) => {
         paginationControls.innerHTML = '';
@@ -253,21 +452,6 @@ document.addEventListener('DOMContentLoaded', () => {
         currentPage = 1;
         render();
     });
-
-    // === TẢI DỮ LIỆU BAN ĐẦU ===
-    fetch('./products.json')
-        .then(response => response.json())
-        .then(data => {
-            // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
-            const sortedProducts = data.sort((a, b) => b.id - a.id);
-
-            allProducts = sortedProducts;
-            render();
-        })
-        .catch(error => {
-            console.error('Lỗi khi tải dữ liệu sản phẩm:', error);
-            productGrid.innerHTML = '<p>Không thể tải được sản phẩm. Vui lòng thử lại sau.</p>';
-        });
 
     // === LOGIC CHO NÚT LÊN ĐẦU TRANG ===
     const backToTopBtn = document.getElementById('back-to-top-btn');

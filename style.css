@@ -761,6 +761,37 @@ footer {
     .platform-filter-btn img {
         height: 16px; /* Giảm kích thước logo */
     }
+
+    /* Sửa lại header của khu vực Flash Sale */
+    .flash-sale-header {
+        flex-direction: column; /* Xếp chồng tiêu đề và đồng hồ lên nhau */
+        gap: 0.75rem; /* Giảm khoảng cách giữa chúng */
+        align-items: center; /* Căn giữa tất cả */
+        margin-bottom: 1rem;
+    }
+
+    /* Thu nhỏ tiêu đề "Flash Sale Hôm Nay" */
+    .flash-sale-header h2 {
+        font-size: 1.5rem; /* Giảm kích thước chữ */
+    }
+
+    /* Thu nhỏ đồng hồ đếm ngược */
+    .countdown-timer {
+        font-size: 1rem; /* Giảm kích thước chữ */
+        padding: 6px 12px; /* Giảm padding */
+    }
+
+    /* Thu nhỏ card sản phẩm trong Flash Sale */
+    .flash-sale-card {
+        flex-basis: 160px; /* Giảm kích thước cơ sở của card */
+    }
+    
+    /* Thu nhỏ các nút điều khiển slider */
+    .flash-sale-nav-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
 }
 
 /* Tùy chọn: Thêm một mức nữa cho màn hình rất nhỏ */
@@ -866,4 +897,150 @@ footer {
     color: #888;
     text-decoration: line-through;
     order: 2; /* Luôn đứng sau giá bán */
+}
+
+/* --- CSS cho Khu vực Flash Sale --- */
+#flash-sale-section {
+    background-color: #fff0f0; /* Nền màu hồng rất nhạt */
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.flash-sale-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 1rem;
+    flex-wrap: wrap; /* Cho phép xuống dòng trên mobile */
+}
+
+.flash-sale-header h2 {
+    color: #e74c3c;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.countdown-timer {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Container cuộn ngang */
+.flash-sale-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; /* Ẩn các card nằm ngoài khung nhìn */
+    padding: 0.5rem 0;
+}
+
+.flash-sale-slider {
+    display: flex; /* Sắp xếp các card trên một hàng */
+    gap: 1rem;
+    padding: 0 1rem; /* Padding để card đầu tiên và cuối cùng không dính sát cạnh */
+    /* Hiệu ứng trượt */
+    transition: transform 0.5s ease-in-out; 
+}
+
+.flash-sale-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100% - 20px); /* Chiều rộng trừ đi một chút padding */
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    pointer-events: none; /* Chỉ cho phép click vào nút */
+}
+
+.flash-sale-nav-btn {
+    pointer-events: auto; /* Cho phép click */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card sản phẩm trong Flash Sale (nhỏ hơn card thường) */
+.flash-sale-card {
+    flex: 0 0 220px; /* Không co, không giãn, chiều rộng cơ sở 220px */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.flash-sale-card:hover {
+    transform: translateY(-5px); /* Hiệu ứng nảy lên */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Đổ bóng đậm hơn */
+}
+
+/* Container chứa ảnh của Flash Sale Card */
+.flash-sale-image-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+}
+
+.flash-sale-card .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* LỚP PHỦ GIÁ */
+.flash-sale-price-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    /* Làm cho lớp gradient đậm hơn và cao hơn một chút */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    
+    color: white;
+    /* Giảm padding trên và dưới để nội dung gần viền hơn */
+    padding: 1rem 0.75rem 0.5rem 0.75rem; /* Trên, Trái/Phải, Dưới */
+    box-sizing: border-box;
+
+    /* Dùng flexbox để căn chỉnh giá xuống dưới */
+    display: flex;
+    align-items: flex-end; /* Căn tất cả các phần tử con xuống sát đáy */
+    min-height: 60px; /* Đảm bảo lớp phủ có chiều cao tối thiểu */
+}
+
+.flash-sale-card .price-line {
+    gap: 10px;
+}
+.flash-sale-card .product-price.sale {
+    color: #ff4043; /* Màu giá */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8); /* Thêm bóng cho chữ */
+    line-height: 1;
+}
+.flash-sale-card .product-price.original {
+    color: #ffcdd2; /* Màu hồng nhạt */
+    font-size: 0.85rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    text-decoration: line-through;
+    line-height: 1;
 }
