@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const countdownTimer = document.getElementById('countdown-timer');
 
     // === BIẾN TRẠNG THÁI ===
-    let allProducts = [];
+    let allProducts = [];   //  Chứa sp thường (ko có flash sale)
+    let searchableProducts = [];    // Chứa tất cả sp
     let currentPage = 1;
     const productsPerPage = 12; // Số sp hiển thị trên 1 trang
     let activePlatformFilter = null; // null có nghĩa là không có bộ lọc nào được áp dụng
@@ -279,7 +280,8 @@ document.addEventListener('DOMContentLoaded', () => {
             );
 
             // Gán dữ liệu cho các phần tương ứng
-            allProducts = regularProducts;
+            searchableProducts = sortedProducts; // CHỨA TOÀN BỘ SẢN PHẨM
+            allProducts = regularProducts;  // Chứa các sp thường
 
             // Hiển thị
             displayFlashSaleProducts(flashSaleProducts);
@@ -292,8 +294,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === HÀM RENDER CHÍNH ===
     // Chịu trách nhiệm lọc và hiển thị lại toàn bộ trang
-    const render = () => {
-        let filteredProducts = allProducts;
+        const render = () => {
+            // Luôn bắt đầu với danh sách TÌM KIẾM được
+        let sourceProducts = searchableProducts; 
+        let isSearching = searchInput.value.length > 0;
+
+        // Nếu người dùng KHÔNG tìm kiếm, chỉ hiển thị sản phẩm thường
+        if (!isSearching) {
+            sourceProducts = allProducts;
+        }
+
+        // Áp dụng các bộ lọc còn lại lên danh sách nguồn đã chọn
+        let filteredProducts = sourceProducts;
         
         // LỌC THEO NỀN TẢNG (NẾU CÓ)
         if (activePlatformFilter) {
@@ -327,12 +339,23 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // ẨN KHU VỰC FLASH SALE KHI TÌM KIẾM
+        if (isSearching) {
+            flashSaleSection.style.display = 'none';
+        } else {
+            // Chỉ hiển thị lại nếu có sản phẩm flash sale
+            const flashSaleProducts = searchableProducts.filter(p => 
+                p.flashSaleEndTime && new Date(p.flashSaleEndTime) > new Date()
+            );
+            if (flashSaleProducts.length > 0) {
+                flashSaleSection.style.display = 'block';
+            }
+        }
+
         // Tính toán phân trang
         const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
         // Đảm bảo currentPage không lớn hơn tổng số trang (quan trọng khi kết quả lọc ít đi)
-        if (currentPage > totalPages) {
-            currentPage = 1;
-        }
+        if (currentPage > totalPages) currentPage = 1;
         const startIndex = (currentPage - 1) * productsPerPage;
         const productsForCurrentPage = filteredProducts.slice(startIndex, startIndex + productsPerPage);
 
