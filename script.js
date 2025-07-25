@@ -251,7 +251,24 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             const now = new Date();
-            const sortedProducts = data.sort((a, b) => b.id - a.id);    // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
+
+            // 1. "XỬ LÝ" DỮ LIỆU TRƯỚC KHI SẮP XẾP VÀ TÁCH
+            const processedData = data.map(product => {
+                // Kiểm tra xem sản phẩm có phải là Flash Sale và đã hết hạn chưa
+                if (product.flashSaleEndTime && new Date(product.flashSaleEndTime) <= now) {
+                    // Nếu đã hết hạn, tạo một bản sao của sản phẩm và "biến đổi" nó
+                    return {
+                        ...product, // Giữ lại tất cả các thuộc tính cũ
+                        price: new Intl.NumberFormat('vi-VN').format(product.afterFlashSalePrice) + 'đ', // Cập nhật lại giá
+                        originalPrice: null, // Bỏ giá gốc của Flash Sale
+                        flashSaleEndTime: null // Xóa thời gian Flash Sale
+                    };
+                }
+                // Nếu không phải Flash Sale hết hạn, giữ nguyên sản phẩm
+                return product; 
+            });
+
+            const sortedProducts = processedData.sort((a, b) => b.id - a.id);    // Sắp xếp mảng sản phẩm theo 'id' giảm dần (từ lớn đến bé)
 
             // TÁCH SẢN PHẨM
             const flashSaleProducts = sortedProducts.filter(p => 
