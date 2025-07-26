@@ -2490,10 +2490,10 @@
     {
         "id": 244,
         "name": "Máy massage silicone mềm mịn 5 chế độ J05 Đa chức năng Skincare Nữ Women 5in1",
-        "price": 171992,
+        "price": 185840,
         "originalPrice": 249000,
         "afterFlashSalePrice": 201250,
-        "flashSaleEndTime": "2025-07-25T23:59:59",
+        "flashSaleEndTime": "2025-07-26T23:59:59",
         "imageUrl": "images/244.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSS88u2eV/",
         "category": [ "Đồ Công Nghệ", "Làm Đẹp" ],
@@ -2514,10 +2514,10 @@
     {
         "id": 246,
         "name": "Túi Đựng Giày, Túi Rút Họa Chống Bẩn đá bóng inch hình nhiều CLB nổi tiếng gsr 45 M.E.N (ảnh thật) Nam Sport Bag Fish",
-        "price": 30000,
-        "originalPrice": 40000,
+        "price": 34000,
+        "originalPrice": 60000,
         "afterFlashSalePrice": 30000,
-        "flashSaleEndTime": "2025-07-25T23:59:59",
+        "flashSaleEndTime": "2025-07-26T23:59:59",
         "imageUrl": "images/246.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSS8L3mC4/",
         "category": [ "Thể Thao", "Thời Trang" ],
@@ -2533,6 +2533,30 @@
         "imageUrl": "images/247.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSS8Nmk3b/",
         "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 248,
+        "name": "Túi thể thao chất liệu vải Oxford nhiều màu trẻ trung, năng động. Phù hợp các hoạt động thể thao như đá bóng, bơi, tập gym....MS10 - 218",
+        "price": 16999,
+        "originalPrice": 18000,
+        "afterFlashSalePrice": 16999,
+        "flashSaleEndTime": "2025-07-26T23:59:59",
+        "imageUrl": "images/248.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSNh6XhS/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 249,
+        "name": "Màn hình máy chiếu HD có thể gập di động GOOJODOQ thích hợp cho rạp hát tại nhà, chiếu phim, trong nhà và ngoài trời Projector",
+        "price": 179000,
+        "originalPrice": 479000,
+        "afterFlashSalePrice": 179000,
+        "flashSaleEndTime": "2025-07-26T23:59:59",
+        "imageUrl": "images/249.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSNhXXCA/",
+        "category": [ "Đồ Công Nghệ" ],
         "platform": "tiktok"
     }
 ]
