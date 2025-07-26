@@ -137,7 +137,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let autoplayInterval;
 
         // Hàm để di chuyển slider
-        const moveSlider = (index) => {
+        const moveSlider = (index, smooth = true) => {
+            if (smooth) {
+                slider.style.transition = 'transform 0.5s ease-in-out';
+            } else {
+                slider.style.transition = 'none';
+            }
             slider.style.transform = `translateX(-${index * cardWidth}px)`;
             currentIndex = index;
         };
@@ -175,6 +180,68 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             moveSlider(prevIndex);
         });
+
+        // === LOGIC XỬ LÝ VUỐT (SWIPE) ===
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchMoveX = 0;
+        let isSwiping = false;
+
+        // Khi người dùng đặt ngón tay xuống
+        slider.addEventListener('touchstart', (e) => {
+            stopAutoplay(); // Dừng chạy tự động khi người dùng tương tác
+            touchStartX = e.touches[0].clientX;
+            isSwiping = true;
+            // Tạm thời bỏ hiệu ứng transition để slider di chuyển tức thì theo ngón tay
+            slider.style.transition = 'none';
+        });
+
+        // Khi người dùng di chuyển ngón tay
+        slider.addEventListener('touchmove', (e) => {
+            if (!isSwiping) return;
+            touchMoveX = e.touches[0].clientX;
+            const diffX = touchMoveX - touchStartX;
+            // Di chuyển slider theo khoảng cách ngón tay đã vuốt
+            slider.style.transform = `translateX(-${currentIndex * cardWidth - diffX}px)`;
+        });
+
+        // Khi người dùng nhấc ngón tay lên
+        slider.addEventListener('touchend', () => {
+            if (!isSwiping) return;
+            isSwiping = false;
+            touchEndX = touchMoveX || touchStartX;
+            const diffX = touchEndX - touchStartX;
+            
+            // Kích hoạt lại hiệu ứng transition để slider trượt về vị trí
+            slider.style.transition = 'transform 0.5s ease-in-out';
+
+            // Ngưỡng để xác định một cú vuốt (ví dụ: 50px)
+            const swipeThreshold = 50;
+
+            if (diffX < -swipeThreshold) {
+                // Vuốt sang trái -> đi tới
+                let nextIndex = currentIndex + 1;
+                const maxIndex = products.length - Math.floor(flashSaleContainer.clientWidth / cardWidth);
+                if (nextIndex > maxIndex) {
+                    nextIndex = maxIndex;
+                }
+                moveSlider(nextIndex);
+            } else if (diffX > swipeThreshold) {
+                // Vuốt sang phải -> đi lùi
+                let prevIndex = currentIndex - 1;
+                if (prevIndex < 0) {
+                    prevIndex = 0;
+                }
+                moveSlider(prevIndex);
+            } else {
+                // Nếu không đủ ngưỡng, quay lại vị trí cũ
+                moveSlider(currentIndex);
+            }
+            
+            // Chạy lại autoplay sau một khoảng thời gian
+            setTimeout(startAutoplay, 5000); // 5 giây
+        });
+        // === KẾT THÚC LOGIC VUỐT ===
 
         // Dừng autoplay khi người dùng rê chuột vào và chạy lại khi họ rời đi
         flashSaleContainer.addEventListener('mouseenter', stopAutoplay);
@@ -255,13 +322,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // 1. "XỬ LÝ" DỮ LIỆU TRƯỚC KHI SẮP XẾP VÀ TÁCH
             const processedData = data.map(product => {
+                const now = new Date();
                 // Kiểm tra xem sản phẩm có phải là Flash Sale và đã hết hạn chưa
                 if (product.flashSaleEndTime && new Date(product.flashSaleEndTime) <= now) {
                     // Nếu đã hết hạn, tạo một bản sao của sản phẩm và "biến đổi" nó
                     return {
                         ...product, // Giữ lại tất cả các thuộc tính cũ
-                        price: new Intl.NumberFormat('vi-VN').format(product.afterFlashSalePrice) + 'đ', // Cập nhật lại giá
-                        originalPrice: null, // Bỏ giá gốc của Flash Sale
+                        price: product.afterFlashSalePrice, // Cập nhật lại giá
                         flashSaleEndTime: null // Xóa thời gian Flash Sale
                     };
                 }
