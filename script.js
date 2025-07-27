@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Hàm bắt đầu autoplay
         const startAutoplay = () => {
+            stopAutoplay();
             autoplayInterval = setInterval(() => {
                 let nextIndex = currentIndex + 1;
                 // Nếu đến cuối, quay lại slide đầu tiên
@@ -156,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     nextIndex = 0;
                 }
                 moveSlider(nextIndex);
-            }, 3000); // 3000ms = 3 giây
+            }, 4000); // 1000ms = 1 giây
         };
 
         // Hàm dừng autoplay (khi người dùng tương tác)
@@ -237,9 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Nếu không đủ ngưỡng, quay lại vị trí cũ
                 moveSlider(currentIndex);
             }
-            
-            // Chạy lại autoplay sau một khoảng thời gian
-            setTimeout(startAutoplay, 5000); // 5 giây
         });
         // === KẾT THÚC LOGIC VUỐT ===
 
