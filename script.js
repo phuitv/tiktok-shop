@@ -184,60 +184,61 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // === LOGIC XỬ LÝ VUỐT (SWIPE) ===
         let touchStartX = 0;
-        let touchEndX = 0;
         let touchMoveX = 0;
         let isSwiping = false;
+        let startXPosition = 0;
 
         // Khi người dùng đặt ngón tay xuống
         slider.addEventListener('touchstart', (e) => {
             stopAutoplay(); // Dừng chạy tự động khi người dùng tương tác
             touchStartX = e.touches[0].clientX;
             isSwiping = true;
-            // Tạm thời bỏ hiệu ứng transition để slider di chuyển tức thì theo ngón tay
-            slider.style.transition = 'none';
-        });
+
+            // Lấy vị trí transform hiện tại của slider
+            const transformMatrix = window.getComputedStyle(slider).getPropertyValue('transform');
+            if (transformMatrix !== 'none') {
+                startXPosition = parseInt(transformMatrix.split(',')[4]);
+            } else {
+                startXPosition = 0;
+            }
+            
+            slider.style.transition = 'none';   // Bỏ hiệu ứng transition để vuốt kéo
+        }, { passive: true }); // Cải thiện hiệu suất cuộn
 
         // Khi người dùng di chuyển ngón tay
         slider.addEventListener('touchmove', (e) => {
             if (!isSwiping) return;
             touchMoveX = e.touches[0].clientX;
             const diffX = touchMoveX - touchStartX;
-            // Di chuyển slider theo khoảng cách ngón tay đã vuốt
-            slider.style.transform = `translateX(-${currentIndex * cardWidth - diffX}px)`;
-        });
+
+            // Di chuyển slider từ vị trí ban đầu cộng thêm khoảng cách đã vuốt
+            slider.style.transform = `translateX(-${startXPosition + diffX}px)`;
+        }, { passive: true });
 
         // Khi người dùng nhấc ngón tay lên
         slider.addEventListener('touchend', () => {
             if (!isSwiping) return;
             isSwiping = false;
-            touchEndX = touchMoveX || touchStartX;
-            const diffX = touchEndX - touchStartX;
+            
+            const diffX = touchMoveX - touchStartX;
             
             // Kích hoạt lại hiệu ứng transition để slider trượt về vị trí
             slider.style.transition = 'transform 0.5s ease-in-out';
 
-            // Ngưỡng để xác định một cú vuốt (ví dụ: 50px)
-            const swipeThreshold = 50;
+            // Tính toán số slide đã vuốt qua
+            const slidesSwiped = Math.round(Math.abs(diffX) / cardWidth);
 
-            if (diffX < -swipeThreshold) {
-                // Vuốt sang trái -> đi tới
-                let nextIndex = currentIndex + 1;
-                const maxIndex = products.length - Math.floor(flashSaleContainer.clientWidth / cardWidth);
-                if (nextIndex > maxIndex) {
-                    nextIndex = maxIndex;
-                }
-                moveSlider(nextIndex);
-            } else if (diffX > swipeThreshold) {
-                // Vuốt sang phải -> đi lùi
-                let prevIndex = currentIndex - 1;
-                if (prevIndex < 0) {
-                    prevIndex = 0;
-                }
-                moveSlider(prevIndex);
-            } else {
-                // Nếu không đủ ngưỡng, quay lại vị trí cũ
-                moveSlider(currentIndex);
+            if (diffX < -50) {  // Vuốt sang trái -> đi tới
+                currentIndex += slidesSwiped;
+            } else if (diffX > 50) { // Vuốt sang phải (đi lùi)
+                currentIndex -= slidesSwiped;
             }
+
+            // Giới hạn index trong khoảng cho phép
+            const maxIndex = products.length - Math.floor(flashSaleContainer.clientWidth / cardWidth);
+            currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
+
+            moveSlider(currentIndex); // Di chuyển đến vị trí cuối cùng
         });
         // === KẾT THÚC LOGIC VUỐT ===
 
