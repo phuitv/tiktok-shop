@@ -2490,12 +2490,12 @@
     {
         "id": 244,
         "name": "Máy massage silicone mềm mịn 5 chế độ J05 Đa chức năng Skincare Nữ Women 5in1",
-        "price": 185840,
+        "price": 178815,
         "originalPrice": 249000,
-        "afterFlashSalePrice": 201250,
-        "flashSaleEndTime": "2025-07-26T23:59:59",
+        "afterFlashSalePrice": 204500,
+        "flashSaleEndTime": "2025-07-27T23:59:59",
         "imageUrl": "images/244.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSS88u2eV/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSF3ggob/",
         "category": [ "Đồ Công Nghệ", "Làm Đẹp" ],
         "platform": "tiktok"
     },
@@ -2541,9 +2541,9 @@
         "price": 16999,
         "originalPrice": 18000,
         "afterFlashSalePrice": 16999,
-        "flashSaleEndTime": "2025-07-26T23:59:59",
+        "flashSaleEndTime": "2025-07-27T23:59:59",
         "imageUrl": "images/248.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSSNh6XhS/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSFTU6QW/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -2616,5 +2616,41 @@
         "affiliateLink": "https://s.shopee.vn/8ALQrbLvnt",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 255,
+        "name": "Áo Thun Nam SMART-COTTON 5S FASHION, Thiết Kế Trơn, Thoáng Mát, Nhiều Màu, Dễ Mặc (ATS25045)",
+        "price": 139000,
+        "originalPrice": 299000,
+        "afterFlashSalePrice": 139000,
+        "flashSaleEndTime": "2025-07-27T23:59:59",
+        "imageUrl": "images/255.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSF37c3p/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 256,
+        "name": "Bình Giữ Nhiệt Inox 304 Dung Tích 1000ml giữ nhiệt trên 6 tiếng",
+        "price": 117000,
+        "originalPrice": 145000,
+        "afterFlashSalePrice": 120000,
+        "flashSaleEndTime": "2025-07-27T23:59:59",
+        "imageUrl": "images/256.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSFTa5QL/",
+        "category": [ "Thể Thao", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 257,
+        "name": "Máy massage cầm tay cảm biến lực, mát xa cơ vai gáy, mat xa toàn thân làm quà tặng",
+        "price": 172050,
+        "originalPrice": 305000,
+        "afterFlashSalePrice": 185000,
+        "flashSaleEndTime": "2025-07-27T23:59:59",
+        "imageUrl": "images/257.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSFwR9fr/",
+        "category": [ "Đồ Công Nghệ", "Sức Khoẻ" ],
+        "platform": "tiktok"
     }
 ]
