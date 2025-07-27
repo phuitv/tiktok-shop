@@ -63,25 +63,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === HÀM HIỂN THỊ SẢN PHẨM FLASH SALE ===
     const displayFlashSaleProducts = (products) => {
-        if (products.length === 0) {
-            flashSaleSection.style.display = 'none';
+        // Ẩn section nếu không có sản phẩm flash sale
+        if (products.length === 0) { 
+            if(flashSaleSection) flashSaleSection.style.display = 'none';
             return;
         }
 
         // Cấu trúc HTML cho slider
-        flashSaleContainer.innerHTML = `
-            <div class="swiper my-flash-sale-swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides ở đây -->
+        if (flashSaleContainer) {
+            flashSaleContainer.innerHTML = `
+                <div class="swiper my-flash-sale-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides sẽ được chèn vào đây -->
+                    </div>
                 </div>
-            </div>
-            <!-- Các nút điều hướng bên ngoài swiper container -->
-            <div class="swiper-button-prev flash-sale-nav-btn"></div>
-            <div class="swiper-button-next flash-sale-nav-btn"></div>
-        `;
+                <div class="flash-sale-nav">
+                    <div class="swiper-button-prev flash-sale-nav-btn"></div>
+                    <div class="swiper-button-next flash-sale-nav-btn"></div>
+                </div>
+            `;
+        }
 
         const swiperWrapper = flashSaleContainer.querySelector('.swiper-wrapper');
+        if (!swiperWrapper) return; // Dừng lại nếu không tìm thấy wrapper
         let latestEndTime = 0;
         const currencyFormatter = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' });
 
@@ -126,151 +130,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // KHỞI TẠO SWIPER
-        const swiper = new Swiper('.my-flash-sale-swiper', {
-            // Tùy chọn
-            slidesPerView: 'auto', // Hiển thị số lượng slide vừa với màn hình
-            spaceBetween: 16, // Khoảng cách giữa các slide
-            grabCursor: true, // Biến con trỏ thành hình bàn tay
-            
-            // Tự động chạy (Autoplay)
-            autoplay: {
-                delay: 3000, // 3 giây
-                disableOnInteraction: true, // Dừng khi người dùng tương tác
-                pauseOnMouseEnter: true, // Dừng khi rê chuột vào
-            },
-
-            // Các nút điều hướng
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+        if (typeof Swiper !== 'undefined') {    // Kiểm tra thư viện Swiper đã tồn tại trên window chưa
+            new Swiper('.my-flash-sale-swiper', {
+                slidesPerView: 'auto',
+                spaceBetween: 16,
+                grabCursor: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false, // Để nó tự chạy lại sau khi người dùng tương tác
+                    pauseOnMouseEnter: true,
+                },
+                navigation: {
+                    nextEl: '.flash-sale-nav .swiper-button-next',
+                    prevEl: '.flash-sale-nav .swiper-button-prev',
+                },
+            });
+        } else {
+            console.error('Swiper library is not loaded!');
+        }
 
         // Bắt đầu đồng hồ đếm ngược với thời gian xa nhất
         if (latestEndTime > 0) {
             const countdownTimer = document.getElementById('countdown-timer');
             startCountdown(latestEndTime, countdownTimer);
         }
-        
-        // LOGIC ĐIỀU KHIỂN SLIDER
-        const prevBtn = document.getElementById('flash-sale-prev');
-        const nextBtn = document.getElementById('flash-sale-next');
-        const cardWidth = 220 + 16; // 220px chiều rộng card + 1rem (16px) gap
-        let currentIndex = 0;
-        let autoplayInterval;
-
-        // Hàm để di chuyển slider
-        const moveSlider = (index, smooth = true) => {
-            if (smooth) {
-                slider.style.transition = 'transform 0.5s ease-in-out';
-            } else {
-                slider.style.transition = 'none';
-            }
-            slider.style.transform = `translateX(-${index * cardWidth}px)`;
-            currentIndex = index;
-        };
-
-        // Hàm bắt đầu autoplay
-        const startAutoplay = () => {
-            stopAutoplay();
-            autoplayInterval = setInterval(() => {
-                let nextIndex = currentIndex + 1;
-                // Nếu đến cuối, quay lại slide đầu tiên
-                if (nextIndex > products.length - (Math.floor(flashSaleContainer.clientWidth / cardWidth))) {
-                    nextIndex = 0;
-                }
-                moveSlider(nextIndex);
-            }, 4000); // 1000ms = 1 giây
-        };
-
-        // Hàm dừng autoplay (khi người dùng tương tác)
-        const stopAutoplay = () => {
-            clearInterval(autoplayInterval);
-        };
-
-        // Gán sự kiện cho các nút
-        nextBtn.addEventListener('click', () => {
-            let nextIndex = currentIndex + 1;
-            if (nextIndex > products.length - (Math.floor(flashSaleContainer.clientWidth / cardWidth))) {
-                nextIndex = currentIndex; // Không cho đi quá cuối
-            }
-            moveSlider(nextIndex);
-        });
-
-        prevBtn.addEventListener('click', () => {
-            let prevIndex = currentIndex - 1;
-            if (prevIndex < 0) {
-                prevIndex = 0; // Không cho đi lùi quá đầu
-            }
-            moveSlider(prevIndex);
-        });
-
-        // === LOGIC XỬ LÝ VUỐT (SWIPE) ===
-        let touchStartX = 0;
-        let touchMoveX = 0;
-        let isSwiping = false;
-        let startXPosition = 0;
-
-        // Khi người dùng đặt ngón tay xuống
-        slider.addEventListener('touchstart', (e) => {
-            stopAutoplay(); // Dừng chạy tự động khi người dùng tương tác
-            touchStartX = e.touches[0].clientX;
-            isSwiping = true;
-
-            // Lấy vị trí transform hiện tại của slider
-            const transformMatrix = window.getComputedStyle(slider).getPropertyValue('transform');
-            if (transformMatrix !== 'none') {
-                startXPosition = parseInt(transformMatrix.split(',')[4]);
-            } else {
-                startXPosition = 0;
-            }
-            
-            slider.style.transition = 'none';   // Bỏ hiệu ứng transition để vuốt kéo
-        }, { passive: true }); // Cải thiện hiệu suất cuộn
-
-        // Khi người dùng di chuyển ngón tay
-        slider.addEventListener('touchmove', (e) => {
-            if (!isSwiping) return;
-            touchMoveX = e.touches[0].clientX;
-            const diffX = touchMoveX - touchStartX;
-
-            // Di chuyển slider từ vị trí ban đầu cộng thêm khoảng cách đã vuốt
-            slider.style.transform = `translateX(-${startXPosition + diffX}px)`;
-        }, { passive: true });
-
-        // Khi người dùng nhấc ngón tay lên
-        slider.addEventListener('touchend', () => {
-            if (!isSwiping) return;
-            isSwiping = false;
-            
-            const diffX = touchMoveX - touchStartX;
-            
-            // Kích hoạt lại hiệu ứng transition để slider trượt về vị trí
-            slider.style.transition = 'transform 0.5s ease-in-out';
-
-            // Tính toán số slide đã vuốt qua
-            const slidesSwiped = Math.round(Math.abs(diffX) / cardWidth);
-
-            if (diffX < -50) {  // Vuốt sang trái -> đi tới
-                currentIndex += slidesSwiped;
-            } else if (diffX > 50) { // Vuốt sang phải (đi lùi)
-                currentIndex -= slidesSwiped;
-            }
-
-            // Giới hạn index trong khoảng cho phép
-            const maxIndex = products.length - Math.floor(flashSaleContainer.clientWidth / cardWidth);
-            currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
-
-            moveSlider(currentIndex); // Di chuyển đến vị trí cuối cùng
-        });
-        // === KẾT THÚC LOGIC VUỐT ===
-
-        // Dừng autoplay khi người dùng rê chuột vào và chạy lại khi họ rời đi
-        flashSaleContainer.addEventListener('mouseenter', stopAutoplay);
-        flashSaleContainer.addEventListener('mouseleave', startAutoplay);
-        
-        // Bắt đầu autoplay lần đầu tiên
-        startAutoplay();
     };
 
     // === HÀM HIỂN THỊ CARD SẢN PHẨM THƯỜNG ===
