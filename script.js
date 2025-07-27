@@ -63,27 +63,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === HÀM HIỂN THỊ SẢN PHẨM FLASH SALE ===
     const displayFlashSaleProducts = (products) => {
-        // Cần nhiều hơn 1 sản phẩm để slider hoạt động
-        if (products.length <= 1) {
+        if (products.length === 0) {
             flashSaleSection.style.display = 'none';
             return;
         }
 
         // Cấu trúc HTML cho slider
         flashSaleContainer.innerHTML = `
-            <div class="flash-sale-slider" id="flash-sale-slider">
-                <!-- Các card sẽ được chèn vào đây -->
+            <div class="swiper my-flash-sale-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides ở đây -->
+                </div>
             </div>
-            <div class="flash-sale-nav">
-                <button class="flash-sale-nav-btn" id="flash-sale-prev">‹</button>
-                <button class="flash-sale-nav-btn" id="flash-sale-next">›</button>
-            </div>
+            <!-- Các nút điều hướng bên ngoài swiper container -->
+            <div class="swiper-button-prev flash-sale-nav-btn"></div>
+            <div class="swiper-button-next flash-sale-nav-btn"></div>
         `;
 
-        const slider = document.getElementById('flash-sale-slider');
+        const swiperWrapper = flashSaleContainer.querySelector('.swiper-wrapper');
         let latestEndTime = 0;
         const currencyFormatter = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' });
 
+        // CHÈN CARD SẢN PHẨM (SLIDES)
         products.forEach(product => {
             // Tìm thời gian kết thúc xa nhất để đặt cho đồng hồ
             const productEndTime = new Date(product.flashSaleEndTime).getTime();
@@ -91,10 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 latestEndTime = productEndTime;
             }
 
-            const card = document.createElement('a');
-            card.href = product.affiliateLink;
-            card.target = '_blank';
-            card.classList.add('flash-sale-card');
+            const slide = document.createElement('div');
+            slide.classList.add('swiper-slide');
             
             // Dùng logic hiển thị giá
             const salePriceNumber = parsePrice(product.price); // Chuyển giá bán (string) thành số
@@ -109,18 +109,41 @@ document.addEventListener('DOMContentLoaded', () => {
             // Xác định URL ảnh
             const imageUrl = (product.imageUrls && product.imageUrls.length > 0) ? product.imageUrls[0] : (product.imageUrl || '');
 
-            card.innerHTML = `
-                <div class="flash-sale-image-container">
-                    <img src="${imageUrl}" alt="${product.name}" class="product-image">
-                    <div class="flash-sale-price-overlay">
-                        <div class="price-line">
-                            <span class="product-price sale">${salePriceFormatted}</span>
-                            ${originalPriceFormatted ? `<span class="product-price original">${originalPriceFormatted}</span>` : ''}
+            slide.innerHTML = `
+                <a href="${product.affiliateLink}" target="_blank" class="flash-sale-card">
+                    <div class="flash-sale-image-container">
+                        <img src="${imageUrl}" alt="${product.name}" class="product-image">
+                        <div class="flash-sale-price-overlay">
+                            <div class="price-line">
+                                <span class="product-price sale">${salePriceFormatted}</span>
+                                ${originalPriceFormatted ? `<span class="product-price original">${originalPriceFormatted}</span>` : ''}
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             `;
-            slider.appendChild(card);
+            swiperWrapper.appendChild(slide);
+        });
+
+        // KHỞI TẠO SWIPER
+        const swiper = new Swiper('.my-flash-sale-swiper', {
+            // Tùy chọn
+            slidesPerView: 'auto', // Hiển thị số lượng slide vừa với màn hình
+            spaceBetween: 16, // Khoảng cách giữa các slide
+            grabCursor: true, // Biến con trỏ thành hình bàn tay
+            
+            // Tự động chạy (Autoplay)
+            autoplay: {
+                delay: 3000, // 3 giây
+                disableOnInteraction: true, // Dừng khi người dùng tương tác
+                pauseOnMouseEnter: true, // Dừng khi rê chuột vào
+            },
+
+            // Các nút điều hướng
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
 
         // Bắt đầu đồng hồ đếm ngược với thời gian xa nhất

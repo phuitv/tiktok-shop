@@ -899,7 +899,7 @@ footer {
     order: 2; /* Luôn đứng sau giá bán */
 }
 
-/* --- CSS cho Khu vực Flash Sale --- */
+/* --- CSS CHO KHU VỰC FLASH SALE --- */
 #flash-sale-section {
     background-color: #fff0f0; /* Nền màu hồng rất nhạt */
     padding: 1.5rem 0;
@@ -931,66 +931,56 @@ footer {
     font-size: 1.1rem;
 }
 
-/* Container cuộn ngang */
+/* Container chính của slider */
 .flash-sale-container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    overflow: hidden; /* Ẩn các card nằm ngoài khung nhìn */
-    padding: 0.5rem 0;
+    padding: 0.5rem 1rem;
 }
 
-.flash-sale-slider {
-    display: flex; /* Sắp xếp các card trên một hàng */
-    gap: 1rem;
-    padding: 0 1rem; /* Padding để card đầu tiên và cuối cùng không dính sát cạnh */
-    /* Hiệu ứng trượt */
-    transition: transform 0.5s ease-in-out; 
+.my-flash-sale-swiper {
+    width: 100%;
+    height: 100%;
+    /* Thêm padding hai bên để các slide ở rìa không bị cắt mất bóng */
+    padding: 5px 0; 
 }
 
-.flash-sale-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: calc(100% - 20px); /* Chiều rộng trừ đi một chút padding */
-    left: 10px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
-    pointer-events: none; /* Chỉ cho phép click vào nút */
+/* Các slide (card sản phẩm) */
+.swiper-slide {
+    width: 220px; /* Chiều rộng cố định cho mỗi slide */
+    height: auto; /* Chiều cao tự động */
 }
 
-.flash-sale-nav-btn {
-    pointer-events: auto; /* Cho phép click */
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Card sản phẩm trong Flash Sale (nhỏ hơn card thường) */
+/* Card sản phẩm bên trong slide */
 .flash-sale-card {
-    flex: 0 0 220px; /* Không co, không giãn, chiều rộng cơ sở 220px */
+    display: block;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow: hidden;
     text-decoration: none;
-    display: block;
-    position: relative;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .flash-sale-card:hover {
-    transform: translateY(-5px); /* Hiệu ứng nảy lên */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Đổ bóng đậm hơn */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Tùy chỉnh các nút điều hướng mặc định của Swiper */
+.flash-sale-nav-btn {
+    color: #e74c3c; /* Màu của mũi tên */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.flash-sale-nav-btn::after {
+    font-size: 20px !important; /* Ghi đè kích thước mũi tên mặc định */
+    font-weight: bold;
 }
 
 /* Container chứa ảnh của Flash Sale Card */
