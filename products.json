@@ -2558,5 +2558,15 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSNhXXCA/",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 250,
+        "name": "Áo thun T-shirt Nam YODY dáng slimfit cơ bản, vải cotton mềm mại, thông thoáng MCTS25S336 (TSM7188)",
+        "price": 140000,
+        "originalPrice": 149000,
+        "imageUrl": "images/250.webp",
+        "affiliateLink": "https://s.shopee.vn/2Vh45gWKXz",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
