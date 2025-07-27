@@ -2568,5 +2568,53 @@
         "affiliateLink": "https://s.shopee.vn/2Vh45gWKXz",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 251,
+        "name": "Sách - Combo 2 Cuốn Biến Mọi Thứ Thành Tiền (Quyển 1+2) - SBOOKS",
+        "price": 140165,
+        "originalPrice": 336000,
+        "afterFlashSalePrice": 170000,
+        "flashSaleEndTime": "2025-07-27T18:59:59",
+        "imageUrl": "images/251.webp",
+        "affiliateLink": "https://s.shopee.vn/50OP4vCZFN",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 252,
+        "name": "Chuột không dây Ugreen MU006 Chế Độ Kép Chuột Ergonomic 4000 DPI | 6 Nút Tắt Tiếng | BH 18 tháng 1 đổi 1 | 90545",
+        "price": 171000,
+        "originalPrice": 310000,
+        "afterFlashSalePrice": 180000,
+        "flashSaleEndTime": "2025-07-27T18:59:59",
+        "imageUrl": "images/252.webp",
+        "affiliateLink": "https://s.shopee.vn/8zuXqay3mu",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 253,
+        "name": "Bộ Ga Gối 3 Món Gòn Bedding Lụa Tencel Viscose Cao Cấp Màu Trơn 1m6x2m | 1m8x2m",
+        "price": 631210,
+        "originalPrice": 799000,
+        "afterFlashSalePrice": 631210,
+        "flashSaleEndTime": "2025-07-27T18:59:59",
+        "imageUrl": "images/253.webp",
+        "affiliateLink": "https://s.shopee.vn/4ApI5sLMEi",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 254,
+        "name": "Quần Short Kaki Nam 5S FASHION Mềm Mịn,Thiết Kế Cúc Ẩn Mặt Trong Lịch Sự (QSK25014)",
+        "price": 279000,
+        "originalPrice": 399000,
+        "afterFlashSalePrice": 299000,
+        "flashSaleEndTime": "2025-07-27T18:59:59",
+        "imageUrl": "images/254.webp",
+        "affiliateLink": "https://s.shopee.vn/8ALQrbLvnt",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
