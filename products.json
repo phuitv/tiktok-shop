@@ -2729,5 +2729,87 @@
         "affiliateLink": "https://vt.tiktok.com/ZSS2BMnVL/",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 265,
+        "name": "[COMBO 3]  Áo thể thao nam vải thun lạnh thông hơi lỗ nhỏ, chất coolmax thể thao mát lạnh thoáng khí,vận động thoải mái DR-ATT03",
+        "price": 69000,
+        "originalPrice": 392000,
+        "afterFlashSalePrice": 138000,
+        "flashSaleEndTime": "2025-07-28T23:59:59",
+        "imageUrl": "images/265.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS2BBWUh/",
+        "category": [ "Thời Trang", "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 266,
+        "name": "Miếng Dán Lót Gót Giày 5D Chống Rộng MINSU M5510 Lót Đệm Có Hạt Silicon Bảo Vệ, Chống Trầy Cho Giày Cao Gót Thể Thao",
+        "price": 19000,
+        "originalPrice": 38000,
+        "imageUrl": "images/266.webp",
+        "affiliateLink": "https://s.shopee.vn/AA6WP7A5CC",
+        "category": [ "Thời Trang", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 267,
+        "name": "Combo LADOS-7158 gồm áo thun tanktop 3 lỗ thể thao 9085 kèm quần short đùi dù nam 4135 tập gym, chạy bộ, mặc nhà",
+        "price": 179000,
+        "originalPrice": 300000,
+        "imageUrl": "images/267.webp",
+        "affiliateLink": "https://s.shopee.vn/7pibeBQLlk",
+        "category": [ "Thời Trang", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 268,
+        "name": "Serum giúp làm mờ thâm mụn CeraVe Resurfacing Retinol Serum 30ml",
+        "price": 499800,
+        "originalPrice": 510000,
+        "imageUrl": "images/268.webp",
+        "affiliateLink": "https://s.shopee.vn/7pibeU10Wm",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 269,
+        "name": "Áo Ba Lỗ Nam GUZADO Cao Cấp Vải Coolmax Thoáng Khí, Nhanh Khô. Phong Cách Thể Thao, Basic GTT04",
+        "price": 99000,
+        "originalPrice": 190000,
+        "imageUrl": "images/269.webp",
+        "affiliateLink": "https://s.shopee.vn/20koi3XTQO",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 270,
+        "name": "[SALE] Áo thun thể thao nam YODY trẻ trung, chất vải thoáng mát, thấm hút nhanh khô STM7084",
+        "price": 129500,
+        "originalPrice": 259000,
+        "imageUrl": "images/270.webp",
+        "affiliateLink": "https://s.shopee.vn/2g0VVc7oHX",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 271,
+        "name": "Áo Thun Unisex Local Brand Morpheus Premium Cotton 100%, Form rộng, Oversize",
+        "price": 139000,
+        "originalPrice": 250000,
+        "imageUrl": "images/271.webp",
+        "affiliateLink": "https://s.shopee.vn/8pb8reh47s",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 272,
+        "name": "Ốp lưng iPhone 16 Pro Max SLIMCASE SPORT X - Chống sốc, chống trượt, hỗ trợ sạc không dây. TẶNG kèm bộ nút bấm",
+        "price": 674100,
+        "originalPrice": 749000,
+        "imageUrl": "images/272.webp",
+        "affiliateLink": "https://s.shopee.vn/2Vh5KwhGY6",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "shopee"
     }
 ]
