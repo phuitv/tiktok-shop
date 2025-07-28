@@ -28,7 +28,7 @@ header {
     
     color: white;
     padding: 0.5rem 0.5rem; /* Tăng padding để header cao hơn, ảnh có không gian hiển thị */
-    z-index: 1; /* Đảm bảo header nằm trên các phần tử khác */
+    z-index: 1000; /* Đảm bảo header nằm trên các phần tử khác */
 }
 
 /* Thêm lớp phủ đẻ chữ dễ đọc */
