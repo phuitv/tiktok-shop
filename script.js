@@ -132,9 +132,21 @@ document.addEventListener('DOMContentLoaded', () => {
         // KHỞI TẠO SWIPER
         if (typeof Swiper !== 'undefined') {    // Kiểm tra thư viện Swiper đã tồn tại trên window chưa
             new Swiper('.my-flash-sale-swiper', {
-                slidesPerView: 'auto',
-                spaceBetween: 16,
+                effect: 'coverflow', // Bật hiệu ứng coverflow
                 grabCursor: true,
+                centeredSlides: true, // QUAN TRỌNG: Đặt slide active ở giữa
+                slidesPerView: 'auto',
+                loop: true, // Cho phép slider lặp lại vô tận
+                
+                // Cấu hình cho hiệu ứng coverflow
+                coverflowEffect: {
+                    rotate: 0, // Không xoay các slide
+                    stretch: 0, // Không kéo dài các slide
+                    depth: 100, // Độ sâu 3D (tạo cảm giác xa gần)
+                    modifier: 1.5, // Tăng hiệu ứng
+                    slideShadows: false, // Tắt bóng của slide
+                },
+                
                 autoplay: {
                     delay: 3000,
                     disableOnInteraction: false, // Để nó tự chạy lại sau khi người dùng tương tác

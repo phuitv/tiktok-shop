@@ -1034,3 +1034,31 @@ footer {
     text-decoration: line-through;
     line-height: 1;
 }
+
+/* --- CSS CHO HIỆU ỨNG SLIDER Ở GIỮA (CENTER MODE) --- */
+
+/* Đảm bảo swiper được căn giữa */
+.my-flash-sale-swiper {
+    padding: 10px 0; /* Thêm padding trên dưới để slide phóng to không bị cắt */
+}
+
+.swiper-slide {
+    width: 200px; /* Giảm chiều rộng cơ sở một chút */
+    height: auto;
+    /* Hiệu ứng chuyển động mượt mà cho các thuộc tính */
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0.5; /* Mặc định làm mờ các slide */
+    transform: scale(0.85); /* Mặc định thu nhỏ các slide */
+}
+
+/* Kiểu cho slide đang active (nằm ở giữa) */
+.swiper-slide-active {
+    opacity: 1; /* Hiển thị rõ nét */
+    transform: scale(1); /* Phóng to về kích thước gốc */
+}
+
+/* Tùy chọn: Làm cho slide kế bên và slide active gần hơn một chút */
+.swiper-slide-next,
+.swiper-slide-prev {
+    opacity: 0.7; /* Rõ hơn một chút so với các slide khác */
+}
