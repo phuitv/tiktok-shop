@@ -2598,7 +2598,7 @@
         "name": "Bộ Ga Gối 3 Món Gòn Bedding Lụa Tencel Viscose Cao Cấp Màu Trơn 1m6x2m | 1m8x2m",
         "price": 631210,
         "originalPrice": 799000,
-        "afterFlashSalePrice": 631210,
+        "afterFlashSalePrice": 679150,
         "flashSaleEndTime": "2025-07-27T18:59:59",
         "imageUrl": "images/253.webp",
         "affiliateLink": "https://s.shopee.vn/4ApI5sLMEi",
@@ -2652,5 +2652,58 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSFwR9fr/",
         "category": [ "Đồ Công Nghệ", "Sức Khoẻ" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 258,
+        "name": "Hộp 5 Đôi Đũa Gốm Sứ Phong Cách Nhật Bản. Hộp 5 Đôi Đũa Sứ Kháng Khuẩn - Đôi Đũa Sứ Phong Cách Hoa Văn Nhật Bản",
+        "price": 14499,
+        "originalPrice": 45000,
+        "imageUrl": "images/258.webp",
+        "affiliateLink": "https://s.shopee.vn/8zuY8zooZ4",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 259,
+        "name": "[Nhà Mặn Food] Mực cán tẩm gia vị 500g 2 hũ đặc sản Nha Trang đồ ăn vặt snack food thức ăn",
+        "price": 294000,
+        "imageUrl": "images/259.webp",
+        "affiliateLink": "https://s.shopee.vn/5pxWNccUus",
+        "category": [ "Ăn Uống" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 260,
+        "name": "[THE WHOO OFFICIAL] [Phiên bản trải nghiệm] Bộ dưỡng ẩm, cải thiện độ đàn hồi da Whoo Gong Jin Hyang Firming Trial Set",
+        "price": 1180000,
+        "originalPrice": 1300000,
+        "imageUrl": "images/260.webp",
+        "affiliateLink": "https://s.shopee.vn/8fHhq0w9Wm",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 261,
+        "name": "Hộp 10 Miếng Mặt Nạ Vải Vi Sợi Dr.Ogiderm Ampoule Shot Mask Giúp Cấp Ẩm Dịu Nhẹ Cho Mọi Loại Da 30ml",
+        "price": 175000,
+        "originalPrice": 300000,
+        "afterFlashSalePrice": 179000,
+        "flashSaleEndTime": "2025-07-28T23:59:59",
+        "imageUrl": "images/261.webp",
+        "affiliateLink": "https://s.shopee.vn/9zn5TSFtFs",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 262,
+        "name": "Pack 5 Quần lót Trunk Cotton Coolmate Basics cạp logo Thoáng khí - Co giãn Coolmate",
+        "price": 194000,
+        "originalPrice": 329000,
+        "afterFlashSalePrice": 209000,
+        "flashSaleEndTime": "2025-08-08T23:59:59",
+        "imageUrl": "images/262.webp",
+        "affiliateLink": "https://s.shopee.vn/1g7xYU5FTx",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
