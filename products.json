@@ -2709,5 +2709,46 @@
         "affiliateLink": "https://vt.tiktok.com/ZSS6xJcd9/",
         "category": [ "Thể Thao", "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 279,
+        "name": "Nồi điện đa năng 1.6L Bear DRG-P16K5 / P16M2/ E15P2 - Hàng Chính Hãng",
+        "price": 459000,
+        "originalPrice": 849000,
+        "imageUrl": "images/279.webp",
+        "affiliateLink": "https://s.shopee.vn/9KXR5AKIfp",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 280,
+        "name": "Bàn ủi hơi nước cầm tay 1000W Bear GTJ-D10M1 - Hàng Chính Hãng",
+        "price": 499000,
+        "originalPrice": 899000,
+        "imageUrl": "images/280.webp",
+        "affiliateLink": "https://s.shopee.vn/AUjOVPpXvP",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 281,
+        "name": "Bếp Nướng Lẩu Điện 3L Đa Năng 2in1 Bear DKL-C15G1 - Chính Hãng - BH 18 Tháng",
+        "price": 1249000,
+        "originalPrice": 1990000,
+        "imageUrl": "images/281.webp",
+        "affiliateLink": "https://s.shopee.vn/gFSo3dnbM",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 282,
+        "name": "Vỏ Gối Ôm Kéo Khóa Cotton 100% Dài 95cm, Áo Gối Ôm Dây Kéo Vừa Ruột Gối Ôm 35x100 Dreamhomebedding",
+        "price": 55000,
+        "originalPrice": 100000,
+        "flashSaleEndTime": "2025-07-29T14:59:59",
+        "imageUrl": "images/282.webp",
+        "affiliateLink": "https://s.shopee.vn/8KetxCxuK7",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
