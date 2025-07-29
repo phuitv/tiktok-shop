@@ -2750,5 +2750,15 @@
         "affiliateLink": "https://s.shopee.vn/8KetxCxuK7",
         "category": [ "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 283,
+        "name": "Băng Bảo Vệ Cổ Chân Nevor BCC04 Chống Lật, Siêu Mỏng, Hỗ Trợ Và Bảo Vệ Khi Chơi Thể Thao",
+        "price": 107000,
+        "originalPrice": 180000,
+        "imageUrl": "images/283.webp",
+        "affiliateLink": "https://s.shopee.vn/gFTKUO9ZF",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
     }
 ]
