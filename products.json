@@ -2811,5 +2811,50 @@
         "affiliateLink": "https://s.shopee.vn/2Vh5KwhGY6",
         "category": [ "Điện Thoại & Phụ Kiện" ],
         "platform": "shopee"
+    },
+    {
+        "id": 273,
+        "name": "Máy Phun Sương Dung Tích 1200ml Công Suất Lớn Kiêm Máy Xông Tinh Dầu Đèn LED 7 Màu | Tự Động Ngắt Khi Hết Nước Bảo hành của nhà sản xuất Tạo Độ Ẩm Máy Khuếch Tán Tinh Dầu Phun Tinh Dầu",
+        "price": 67999,
+        "originalPrice": 68000,
+        "flashSaleEndTime": "2025-07-29T23:59:59",
+        "imageUrl": "images/273.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6yYVft/",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 274,
+        "name": "Máy Khuếch Tán Tinh Dầu Phòng Ngủ H20 Humidifier Giúp Thơm Phòng Máy Phun Sương Tạo Ẩm Tỏa Hương Thơm  Xua Đuổi Muỗi",
+        "price": 64000,
+        "originalPrice": 199000,
+        "afterFlashSalePrice": 69000,
+        "flashSaleEndTime": "2025-07-29T23:59:59",
+        "imageUrl": "images/274.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS65UQcc/",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 275,
+        "name": "Tinh dầu thiên nhiên nguyên chất (10ml) giúp thơm phòng",
+        "price": 24999,
+        "originalPrice": 30000,
+        "flashSaleEndTime": "2025-07-29T23:59:59",
+        "imageUrl": "images/275.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6aAw4U/",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 276,
+        "name": "[GOOJODOQx KOL/KOC] Máy tạo độ ẩm không khí GOOJODOQ 280ml 2 chế độ phun, điều chỉnh 360 độ, có đèn LED",
+        "price": 119000,
+        "originalPrice": 299000,
+        "flashSaleEndTime": "2025-07-29T23:59:59",
+        "imageUrl": "images/276.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6abr7V/",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
     }
 ]
