@@ -3,98 +3,20 @@
         "id": 1,
         "name": "Băng keo thể thao hộp 24 & 30 cuộn cuốn cổ chân cổ tay chấn tránh chấn thương hỗ trợ thi đấu và tập luyện",
         "price": "100.000đ",
+        "originalPrice": 110000,
+        "flashSaleEndTime":"2025-07-29T23:59:59",
         "imageUrl": "images/1-cao-su-non.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1729555183415560968?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007517973912782620436%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMfq4iXyTuKPsWXsMoBIIBCzin3ppoFQXokahCArXioFJzcOOM9Acq4l3Y4aN6zbs67cN3f50wrs5S57UdHM6pNrSzXBWbLVk1qtbKP36mhDOugYeSRCjwJ26KIC1XuGd%2FOmBlS932O3pmO8xK+UQfX%2FcoPfuCMKSo%2F4yRbuARP1FnItcQSazgfNCyBCEYNSJNxZ+MkS9NCn4hcoD9y8fGu7s4UYd%2FFhDqs6SGpkov%2FCwmCqaNwkvXyXgtbh5AXeQkUjhBjdmt38%2FScZ1qZN4emdiks4AVAg78jimqkXdlR4hZYsvgac7oCBYWTCTMSuxTX3GsL5ZjD6B%2FgipgdZgafy+a+5tGIA8ePhuHPS2wCbVncWaDtZROyNFyIgQQBV4Dq8wSqDqVqaTLVbV+0g%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750414737&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 2,
-        "name": "Băng Dán Cơ, Băng Dán Thể Thao Bóng Đá Hỗ Trợ Chống Chấn Thương Băng Dán Cơ Thể Thao, Băng Keo Vải Phục Hồi",
-        "price": "16.000đ",
-        "imageUrl": "images/2.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1729824978726127676?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007518054696311080724%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMHIEg2SwoeAtJgqupBIIBC0+KZb2gd9yeCi+LietWpdaTuPPp5jW8B8NEm19F+ZOleR5rciIbGTXsX6ehy4%2Fe00FR9JPeCukIqiNDOL3C635v0uIPWQHvn+jw18hIzspnY3tM0TcbLVjwRA1u%2FUh68tA3kX77twra3pmma18vuPZh5hybIbffAhzC7sRv2c6hlb+d3gWmGdhR1lm2OzPoejqUtKaLyAnPrDaDMj5R3CMxhzZFYP2Oeula2Hy%2FiZQN3W0pJYlcr%2F+nFm5KR0dEiQnmAlQfd3pKpnF37bGjbJP44fLP8qX7pIWQL5L6xX2qSgKlx0dWB06GbsWUmQXMan7xord5IwGYO85LIAIzgr0PlMxYP4Et8A1Y%2FAQQ6S%2F6KP1ZgttcUr6F+0Pf+A%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750433540&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 3,
-        "name": "Giày đá bóng NMS FLASH đế giày bám sân chịu lực tốt [MUA KÈM DEAL SỐC] NHẬN COMBO QUÀ TẶNG",
-        "price": "350.000đ",
-        "imageUrl": "images/3.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1732125055610554814?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007518051712770180885%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMq91+MWCyV0QlHztTBIIBC9GWhkjoFUXoOH8EfrRQmfEc01bb+AhUYRwOXrPYdPDBMBwV7PhnYQLPcWZ2DraqPMpHxE8gS8f0JxtonUxdaTf6C33YIcnkrodV0d%2Fe8Px94RixNXQVJN7jMbgpoTjV2YDh1d4mOIemgKwODMoEjhrPzUk8HWTue+XfZbn63e%2F2d6bbfRXWEvfmcmePy7FQroAx%2FAycAMbnqi7Pfx2okAcoUoxyk5gf6quipa8k8KTJkiTE1O3EL%2FmpbBp9yXZ7WNkCdaYIKB%2Feebd8BUniX%2FJisKgnfxZ2FkCygIiOS5b03bR9sQHeHAZLk1R3sCqBN+kQfLA8g4Y7BR76HpmA1PkYV0R1tlK82X27VgQQzblzJyM6PbpD+hvwkeoStg%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750432850&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 4,
-        "name": "Giày CT3 Cường Trắng số 3 và Bata CT3 (tặng tất)",
-        "price": "268.000đ",
-        "imageUrl": "images/4.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1729601304016029775?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007518054242139997973%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMWrlO2BpMtWru+fO8BIIBC1P%2FsDieMzaFFfXO01UgPlpRCuLHqOzqhePjWzm9obAc3xJ3tiLmQpMEvESNCo10lz+6DAWTvZkykQU3OLBDFkyGjRCpUUUl3Z76HeWQ4wI5AUND7e+Mk9Z03JplC+Xumsol7dTueCe87WztNTHFLmB4%2FpglzHFE0zttHn%2FAHNa39zVgpiY8u2Tf29t4M8mrnnLta43KzetiK1%2FmAWDAUsW83C5lSyG5kZtg4RrTm3qYULdAdc8D5pzQsU+R9ayYj5bDreE4z0TCSWmHoXqIjIk2tiGZIi9YXzfNbmxWi5tQ2o4I8iRjSve2F89sniDTNf48LDWsJFHov7QalqF8HTHPA+s+mkJi1k4OPwQQlvca4cM0cl2N%2FHU+Kl6cDw%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750433440&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 5,
-        "name": "[Lùi 0,5 size] Giày Đá Bóng Nam TOP SALA TF, đế cao su TF, khâu full đế, êm, tặng kèm tất + dây phối màu, Sport, Đá Banh sân cỏ nhân tạo, thể thao, tập thể dục",
-        "price": "279.000đ",
-        "imageUrl": "images/5.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1731430652451784243?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007518051869651863304%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQM11PBZWhfb9VPGg8aBIIBCzp23fnlquLlOtwccwPgq63e0xAMTkrsf0HRP+7DHx9wYhlg4+tB15cEAFlmcQzvJOgKSQfTOw+m1EFx9J3E%2FTR1c+6tTWNAiprT3171OcWjqUOxsbciUHeuCxQxh%2FDsJHtRcWTGkZKNajjRvT4AhjIMBGRUjH2a1QU+i1gZVEPXskSnQ6jIsKtPdx+JH1rqkdMRyitt3gAjqSrXi3iVRLOmbt2oB2erq6x6hDJxs15L+GOYbXrQ7x9o9mNNXDU4qVGPuyD5t19KL1sMDbfBJx+HoOen39g4vBMkDE4ikR49xMp8XLHDgY64mUNGsySxSrMr2J%2FvzPOspFx7dJn6Swcwy467gxO0joM2igQQxMLc2Jf%2FFwrVoPxwFNPqyg%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750432887&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 6,
-        "name": "Giày Đá Bóng, Giày Đá Banh Vaporr 14 ACA VN Khâu Đế, Đế Đệm Tặng [Tất, Túi Rút]",
-        "price": "254.000đ",
-        "imageUrl": "images/6.webp",
-        "affiliateLink": "https://www.tiktok.com/view/product/1731237132054529634?_svg=1&chain_key=%7B%22t%22%3A1%2C%22k%22%3A%22000000000000000007518054156168234772%22%2C%22sc%22%3A%22copy%22%7D&encode_params=MIIBLwQMNOEfSXj2Pte2q+HHBIIBC9HSVgDfk43GNZzRMz6kmtqMnqqFUNal0%2FFcj6A3HGVzKaJKMLcKEHuVWtOYEcLqOgezIwWn3x2UCngq8uRYWvrfYz0IlN1RtdwattvMXh5GL1VMTSrGT9gwn95EOHRJQGkiZuR8A9wy8HJnc%2F32RPBI809uRtBFKzxtZ8oUBizrCAchT8QbBTnNsig+Y2xja%2FN+YL7kcfi%2F+b%2FPFyWk3pFb8pbZ1rpsJIV1qPjZuytB5hHUXVwXyQ8aw0N5EWcjOEq0uakMwJH6kpUPr9FhcmCFPio%2FmOWB51PoYHBcnyEn+SdIJrKWjUKvHeLhWx3FDZ3PAlv0bB1AhbN5Gf+oEqnLcOJpMNP8OPzbwwQQX3C0WlIl8HAz7k0hg9Q75g%3D%3D&scene=pdp&share_app_id=1180&timestamp=1750433414&trackParams=%7B%22enter_from_info%22%3A%22product_share_outside%22%2C%22source_page_type%22%3A%22product_share%22%2C%22enable_shop_tab_popup%22%3A1%7D&use_land_page=1&utm_campaign=client_share&utm_source=copy",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 7,
-        "name": "Bó Gối Thể Thao Bảo Vệ Đầu Gối Tránh Chấn Thương Khi Chơi Bóng Đá Bóng Rổ Tập Gym Chạy Bộ Cầu Tạ Lông Tập Phụ Kiện Sport",
-        "price": "28.900đ",
-        "imageUrl": "images/7.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknDVfGV/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 8,
-        "name": "Bó Gối, Băng Gối ,Bảo Vệ Đầu Gối Chống Chầy Xước Thể Thao Yoga, Gym,Chạy Bộ,Bóng Chuyền, Cầu Lông, Bóng Đá",
-        "price": "35.000đ",
-        "imageUrl": "images/8.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknDtsrE/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6muB7m/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
     {
         "id": 9,
         "name": "(1 CHIẾC) Bó gối thể thao GoodFit có đai buộc chắc chắn, băng gối thủ môn, tập gym co giãn 4 chiều, viền silicone chống trượt GF511K",
-        "price": "99.000đ",
+        "price": "109.000đ",
+        "originalPrice": 150000,
         "imageUrl": "images/9.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSknURPPp/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 10,
-        "name": "Đệm Bảo Vệ Gối Điều Chỉnh Aolikes Sport A-7929 | Dán Bảo Vệ Khớp Gối",
-        "price": "70.000đ",
-        "imageUrl": "images/10.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknDvsH9/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 11,
-        "name": "Băng quấn cổ chân chữ V, Đai cổ chân bảo vệ mắt cá chân cổ chân Phụ Kiện chơi thể thao, chạy bộ,đá bóng",
-        "price": "21.998đ",
-        "imageUrl": "images/11.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknDpSag/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -102,98 +24,31 @@
         "id": 12,
         "name": "Băng Cổ Chân, Đai Quấn Bảo Vệ Mắt Cá, Bó Cổ Chân Aolikes Tập Gym Thể Thao 7130 Sport Tập Thể Dục",
         "price": "63.000đ",
+        "originalPrice": 89000,
         "imageUrl": "images/12.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSknUPEJA/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
     {
-        "id": 13,
-        "name": "[ Băng Quấn Cổ Chân Cao Cấp BQCC04 ] Nevor Hỗ Trợ Phục Hồi Các Chấn Thương, Bảo Vệ Khớp Cổ Chân",
-        "price": "112.000đ",
-        "imageUrl": "images/13.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUUjt1/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
         "id": 14,
         "name": "[Chính hãng – Giảm đau tức thì] Chai xịt lạnh Magicode 250ml – Giảm đau nhanh, mát lạnh tức thì dành cho người chơi thể thao",
-        "price": "62.999đ",
+        "price": 69125,
+        "originalPrice": 90000,
+        "flashSaleEndTime":"2025-07-29T23:59:59",
         "imageUrl": "images/14.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUMwv6/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS69rc17/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
     {
         "id": 15,
-        "name": "Chai Xịt Lạnh Giảm Đau Siêu Tốc Thảo Dược LIGPRO Giảm Đau Chấn Thương Sơ Cứu Thể Thao 200ml",
+        "name": "[LIGPRO] Xịt lạnh giảm đau + Xịt nóng LIGPRO 200ml giúp giảm đau do chấn thương cơ, khớp, dây chằng, dùng trong thể thao, bóng đá, bóng chuyền, cầu lông,...",
         "price": "99.000đ",
+        "originalPrice": 130000,
+        "flashSaleEndTime":"2025-07-30T23:59:59",
         "imageUrl": "images/15.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUBWpq/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 16,
-        "name": "(vị chanh leo) Tuýp Sủi 10 Viên Sport Drink 5 Bù Điện Giải, Bù Khoáng, Bù Nước Ngọt",
-        "price": "30.000đ",
-        "imageUrl": "images/16.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUP6CM/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 17,
-        "name": "Dây kháng lực Powerband Dương Sport hỗ trợ tập kháng lực Dụng Cụ Tập Luyện Thể Thao",
-        "price": "8.999đ",
-        "imageUrl": "images/17.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUM5hM/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 18,
-        "name": "Dây kháng lực JUSTFIT power band, powerband tập gym, tập yoga, thể dục tập chân nam nữ Tập Cơ Tay Cao Su Tập Yoga",
-        "price": "8.999đ",
-        "imageUrl": "images/18.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUygKE/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 19,
-        "name": "Dây kháng lực miniband tập đá bóng gym yoga chất liệu cao su đàn hồi chính hãng Aolikes Tập Gym Tập Chân",
-        "price": "8.999đ",
-        "imageUrl": "images/19.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknU9PyG/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 20,
-        "name": "Combo 5 chai xịt khử mùi hôi giày dép, khử mùi hôi chân công nghệ Nano bạc nhật bản",
-        "price": "45.999đ",
-        "imageUrl": "images/20.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUydpC/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 21,
-        "name": "Bình xịt khử mùi hôi chân và làm sạch mùi giày Ximo cao cấp 300ml | Loại bỏ vi khuẩn, ngăn mồ hôi công nghệ bạc AG+ Đường, Nam",
-        "price": "85.000đ",
-        "imageUrl": "images/21.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSkny15GN/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 22,
-        "name": "Combo 5 Chai xịt Khử Mùi Giày Nano Bạc Diệt Khuẩn Ngăn Ngừa Hôi Chân Lưu Hương 24h",
-        "price": "64.000đ",
-        "imageUrl": "images/22.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSknUvpVT/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS69tY35/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -201,26 +56,20 @@
         "id": 23,
         "name": "Dây Cao Su Tập Kháng Lực Miniband Aolikes -Dây Tập Kháng Lực Chuyên Tập Thân Dưới Mông, Đùi, Bắp Chân - Tập Gym, Tập Yoga, Tập Bóng Đá - Dây Kháng Lực Phù Hợp Cho Nam - Nữ",
         "price": "29.000đ",
+        "originalPrice": 40000,
+        "flashSaleEndTime":"2025-07-29T23:59:59",
         "imageUrl": "images/23.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSkW8wNwV/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6Q89My/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
     {
         "id": 24,
         "name": "Dây kháng lực bóng đá tập lực sút, Gym  AOLIKES tập lực sút cổ chân, cơ chân, đùi Tập Gym cầu lông",
-        "price": "42.500đ",
+        "price": 49000,
+        "originalPrice": 80000,
         "imageUrl": "images/24.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSkW8CHV5/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 25,
-        "name": "Dây Kháng Lực miniband vải Aolikes kháng lực tập gym chân mông tay đùi cao su",
-        "price": "55.000đ",
-        "imageUrl": "images/25.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSkW8Tny5/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6QbHBn/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -486,29 +335,12 @@
         "platform": "tiktok"
     },
     {
-        "id": 55,
-        "name": "Băng keo thể thao băng keo bảo vệ, hàng chuyên dụng loại một 5cm, 2.5cm Sport",
-        "price": "12.000đ",
-        "imageUrl": "images/55.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSB84kQE7/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
         "id": 56,
         "name": "Băng keo thể thao Nano 2.5cm, 5cm, keo cao su non - Phụ kiện bóng đá quốc dân unisex",
         "price": "9.500đ",
+        "originalPrice": 10000,
         "imageUrl": "images/56.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSB842fVY/",
-        "category": [ "Thể Thao" ],
-        "platform": "tiktok"
-    },
-    {
-        "id": 57,
-        "name": "[Combo] Băng keo Nano thể thao Lõi xanh Nhật và Lõi Đỏ",
-        "price": "62.000đ",
-        "imageUrl": "images/57.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSB84DbD9/",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6Qw33j/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -2855,6 +2687,27 @@
         "imageUrl": "images/276.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSS6abr7V/",
         "category": [ "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 277,
+        "name": "Băng Đệm Bảo Vệ Gối AOLIKES 0217A - Băng đầu gối, dụng cụ đầu gối cho thủ môn, đá bóng, bóng chuyền, gym bắp bó turtle knee",
+        "price": 90000,
+        "originalPrice": 150000,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/277.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6ugsR5/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 278,
+        "name": "Bình Xịt Khử Mùi Giày XIMO Cao Cấp 300ml AG+, Ngăn Mồ Hôi, Loại Bỏ Vi Khuẩn",
+        "price": 69000,
+        "originalPrice": 158000,
+        "imageUrl": "images/278.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS6xJcd9/",
+        "category": [ "Thể Thao", "Thời Trang" ],
         "platform": "tiktok"
     }
 ]
