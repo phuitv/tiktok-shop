@@ -2827,5 +2827,71 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSrTVwMA/",
         "category": [ "Làm Đẹp" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 290,
+        "name": "Bộ Sạc Nhanh TRANYOO US8 Cổng Type C Hỗ Trợ Sạc Nhanh PD 3.1 Công Nghệ GaN Công Suất Lên Đến 120W",
+        "price": 251200,
+        "originalPrice": 448500,
+        "afterFlashSalePrice": 324000,
+        "flashSaleEndTime": "2025-07-30T13:59:59",
+        "imageUrl": "images/290.webp",
+        "affiliateLink": "https://s.shopee.vn/4VSCr6w1ji",
+        "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 291,
+        "name": "Mô hình kim loại 3d, lắp ráp tàu thuyền Piece One, mô hình thuyền, mô hình thép 3D, đồ chơi lắp ráp",
+        "price": 144000,
+        "originalPrice": 180000,
+        "imageUrl": "images/291.webp",
+        "affiliateLink": "https://s.shopee.vn/6pq7eTzkJE",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 292,
+        "name": "Robot lau sàn hút bụi tự làm sạch thông minh Dreame L10s Ultra Gen 2- Bản quốc tế - Bảo Hành 24 tháng",
+        "price": 12870000,
+        "originalPrice": 20990000,
+        "flashSaleEndTime": "2025-07-30T14:59:59",
+        "imageUrl": "images/292.webp",
+        "affiliateLink": "https://s.shopee.vn/8UyLgeptHj",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 293,
+        "name": "[Choice] Dầu gội/xả dành cho nam Pharmaact 4513574037571 hương bạc hà mát lạnh sạch gàu chai 550ml",
+        "price": 94000,
+        "originalPrice": 130600,
+        "flashSaleEndTime": "2025-07-30T15:59:59",
+        "imageUrl": "images/293.webp",
+        "affiliateLink": "https://s.shopee.vn/3LGFXqsStK",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 294,
+        "name": "Máy Đánh Bọt Cafe Cầm Tay Choice EL1-1759-4 Tiện Lợi Dùng Pin Sạc",
+        "price": 169314,
+        "originalPrice": 330000,
+        "flashSaleEndTime": "2025-07-30T15:59:59",
+        "imageUrl": "images/294.webp",
+        "affiliateLink": "https://s.shopee.vn/AA6ZgdrO5d",
+        "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 295,
+        "name": "Dầu Gội Phủ Bạc Gội Là Đen & Nâu Thảo Dược LUCKY STAR -  Tiện Lợi , Đổi Màu Tóc , Nhuộm Tóc - dầu  gội tại nhà - daugo identoc",
+        "price": 144000,
+        "originalPrice": 200000,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/295.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSh8GpfC/",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
