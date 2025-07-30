@@ -2791,5 +2791,41 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSrvvGSc/",
         "category": [ "Mẹ và Bé" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 287,
+        "name": "Cốt Mật 11 Loại Thảo Mộc Lạc Yên Foods - Thơm Nhẹ Thanh Mát Chua Chua Ngọt Ngọt Dễ Uống, Không Có Chất Bảo Quản, An Toàn, Lành Tính",
+        "price": 186400,
+        "originalPrice": 265000,
+        "afterFlashSalePrice": 233000,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/287.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSr3scFw/",
+        "category": [ "Sức Khoẻ", "Ăn Uống", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 288,
+        "name": "Mực tẩm mắm me Làng Chài Xưa loại 1 đặc biệt thơm ngon mềm mại 300 năm truyền thống hủ 175g",
+        "price": 98599,
+        "originalPrice": 200000,
+        "afterFlashSalePrice": 144999,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/288.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSrTNL12/",
+        "category": [ "Ăn Uống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 289,
+        "name": "[NEW] 1 Hộp 10 Miếng Mặt Nạ Giấy COLORKEY LUMINOUS B3 Thế Hệ Mới, Hỗ Trợ Dưỡng Sáng Da Mịn Màng 30ml/miếng",
+        "price": 134291,
+        "originalPrice": 238000,
+        "afterFlashSalePrice": 217989,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/289.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSrTVwMA/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
