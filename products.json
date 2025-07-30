@@ -2760,5 +2760,36 @@
         "affiliateLink": "https://s.shopee.vn/gFTKUO9ZF",
         "category": [ "Thể Thao" ],
         "platform": "shopee"
+    },
+    {
+        "id": 284,
+        "name": "Đồ chơi âm nhạc, nhạc cụ bộ trống jazz drum lớn dành cho bé trai, bé gái.",
+        "price": 199000,
+        "originalPrice": 280000,
+        "imageUrl": "images/284.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSrnVbub/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 285,
+        "name": "Trống Jazz Drum Toyshouse cho bé, Đồ chơi nhạc cụ giải trí hướng nghiệp - Hàng chính hãng baby toys kids",
+        "price": 85000,
+        "originalPrice": 107800,
+        "imageUrl": "images/285.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSrW5WH2/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 286,
+        "name": "[63 TỈNH THÀNH] Khung tranh 3D Bản đồ gỗ Việt Nam 63 tỉnh thành đầy đủ Quần đảo Hoàng Sa và Quần đảo Trường Sa treo tường, decor trang trí, treo phòng khách, phòng làm việc, bàn học, công ty, trường học từ nhà Bách Mộc",
+        "price": 69000,
+        "originalPrice": 129000,
+        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "imageUrl": "images/286.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSrvvGSc/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
     }
 ]
