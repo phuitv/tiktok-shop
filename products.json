@@ -3115,5 +3115,37 @@
         "affiliateLink": "https://s.shopee.vn/4flfRb4lmS",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 315,
+        "name": "Loa Máy Tính Để Bàn EDIFIER M60 | Thiết Kế Nhỏ Gọn | Công suất 66W | Âm Thanh Sắc Nét | Bảo Hành 15 Tháng",
+        "price": 2218500,
+        "originalPrice": 3160000,
+        "afterFlashSalePrice": 2610000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/315.webp",
+        "affiliateLink": "https://s.shopee.vn/709aELU5Oq",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 316,
+        "name": "KOBY vệ sinh mũ bảo hiểm Có thể giặt khô Không có sự kích thích tỷ lệ khử trùng 99% vệ sinh mũ bảo hiểm cho bé",
+        "price": 93198,
+        "originalPrice": 175074,
+        "imageUrl": "images/316.webp",
+        "affiliateLink": "https://s.shopee.vn/AKQ2D9TvEo",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 317,
+        "name": "Loa Vi Tính Mini Laptop LED RGB E-1046, Loa Máy Tính Gaming Cao Cấp Cho PC, Laptop Để Bàn DOPETECH",
+        "price": 89000,
+        "originalPrice": 150000,
+        "imageUrl": "images/317.webp",
+        "affiliateLink": "https://s.shopee.vn/7KmQeSvS4q",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
