@@ -121,9 +121,11 @@
     {
         "id": 31,
         "name": "12 cuộn (4 bịch) túi đựnġ rác đen kícḣ thước 55x65cm, có khả năng tự phân hủy, thân thiện với môi trường Gia Dung Yến Nhi Đa Năng",
-        "price": "45.000đ",
+        "price": "45.999đ",
+        "originalPrice": 99000,
+        "flashSaleEndTime":"2025-07-31T23:59:59",
         "imageUrl": "images/31.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSkcKbGWe/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSBQff1f/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
     },
@@ -2892,6 +2894,38 @@
         "imageUrl": "images/295.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSSh8GpfC/",
         "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 296,
+        "name": "Gối Ngủ Công Thái Học Chống Đau Mỏi Vai Gáy Cổ - Gối Ngủ Spa Thiết Kế Đặc Biệt Hạn Chế Ngáy Giúp Ngủ Ngon",
+        "price": 48000,
+        "originalPrice": 79000,
+        "imageUrl": "images/296.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSB9rcnt/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 297,
+        "name": "[ LOẠI 1 ] Đèn Học LED Chống Cận Thị Thông Minh - Công Suất 7W, 2 Chế Độ Ánh Sáng, Điều Chỉnh Độ Sáng & Nhiệt Độ Màu, Cảm Ứng Siêu Mượt, Gập Gọn Tiện Lợi, Phù Hợp Cho Bàn Học & Làm Việc",
+        "price": 128000,
+        "originalPrice": 256000,
+        "flashSaleEndTime": "2025-07-31T21:59:59",
+        "imageUrl": "images/297.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSBCjVjk/",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 298,
+        "name": "Gối Ôm Thú Nhồi Bông Trái Bơ Dài, Cappybara, Kỳ Lân Hồng, Khủng Long Xanh Dễ Thương – Gấu Bông Dáng Dài Mềm Mại Nhiều Kích Cỡ, Ôm Ngủ Cực Êm",
+        "price": 99000,
+        "originalPrice": 198000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/298.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSBCxGM6/",
+        "category": [ "Gia Dụng" ],
         "platform": "tiktok"
     }
 ]
