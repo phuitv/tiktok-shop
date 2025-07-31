@@ -2963,5 +2963,101 @@
         "affiliateLink": "https://s.shopee.vn/2VhADBbI3Y",
         "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 302,
+        "name": "Máy Hút Bụi Giường Nệm Cầm Tay Gilux - Lực Hút lớn - Tia UV Khử Khuẩn - Hàng Chính Hãng",
+        "price": 649000,
+        "originalPrice": 1080000,
+        "afterFlashSalePrice": 699000,
+        "flashSaleEndTime": "2025-07-31T14:59:59",
+        "imageUrl": "images/302.webp",
+        "affiliateLink": "https://s.shopee.vn/2qK0fQrgMi",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 303,
+        "name": "Máy làm sữa hạt Gilux GLJ16 + TẶNG Sách công thức - 8 chức năng xay nấu tiện lợi - Bảo Hành 12 tháng",
+        "price": 999000,
+        "originalPrice": 1600000,
+        "afterFlashSalePrice": 1299000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/303.webp",
+        "affiliateLink": "https://s.shopee.vn/9AE4Db4Pw7",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 304,
+        "name": "Kem Chấm Mụn Và Serum Actiscar Acnes Giảm Mụn Viêm, Mụn Ẩn, Gom Cồi, Giảm Sưng Và Ngăn Ngừa Mụn",
+        "price": 248200,
+        "originalPrice": 350000,
+        "afterFlashSalePrice": 299000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/304.webp",
+        "affiliateLink": "https://s.shopee.vn/AKQ1cLema0",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 305,
+        "name": "Kem dưỡng Bielenda Dr. Medica Anti-Acne Dermatological giảm mụn, mờ thâm 50ml",
+        "price": 160055,
+        "originalPrice": 260000,
+        "afterFlashSalePrice": 190000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/305.webp",
+        "affiliateLink": "https://s.shopee.vn/1g83JAArVv",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 306,
+        "name": "Máy ép trái cây Gilux GLT25- 200w chính hãng - ép kiệt bã - nguyên quả giữ nguyên dinh dưỡng",
+        "price": 1087150,
+        "originalPrice": 1900000,
+        "afterFlashSalePrice": 1279000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/306.webp",
+        "affiliateLink": "https://s.shopee.vn/8pbDqismzj",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 307,
+        "name": "Máy Vắt Cam Gilux GLEC11 - Ép hoa quả 2 Chiều Tiện Lợi - Hàng Chính Hãng, BH 12 tháng",
+        "price": 349000,
+        "originalPrice": 429000,
+        "afterFlashSalePrice": 399000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/307.webp",
+        "affiliateLink": "https://s.shopee.vn/9AE4FnrYsT",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 308,
+        "name": "Tingbox | Loa Thông báo chuyển khoản | Phiên bản nâng cấp 2025 | Không kèm sim",
+        "price": 700000,
+        "originalPrice": 999000,
+        "afterFlashSalePrice": 750000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/308.webp",
+        "affiliateLink": "https://s.shopee.vn/5L1LhjeYdY",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 309,
+        "name": "Ghế kê chân văn phòng, kê chân công thái học kèm hạt massage FR-08",
+        "price": 221000,
+        "originalPrice": 400000,
+        "afterFlashSalePrice": 260000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/309.webp",
+        "affiliateLink": "https://s.shopee.vn/9AE4HVu2vU",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
