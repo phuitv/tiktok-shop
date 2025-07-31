@@ -3059,5 +3059,61 @@
         "affiliateLink": "https://s.shopee.vn/9AE4HVu2vU",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 310,
+        "name": "Mẫu 2025 Giường Ngủ Văn Phòng Gấp Gọn Có Đệm Gấp Gọn Giường Xếp Thông Minh Di Động Nằm Nghỉ Trưa Tiện Ích.Trọng Tải 100kg",
+        "price": 593450,
+        "originalPrice": 1079000,
+        "flashSaleEndTime": "2025-08-01T23:59:59",
+        "imageUrl": "images/310.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSSp5jcC/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 311,
+        "name": "Ghế Gấp Gọn, Ghế Xếp Gấp Gọn Camping Lưng Cao Cải Tiến Đi Du Lịch Cắm Trại chịu tải 150kg",
+        "price": 115000,
+        "originalPrice": 230000,
+        "imageUrl": "images/311.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSSGBx4D/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 312,
+        "name": "Điều Hòa Mini Hơi Nước Siêu Mát - Quạt Điều Hòa Mini Để Bàn Nhỏ Gọn",
+        "price": 125000,
+        "originalPrice": 250000,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/312.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSSG4Jmy/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 313,
+        "name": "Loa Máy Tính Để Bàn Mini Led Rgb 2.0 Kisonli L-6060 Loa Vi Tính Laptop Gaming Nghe Nhạc Bass Lớn Có Dây",
+        "price": 387000,
+        "originalPrice": 789000,
+        "afterFlashSalePrice": 397000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/313.webp",
+        "affiliateLink": "https://s.shopee.vn/60H31Ei55O",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 314,
+        "name": "Tai Nghe Bluetooth Chụp Tai EDIFIER W830NB | Chống Ồn Chủ Động | Sử Dụng Tới 96H | Thiết Kế Gấp Gọn | Bảo Hành 12 Tháng",
+        "price": 1340000,
+        "originalPrice": 2500000,
+        "afterFlashSalePrice": 1390000,
+        "flashSaleEndTime": "2025-07-31T23:59:59",
+        "imageUrl": "images/314.webp",
+        "affiliateLink": "https://s.shopee.vn/4flfRb4lmS",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
