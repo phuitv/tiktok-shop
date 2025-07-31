@@ -242,10 +242,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const now = new Date();
                 // Kiểm tra xem sản phẩm có phải là Flash Sale và đã hết hạn chưa
                 if (product.flashSaleEndTime && new Date(product.flashSaleEndTime) <= now) {
+                    // Ưu tiên lấy afterFlashSalePrice. Nếu không có, lấy originalPrice.
+                    const newPrice = product.afterFlashSalePrice || product.originalPrice;
                     // Nếu đã hết hạn, tạo một bản sao của sản phẩm và "biến đổi" nó
                     return {
                         ...product, // Giữ lại tất cả các thuộc tính cũ
-                        price: product.afterFlashSalePrice, // Cập nhật lại giá
+                        price: newPrice, // Cập nhật lại giá
+                        // Nếu không có afterFlashSalePrice, không còn "giảm giá" nữa.
+                        originalPrice: product.afterFlashSalePrice ? product.originalPrice : null,
                         flashSaleEndTime: null // Xóa thời gian Flash Sale
                     };
                 }

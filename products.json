@@ -2927,5 +2927,41 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSBCxGM6/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 299,
+        "name": "[Mã ELBSJBP03 giảm 12% đơn 500K] Nồi áp suất cao cấp đa chức năng Elmich PCE-1805 dung tích 2,5L",
+        "price": 975000,
+        "originalPrice": 2090000,
+        "afterFlashSalePrice": 1075000,
+        "flashSaleEndTime": "2025-07-31T14:59:59",
+        "imageUrl": "images/299.webp",
+        "affiliateLink": "https://s.shopee.vn/6AaSYZy0rk",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 300,
+        "name": "Bộ nồi chảo phủ sứ an toàn Elmich Olive Baby EL5242OV16 size 16cm",
+        "price": 400400,
+        "originalPrice": 699000,
+        "afterFlashSalePrice": 440000,
+        "flashSaleEndTime": "2025-07-31T14:59:59",
+        "imageUrl": "images/300.webp",
+        "affiliateLink": "https://s.shopee.vn/LcfcOK9pe",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 301,
+        "name": "Bếp từ đôi cao cấp Elmich ICE-8852/8862",
+        "price": 6190000,
+        "originalPrice": 12990000,
+        "afterFlashSalePrice": 6690000,
+        "flashSaleEndTime": "2025-07-31T14:59:59",
+        "imageUrl": "images/301.webp",
+        "affiliateLink": "https://s.shopee.vn/2VhADBbI3Y",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
