@@ -3189,5 +3189,35 @@
         "affiliateLink": "https://s.shopee.vn/1qRUzUCXAn",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 322,
+        "name": "[COMBO 2 GHẾ BẢN TRẺ EM] Ghế Điều Chỉnh Tư Thế Ngồi Chống Gù Lưng, Ghế Công Thái Học Cho Trẻ Em, Hỗ Trợ Cột Sống Lưng",
+        "price": 165000,
+        "originalPrice": 269000,
+        "imageUrl": "images/322.webp",
+        "affiliateLink": "https://s.shopee.vn/zr2uukrq",
+        "category": [ "Gia Dụng", "Nhà Sách Online" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 323,
+        "name": "Giày đá bóng NMS SPIDER 2.0 TF sân cỏ nhân tạo Thiết kế đinh MỚI (MUA KÈM DEAL SỐC ĐỂ NHẬN QUÀ)",
+        "price": 165000,
+        "originalPrice": 269000,
+        "imageUrl": "images/323.webp",
+        "affiliateLink": "https://s.shopee.vn/2LNlq5eZZh",
+        "category": [ "Gia Dụng", "Nhà Sách Online" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 324,
+        "name": "Túi Bọc Lõi Lọc Máy Hút Bụi (1 túi 100 cái) – Dễ Vệ Sinh, Tăng Tuổi Thọ Lõi Lọc, Phù Hợp 99% Máy Hút Bụi",
+        "price": 24858,
+        "originalPrice": 39000,
+        "imageUrl": "images/324.webp",
+        "affiliateLink": "https://s.shopee.vn/9AE6FOOzRe",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
