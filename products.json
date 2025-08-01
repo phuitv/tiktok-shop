@@ -3159,5 +3159,35 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSAEPUvb/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 319,
+        "name": "Bộ Loa Karaoke Bluetooth iCore ISM09 Kèm 02 Micro - THẾ GIỚI ÂM THANH",
+        "price": 1449999,
+        "originalPrice": 2055900,
+        "imageUrl": "images/319.webp",
+        "affiliateLink": "https://s.shopee.vn/8KeyhBY6Ay",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 320,
+        "name": "Ghế Xoay Có Tựa Lưng Cao Cấp, Ghế Tựa Spa, Ghế Tiêm Filler Bọc Da Cao Cấp",
+        "price": 490000,
+        "originalPrice": 500000,
+        "imageUrl": "images/320.webp",
+        "affiliateLink": "https://s.shopee.vn/8028Jkc7ZT",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 321,
+        "name": "[New 2025] Máy Chụp Hình Digital MX10 5K UltraHD - Chụp giả lập màu phim 75MP, video 4K & 5 màn hình lật, WiFi by MèoBer",
+        "price": 1830000,
+        "originalPrice": 2290000,
+        "imageUrl": "images/321.webp",
+        "affiliateLink": "https://s.shopee.vn/1qRUzUCXAn",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
