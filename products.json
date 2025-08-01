@@ -342,7 +342,7 @@
         "price": "9.500đ",
         "originalPrice": 10000,
         "imageUrl": "images/56.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSS6Qw33j/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSAKTDvu/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
     },
@@ -2821,12 +2821,12 @@
     {
         "id": 289,
         "name": "[NEW] 1 Hộp 10 Miếng Mặt Nạ Giấy COLORKEY LUMINOUS B3 Thế Hệ Mới, Hỗ Trợ Dưỡng Sáng Da Mịn Màng 30ml/miếng",
-        "price": 134291,
+        "price": 163889,
         "originalPrice": 238000,
-        "afterFlashSalePrice": 217989,
-        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "afterFlashSalePrice": 217889,
+        "flashSaleEndTime": "2025-08-01T23:59:59",
         "imageUrl": "images/289.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSSrTVwMA/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSAEnN2T/",
         "category": [ "Làm Đẹp" ],
         "platform": "tiktok"
     },
@@ -2890,9 +2890,9 @@
         "name": "Dầu Gội Phủ Bạc Gội Là Đen & Nâu Thảo Dược LUCKY STAR -  Tiện Lợi , Đổi Màu Tóc , Nhuộm Tóc - dầu  gội tại nhà - daugo identoc",
         "price": 144000,
         "originalPrice": 200000,
-        "flashSaleEndTime": "2025-07-30T23:59:59",
+        "flashSaleEndTime": "2025-08-01T23:59:59",
         "imageUrl": "images/295.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSSh8GpfC/",
+        "affiliateLink": "https://vt.tiktok.com/ZSSAKQf64/",
         "category": [ "Gia Dụng", "Làm Đẹp" ],
         "platform": "tiktok"
     },
@@ -3147,5 +3147,17 @@
         "affiliateLink": "https://s.shopee.vn/7KmQeSvS4q",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 318,
+        "name": "【Thiết kế tổ ấm thoải mái】MODOFO Ghế sofa lười bơm hơi có độ cứng có thể điều chỉnh và có thể gập lại và di động, vải nhung mềm mại, hoàn hảo cho gia đình, văn phòng, cắm trại và giải trí",
+        "price": 849690,
+        "originalPrice": 2198000,
+        "afterFlashSalePrice": 1099000,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/318.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSAEPUvb/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
