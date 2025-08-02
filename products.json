@@ -3300,5 +3300,57 @@
         "affiliateLink": "https://s.shopee.vn/LciiTkcm2",
         "category": [ "Điện Thoại & Phụ Kiện" ],
         "platform": "shopee"
+    },
+    {
+        "id": 333,
+        "name": "Quần Đùi Nữ Nỉ Bông INSOMNIA Ống Rộng Thoải Mái - PS014",
+        "price": 125000,
+        "originalPrice": 150000,
+        "imageUrl": "images/333.webp",
+        "affiliateLink": "https://s.shopee.vn/6pqD6ibg5C",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 334,
+        "name": "[Choice] Kem Đánh Răng Pierrot lTR1-14594-14 Làm Trắng, Chiết Xuất Đu Đủ, Sạch Mảng Bám, 75ML",
+        "price": 72222,
+        "originalPrice": 93600,
+        "imageUrl": "images/334.webp",
+        "affiliateLink": "https://s.shopee.vn/9UqyIZhMKz",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 335,
+        "name": "Quạt Tản Nhiệt Laptop Choice FS1-2322-278 6 Quạt Thổi Cực Mạnh, Chạy Êm, Gió Mát",
+        "price": 224076,
+        "originalPrice": 374100,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/335.webp",
+        "affiliateLink": "https://s.shopee.vn/9KXY6vhNg9",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 336,
+        "name": "[Choice] Son dưỡng môi cho nam Nerman FM1-2436-12 dưỡng ẩm, giảm nứt nẻ, mờ thâm Men in Black 4g",
+        "price": 139000,
+        "originalPrice": 180700,
+        "imageUrl": "images/336.webp",
+        "affiliateLink": "https://s.shopee.vn/4q58kyQ2Df",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 337,
+        "name": "Củ Sạc Anker Zolo GaN 20W 30W Type-C PD A2699 / A2698 - Bảo Hành 18 Tháng",
+        "price": 90000,
+        "originalPrice": 199000,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/337.webp",
+        "affiliateLink": "https://s.shopee.vn/zt0e19HI",
+        "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
