@@ -3352,5 +3352,25 @@
         "affiliateLink": "https://s.shopee.vn/zt0e19HI",
         "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 338,
+        "name": "Sữa bột Nutifood Sweden GrowPLUS+ Colostrum Lactoferrin 2+ 800g",
+        "price": 685000,
+        "originalPrice": 838000,
+        "imageUrl": "images/338.webp",
+        "affiliateLink": "https://s.shopee.vn/1BBqPAmsJS",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 339,
+        "name": "Bộ sạc nhanh Anker ZoLo 140W (4 cổng, GaN) sạc được cho laptop- 3 USB-C PD & 1 USB-A sạc 4 thiết bị cùng lúc - B2697",
+        "price": 1439000,
+        "originalPrice": 1990000,
+        "imageUrl": "images/339.webp",
+        "affiliateLink": "https://s.shopee.vn/2g0eCI3UKn",
+        "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
