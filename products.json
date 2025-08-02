@@ -3227,5 +3227,78 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSyjbUmr/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 326,
+        "name": "[LIVE] Hộp 10 miếng Mặt nạ BNBG Vita Genic Dưỡng Da Hàn Quốc",
+        "price": 160000,
+        "originalPrice": 250000,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/326.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSyh6VQY/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 327,
+        "name": "(TẶNG 10C 5D)Thùng 310 chiếc Khẩu trang 9A DENTAL 5 lớp Kháng Khuẩn,Form to siêu chống nắng và tia uv Khắc tinh của Mùa Hè",
+        "price": 59999,
+        "originalPrice": 240000,
+        "afterFlashSalePrice": 119999,
+        "flashSaleEndTime": "2025-08-02T23:59:59",
+        "imageUrl": "images/327.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSyha8JS/",
+        "category": [ "Gia Dụng", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 328,
+        "name": "(Tặng thước dây) Đai nịt bụng kéo khoá hoa chìm,  ÁO mỏng mát, co giãn, vòng hai siêu thoáng",
+        "price": 114000,
+        "originalPrice": 220000,
+        "imageUrl": "images/328.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSykqpQD/",
+        "category": [ "Làm Đẹp", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 329,
+        "name": "Cờ lật luyện trí nhớ - Đồ chơi tương tác vui nhộn giúp kết nối các thành viên trong gia đình",
+        "price": 32000,
+        "originalPrice": 55000,
+        "imageUrl": "images/329.webp",
+        "affiliateLink": "https://s.shopee.vn/7fPJMZoiHI",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 330,
+        "name": "Miếng Bọt Biển Rửa Mặt Sâu Lỗ Chân Lông 3 Miếng Rửa Mặt Puff Mềm Mại Thân Thiện Với Da",
+        "price": 19899,
+        "originalPrice": 36000,
+        "imageUrl": "images/330.webp",
+        "affiliateLink": "https://s.shopee.vn/5L1OecQy00",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 331,
+        "name": "[Choice] Gel Lột Mụn LUCKY STAR FM1-1042-4 Than Hoạt Tính 60ml/200ml",
+        "price": 29999,
+        "originalPrice": 30000,
+        "imageUrl": "images/331.webp",
+        "affiliateLink": "https://s.shopee.vn/30dTsxkljY",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 332,
+        "name": "Giá Đỡ Điện Thoại Di Động Choice FS1-2213-22 Hút Chân Không Từ Tính Gấp",
+        "price": 49647,
+        "originalPrice": 80900,
+        "imageUrl": "images/332.webp",
+        "affiliateLink": "https://s.shopee.vn/LciiTkcm2",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "shopee"
     }
 ]
