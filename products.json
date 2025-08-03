@@ -3389,9 +3389,28 @@
         "name": "Quần Cạp Chun Ống Rộng , mặc cùng áo phông , áo dài , bà ba Chất Liệu Lụa Mềm Mịn Co Giãn 4 Chiều Không Bai, Xù Lông",
         "price": 123000,
         "originalPrice": 150000,
-        "flashSaleEndTime": "2025-08-03T23:59:59",
         "imageUrl": "images/341.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSSPq3ch1/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 342,
+        "name": "￼[ Váy-Quần Váy ] Quần Lụa Giả Váy - Quần Váy  Lụa mặc Áo Dài Cao Cấp, Mềm Mịn, Kiểu 2 Ống Xéo Xòe Rộng Đẹp - Áo Dài Thời Trang Nữ Women Seo Thun",
+        "price": 155800,
+        "originalPrice": 267800,
+        "imageUrl": "images/342.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPqco9v/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 343,
+        "name": "Quần Váy Mặc Aó Dài Lụa Mỹ QV01",
+        "price": 147400,
+        "originalPrice": 220000,
+        "imageUrl": "images/343.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPg1sCy/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
     }
