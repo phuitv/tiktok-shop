@@ -3413,5 +3413,72 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSPg1sCy/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 344,
+        "name": "Máy lấy cao răng, làm sạch mảng bám tại nhà FIKO T6 PRO - Tặng gương soi răng",
+        "price": 249920,
+        "originalPrice": 498000,
+        "afterFlashSalePrice": 284000,
+        "flashSaleEndTime": "2025-08-03T23:59:59",
+        "imageUrl": "images/344.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPtdcFR/",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 345,
+        "name": "Máy Rửa Mặt Rung Massage Làm Sạch Da Mặt Có Dây Sạc USB, Silicon Mềm Mại, Nhỏ Gọn Tiện Lợi Skincare",
+        "price": 52000,
+        "originalPrice": 86000,
+        "flashSaleEndTime": "2025-08-03T23:59:59",
+        "imageUrl": "images/345.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPnLwdF/",
+        "category": [ "Đồ Công Nghệ", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 346,
+        "name": "Màn chụp tự bung khung xếp thông minh gấp gọn tiện dụng - Mùng Chụp Tự Bung xếp cho người lớn Kiều Phi không cần khoan tường bảo hành 18 tháng ngủ chống muỗi",
+        "price": 124000,
+        "originalPrice": 177000,
+        "flashSaleEndTime": "2025-08-03T23:59:59",
+        "imageUrl": "images/346.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPnW5uR/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 347,
+        "name": "Vỏ gối điều hoà cao su non làm mát tự nhiên kháng khuẩn kích thước 50x70cm mềm mại dễ dàng vệ sinh",
+        "price": 19900,
+        "originalPrice": 39000,
+        "flashSaleEndTime": "2025-08-04T23:59:59",
+        "imageUrl": "images/347.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPWqyL9/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 348,
+        "name": "Nước Hoa Charme Dạng Lăn Mini Thử Mùi Ngọt Sang Quyến Rũ",
+        "price": 9999,
+        "originalPrice": 19998,
+        "imageUrl": "images/348.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPWVvuN/",
+        "category": [ "Làm Đẹp", "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 349,
+        "name": "ANH MỸ - Áo lẻ - bà ba cổ tim tay dài gài nút chất liệu gấm SP0336-1",
+        "price": 90000,
+        "originalPrice": 150000,
+        "afterFlashSalePrice": 100000,
+        "flashSaleEndTime": "2025-08-03T13:59:59",
+        "imageUrl": "images/349.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPWWbNQ/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
     }
 ]
