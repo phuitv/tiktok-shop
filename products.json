@@ -3372,5 +3372,27 @@
         "affiliateLink": "https://s.shopee.vn/2g0eCI3UKn",
         "category": [ "Điện Thoại & Phụ Kiện", "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 340,
+        "name": "Bộ Mỏ Hàn Thiếc Điều Chỉnh Nhiệt Độ TQ936 Kèm Phụ Kiện",
+        "price": 59000,
+        "originalPrice": 80000,
+        "flashSaleEndTime": "2025-08-03T23:59:59",
+        "imageUrl": "images/340.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPqrC8m/",
+        "category": [ "Đồ Công Nghệ", "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 341,
+        "name": "Quần Cạp Chun Ống Rộng , mặc cùng áo phông , áo dài , bà ba Chất Liệu Lụa Mềm Mịn Co Giãn 4 Chiều Không Bai, Xù Lông",
+        "price": 123000,
+        "originalPrice": 150000,
+        "flashSaleEndTime": "2025-08-03T23:59:59",
+        "imageUrl": "images/341.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSPq3ch1/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
     }
 ]
