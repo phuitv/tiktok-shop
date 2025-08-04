@@ -3480,5 +3480,36 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSPWWbNQ/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 350,
+        "name": "[MỞ BÁN] Đồng hồ thông minh Xiaomi Smart Band 10 Đen/ Trắng/ Hồng/ Trắng Gốm - Độ sáng màn 1500 nit - Bảo hành 12 tháng",
+        "price": 990000,
+        "originalPrice": 1600000,
+        "imageUrl": "images/350.webp",
+        "affiliateLink": "https://s.shopee.vn/1LVHZb2tR0",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 351,
+        "name": "Máy Đo Huyết Áp Bluetooth OMRON - Bảo Hành 5 Năm - HEM-7140T1 - Kết nối điện thoại thông minh",
+        "price": 820000,
+        "originalPrice": 960000,
+        "flashSaleEndTime":"2025-08-03T14:59:59",
+        "imageUrl": "images/351.webp",
+        "affiliateLink": "https://s.shopee.vn/9fAPWgOTxb",
+        "category": [ "Đồ Công Nghệ", "Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 352,
+        "name": "Phụ Kiện Đai Cuốn Bảo Vệ Khuỷu Tay Lò Xo Aolikes A-7946 Chất Liệu Cao Su Thoáng Khí Bảo Vệ Khỏi Chấn Thương Chệch Khớp - Phù Hợp Nam Nữ",
+        "price": 75000,
+        "originalPrice": 100000,
+        "imageUrl": "images/352.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSmre3oS/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
     }
 ]
