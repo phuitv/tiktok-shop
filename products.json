@@ -3599,5 +3599,39 @@
         "affiliateLink": "https://s.shopee.vn/8ALdWIObSI",
         "category": [ "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 361,
+        "name": "(RH003)BG Việt Nam Mall - Bộ Hít Đất Đa Năng Cao Cấp Có Kẻ Vạch Hướng Dẫn Xà Đơn, Đồng bàn chống đẩy",
+        "price": 71100,
+        "originalPrice": 139000,
+        "afterFlashSalePrice": 79000,
+        "flashSaleEndTime":"2025-08-05T23:59:59",
+        "imageUrl": "images/361.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSHmPqKE/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 362,
+        "name": "Dây nhảy JUSTFIT tập thể dục tại nhà có dây lõi thép xịn có tạ dài 3m Cao Su",
+        "price": 25000,
+        "originalPrice": 30000,
+        "flashSaleEndTime":"2025-08-05T23:59:59",
+        "imageUrl": "images/362.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSHqq6FP/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 363,
+        "name": "Combo 03 cây kéo Nhật, Kéo cắt đa năng SK5 loại xịn",
+        "price": 78000,
+        "originalPrice": 90000,
+        "flashSaleEndTime":"2025-08-05T23:59:59",
+        "imageUrl": "images/363.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSHb6Ynf/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
