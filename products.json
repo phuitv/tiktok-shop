@@ -3633,5 +3633,27 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSHb6Ynf/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 364,
+        "name": "Thảm Tập Yoga Gym Thể Dục Tại Nhà TOPBODY  Chất Liệu TPE Cao Cấp 2 Lớp Định Tuyến Độ Dày 6-8-10mm Cao Su",
+        "price": 79000,
+        "originalPrice": 121000,
+        "imageUrl": "images/364.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSxETTTk/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 365,
+        "name": "[AWSOOYOR] 3 hộp/30 miếng mặt nạ vitamin B5, mặt nạ chiết xuất trà xanh B5, không chất bảo quản, chăm sóc da, giúp da dưỡng ẩm và cấp nước, phù hợp cho cả nam và nữ.",
+        "price": 4000,
+        "originalPrice": 98000,
+        "afterFlashSalePrice": 49000,
+        "flashSaleEndTime":"2025-08-06T23:59:59",
+        "imageUrl": "images/365.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSxo2Pa9/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
