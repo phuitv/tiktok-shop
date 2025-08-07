@@ -3676,5 +3676,27 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSQdkjcc/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 368,
+        "name": "Máy Lọc Không Khí Xiaomi Mi Air Purifier 4 Compact/ 4 Lite/ Gen 4 - Sạch Bụi Mịn PM2.5, Phấn Hoa, Lông Thú Cưng",
+        "price": 1590000,
+        "originalPrice": 1990000,
+        "imageUrl": "images/368.webp",
+        "affiliateLink": "https://s.shopee.vn/8ALgWGdaa3",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 369,
+        "name": "[NEW DEW] Son Tint Bóng Dạng Thạch Trang Điểm Hàn Quốc Merzy New Watery Dew Tint 4g",
+        "price": 137071,
+        "originalPrice": 299000,
+        "afterFlashSalePrice": 177210,
+        "flashSaleEndTime":"2025-08-07T23:59:59",
+        "imageUrl": "images/369.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSS4h39D3/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
