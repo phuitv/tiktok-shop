@@ -3804,5 +3804,27 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSqnntBV/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 380,
+        "name": "Bình nước Kita Neat 1L, nhựa tritan, tiện lợi cho văn phòng, gia đình, nhà bếp chất liệu nhựa an toàn",
+        "price": 82600,
+        "originalPrice": 118000,
+        "imageUrl": "images/380.webp",
+        "affiliateLink": "https://s.shopee.vn/BJSjQkwXE",
+        "category": [ "Gia Dụng", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 381,
+        "name": "Camera VSTARCAM CB75 không dây dùng sim 4g phát hiện chuyển động hồng ngoại ban đêm ẩn dung lượng pin 3000 mAh",
+        "price": 645960,
+        "originalPrice": 1449000,
+        "afterFlashSalePrice": 769000,
+        "flashSaleEndTime":"2025-08-08T23:59:59",
+        "imageUrl": "images/381.webp",
+        "affiliateLink": "https://s.shopee.vn/qZ9Wwjvwm",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
