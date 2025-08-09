@@ -1374,9 +1374,12 @@
     {
         "id": 145,
         "name": "Khăn giấy cao cấp treo tường Top Gia Tiểu hạ 10 bịch, Giấy vệ sinh 4 lớp dày dặn an toàn, mềm mịn",
-        "price": "100.000đ",
+        "price": 105001,
+        "originalPrice": 169000,
+        "afterFlashSalePrice": 151800,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
         "imageUrl": "images/145.webp",
-        "affiliateLink": "https://s.shopee.vn/3VZ9fYUEfH",
+        "affiliateLink": "https://s.shopee.vn/6pqNrG92PT",
         "category": [ "Nguyên Liệu", "Gia Dụng" ],
         "platform": "shopee"
     },
@@ -3859,5 +3862,93 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSgSDW9A/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 385,
+        "name": "Ghế sofa lười biếng ban công tatami phòng ngủ phòng khách nhà cho thuê ghế sofa căn hộ nhỏ để mini ghế sofa giường cừu decor",
+        "price": 110499,
+        "originalPrice": 428571,
+        "afterFlashSalePrice": 129999,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/385.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSgAydnE/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 386,
+        "name": "TOMKO GOWITHME, Màn hình di động thông minh TOMKO 22 inch, dùng hát karaoke, làm quà tặng, thiết bị livestream, yoga",
+        "price": 5490000,
+        "originalPrice": 8037900,
+        "afterFlashSalePrice": 6100000,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/386.webp",
+        "affiliateLink": "https://s.shopee.vn/7KmbWv1a6x",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 387,
+        "name": "Camera an ninh thông minh V380 Q6 PRO độ phân giải 1080P xoay 360 độ toàn cảnh HD kết nối WiFi tầm nhìn ban đêm",
+        "price": 167000,
+        "originalPrice": 248380,
+        "afterFlashSalePrice": 169000,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/387.webp",
+        "affiliateLink": "https://s.shopee.vn/5pxqcfkNWH",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 388,
+        "name": "[Choice] Chuột Máy Tính Không Dây Dareu EL1-1469-7 Bảo Hành 24 Tháng",
+        "price": 85171,
+        "originalPrice": 138000,
+        "imageUrl": "images/388.webp",
+        "affiliateLink": "https://s.shopee.vn/9fAZCOS1Ct",
+        "category": [ "Linh Kiện & Phụ Kiện PC", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 389,
+        "name": "[CHÍNH HÃNG ĐỘC QUYỀN] Smoothie Tẩy Tế Bào Chết Body Dove Chăm Da Sáng Mịn 298g",
+        "price": 168000,
+        "originalPrice": 199000,
+        "imageUrl": "images/389.webp",
+        "affiliateLink": "https://s.shopee.vn/7KmeQwhwbS",
+        "category": [ "Linh Kiện & Phụ Kiện PC", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 390,
+        "name": "GOOJODOQ 2025 Quạt tốc độ cao để bàn 2 trong 1 mới Quạt gió 100 tốc độ Màn hình kỹ thuật số LED quạt turbo có thể điều chỉnh Đèn chiếu",
+        "price": 322000,
+        "originalPrice": 600000,
+        "imageUrl": "images/390.webp",
+        "affiliateLink": "https://s.shopee.vn/40WCTAlbrH",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 391,
+        "name": "Combo 3 quần lót nam dáng Trunk Bamboo kháng khuẩn Coolmate",
+        "price": 185000,
+        "originalPrice": 329000,
+        "afterFlashSalePrice": 205000,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/391.webp",
+        "affiliateLink": "https://s.shopee.vn/8KfBdQDbBn",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 392,
+        "name": "Bộ đôi dầu gội xả ngăn ngừa & giảm gãy rụng tóc, giúp tóc chắc khỏe hơn L’oreal Paris Full Resist 440ml - Virtual",
+        "price": 469000,
+        "originalPrice": 538000,
+        "imageUrl": "images/392.webp",
+        "affiliateLink": "https://s.shopee.vn/AKQG1S1dSF",
+        "category": [ "Làm Đẹp", "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
