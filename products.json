@@ -3826,5 +3826,38 @@
         "affiliateLink": "https://s.shopee.vn/qZ9Wwjvwm",
         "category": [ "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 382,
+        "name": "Gối Ôm Thú Nhồi Bông Trái Bơ Dài, Cappybara, Kỳ Lân Hồng, Khủng Long Xanh Dễ Thương – Gấu Bông Dáng Dài Mềm Mại Nhiều Kích Cỡ, Ôm Ngủ Cực Êm",
+        "price": 99000,
+        "originalPrice": 198000,
+        "afterFlashSalePrice": 99000,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/382.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSgBPThw/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 383,
+        "name": "Dây tập bụng  6 ống cao su dây kháng lực tập gym kéo tập đa năng săn chắc bụng tay vai tại nhà cho nam nữ nhiều mẫu",
+        "price": 9790,
+        "imageUrl": "images/383.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSgSVp6A/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 384,
+        "name": "Ghế Ngồi Bệt Tựa Lưng Tatami Nhung Phong Cách Nhật Bản - Ghế Tựa 5 Nấc Điều Chỉnh",
+        "price": 239410,
+        "originalPrice": 500000,
+        "afterFlashSalePrice": 269000,
+        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "imageUrl": "images/384.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSgSDW9A/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
