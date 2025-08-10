@@ -3950,5 +3950,71 @@
         "affiliateLink": "https://s.shopee.vn/AKQG1S1dSF",
         "category": [ "Làm Đẹp", "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 393,
+        "name": "[BÁN CHẠY] Bộ Chổi Quét Nhà Thông Minh Chạy Bằng Cơ, Không Cần Sử Dụng Điện Tiện Lợi Cho Gia Đình",
+        "price": 152800,
+        "originalPrice": 200000,
+        "afterFlashSalePrice": 152800,
+        "flashSaleEndTime":"2025-08-10T23:59:59",
+        "imageUrl": "images/393.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSGjqT4m/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 394,
+        "name": "Cọ Bồn Cầu Silicon, Cọ Toilet Nhà Vệ Sinh 2 Trong 1, Có Thể Treo Tường Và Cây Gắp Tóc Parroti Silicon SL02",
+        "price": 127900,
+        "originalPrice": 190000,
+        "imageUrl": "images/394.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSGk23Tc/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 395,
+        "name": "Máy Sấy Quần Áo Thương Hiệu Shintree Treo Tường Gấp Gọn Sấy Khử Khuẩn Quần Áo, 2 Chế Độ Sấy, Diện Tích Nhỏ",
+        "price": 298999,
+        "originalPrice": 499000,
+        "afterFlashSalePrice": 298999,
+        "flashSaleEndTime":"2025-08-10T23:59:59",
+        "imageUrl": "images/395.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSGBHntW/",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 396,
+        "name": "Sữa Tắm Lifebuoy 800gr Detox Và Sạch Sâu Khỏi Bụi Mịn Pm2.5 Detox 100% Từ Thiên Nhiên Diệt Khuẩn",
+        "price": 170880,
+        "originalPrice": 214500,
+        "afterFlashSalePrice": 178000,
+        "flashSaleEndTime":"2025-08-10T23:59:59",
+        "imageUrl": "images/396.webp",
+        "affiliateLink": "https://s.shopee.vn/7ATGF24GXn",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 397,
+        "name": "Bông tẩy trang làm sạch da Bông Bạch Tuyết Calla Mềm Mịn 500Gr",
+        "price": 155000,
+        "originalPrice": 180000,
+        "imageUrl": "images/397.webp",
+        "affiliateLink": "https://s.shopee.vn/9UrB1knQsH",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 398,
+        "name": "Nước giặt OMO Matic 4.1kg (Túi)",
+        "price": 223000,
+        "originalPrice": 258000,
+        "imageUrl": "images/398.webp",
+        "affiliateLink": "https://s.shopee.vn/6Aaj3ufaDo",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
