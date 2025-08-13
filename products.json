@@ -4014,5 +4014,41 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSGfAJ85/",
         "category": [ "Làm Đẹp", "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 400,
+        "name": "Phim cách nhiệt phản quang siêu chống nóng khổ 1.52m đầy đủ CO, CQ",
+        "price": 71499,
+        "originalPrice": 110000,
+        "afterFlashSalePrice": 71499,
+        "flashSaleEndTime":"2025-08-13T23:59:59",
+        "imageUrl": "images/400.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSScYSth4/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 401,
+        "name": "Giấy Dán Kính Phản Quang 1 chiều, Dán Kính Cách Nhiệt chống nắng chống chói cực hiệu quả Decor Decal Decor Phòng Đồng",
+        "price": 29000,
+        "originalPrice": 65000,
+        "afterFlashSalePrice": 29000,
+        "flashSaleEndTime":"2025-08-14T23:59:59",
+        "imageUrl": "images/401.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSScYnfu9/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 402,
+        "name": "(Tặng phụ kiện) VIET AUTOCARE Phim Cách Nhiệt Việt AutoCare 2mil Giảm Ánh Sáng 5% - 50% Cản UV 99% Chống Nắng Hiệu Quả Cho Cửa Kính Nhà Ở Văn Phòng",
+        "price": 75000,
+        "originalPrice": 99000,
+        "afterFlashSalePrice": 75000,
+        "flashSaleEndTime":"2025-08-15T23:59:59",
+        "imageUrl": "images/402.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSSc2BrAG/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
