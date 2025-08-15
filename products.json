@@ -1374,13 +1374,13 @@
     {
         "id": 145,
         "name": "Khăn giấy cao cấp treo tường Top Gia Tiểu hạ 10 bịch, Giấy vệ sinh 4 lớp dày dặn an toàn, mềm mịn",
-        "price": 105001,
+        "price": 88007,
         "originalPrice": 169000,
-        "afterFlashSalePrice": 151800,
-        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "afterFlashSalePrice": 100009,
+        "flashSaleEndTime":"2025-08-15T23:59:59",
         "imageUrl": "images/145.webp",
-        "affiliateLink": "https://s.shopee.vn/6pqNrG92PT",
-        "category": [ "Nguyên Liệu", "Gia Dụng" ],
+        "affiliateLink": "https://s.shopee.vn/60HQKkNTON",
+        "category": [ "Nguyên Liệu", "Gia Dụng", "Đồ Công Sở" ],
         "platform": "shopee"
     },
     {
@@ -2283,10 +2283,12 @@
     {
         "id": 240,
         "name": "Thùng 10 gói khăn ướt Gumi không cồn không parabens cao cấp dành cho em bé",
-        "price": "152.000đ",
+        "price": 124960,
         "originalPrice": 250000,
+        "afterFlashSalePrice": 142000,
+        "flashSaleEndTime":"2025-08-15T23:59:59",
         "imageUrl": "images/240.webp",
-        "affiliateLink": "https://s.shopee.vn/7KmGaUOSKS",
+        "affiliateLink": "https://s.shopee.vn/8KfL6EdSj6",
         "category": [ "Mẹ và Bé", "Gia Dụng" ],
         "platform": "shopee"
     },
@@ -4302,5 +4304,17 @@
         "affiliateLink": "https://vt.tiktok.com/ZSSE83X5c/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 426,
+        "name": "Vali Du Lịch Bamozo Thời Trang Size 20/24 Chất Liệu Nhựa ABS 3 Lớp Bền Đẹp_8812",
+        "price": 384420,
+        "originalPrice": 850000,
+        "afterFlashSalePrice": 447000,
+        "flashSaleEndTime":"2025-08-15T23:59:59",
+        "imageUrl": "images/426.webp",
+        "affiliateLink": "https://s.shopee.vn/10DBPaOHo",
+        "category": [ "Gia Dụng", "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
