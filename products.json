@@ -3924,12 +3924,12 @@
     {
         "id": 391,
         "name": "Combo 3 quần lót nam dáng Trunk Bamboo kháng khuẩn Coolmate",
-        "price": 185000,
+        "price": 179000,
         "originalPrice": 329000,
         "afterFlashSalePrice": 205000,
-        "flashSaleEndTime":"2025-08-09T23:59:59",
+        "flashSaleEndTime":"2025-08-15T20:59:59",
         "imageUrl": "images/391.webp",
-        "affiliateLink": "https://s.shopee.vn/8KfBdQDbBn",
+        "affiliateLink": "https://s.shopee.vn/AUjpyXyyPM",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
     },
@@ -4316,5 +4316,57 @@
         "affiliateLink": "https://s.shopee.vn/10DBPaOHo",
         "category": [ "Gia Dụng", "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 427,
+        "name": "Máy Cắt Tỉa Lông Mũi Konka Thiết Kế Nhỏ Gọn Chống Nước IPX7 Sạc Điện Tiện Lợi GVQ Store",
+        "price": 79500,
+        "originalPrice": 159000,
+        "imageUrl": "images/427.webp",
+        "affiliateLink": "https://s.shopee.vn/3AxFDhd1OP",
+        "category": [ "Đồ Công Nghệ", "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 428,
+        "name": "Balo thời trang PUMA Unisex Phase No. 2",
+        "price": 229200,
+        "originalPrice": 450000,
+        "imageUrl": "images/428.webp",
+        "affiliateLink": "https://s.shopee.vn/1g8RS0ZKJb",
+        "category": [ "Thể Thao","Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 429,
+        "name": "SERUM KHỬ HÔI NÁCH,HÔI CHÂN,NGĂN TIẾT MỒ HÔI DÀNH CHO CẢ NAM VÀ NỮ 10ML",
+        "price": 170000,
+        "originalPrice": 180000,
+        "imageUrl": "images/429.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA1SdExN/",
+        "category": [ "Thể Thao", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 430,
+        "name": "Xe Tập Đi Cao Cấp Chữ U Cho Bé Từ 6 Tháng Tuổi Có Đầy Đủ Miếng Lót Chân Cán Đẩy Và Bàn Ăn Dặm",
+        "price": 470799,
+        "originalPrice": 535000,
+        "afterFlashSalePrice": 534999,
+        "flashSaleEndTime":"2025-08-16T23:59:59",
+        "imageUrl": "images/430.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA1A4JpL/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 431,
+        "name": "Bảng Nghiêng Tập Chân DƯƠNG SPORT; Dụng Cụ Hỗ Trợ Tập Thẳng Chân, Massage Chân, Kéo Giãn Cơ; 42 Điểm Massage, 10 Mức Tập Luyện, 10 Nấc Dễ Dàng Sử Dụng",
+        "price": 138888,
+        "originalPrice": 250000,
+        "imageUrl": "images/431.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA1DCWNF/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
     }
 ]
