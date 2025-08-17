@@ -4404,5 +4404,46 @@
         "affiliateLink": "https://vt.tiktok.com/ZSAeCtcHR/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 435,
+        "name": "Túi ngũ cốc dinh dưỡng Vinasoy - Topping Chocoball (15 gói x 25g)",
+        "price": 75000,
+        "originalPrice": 100000,
+        "imageUrl": "images/435.webp",
+        "affiliateLink": "https://s.shopee.vn/4L9FUuSjLN",
+        "category": [ "Nguyên Liệu", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 436,
+        "name": "Sữa Tắm Than Hoạt Tính Dành Cho Nam Kose Men's Softymo Body Charcoal (Body Soap) 550ml",
+        "price": 159200,
+        "originalPrice": 259000,
+        "imageUrl": "images/436.webp",
+        "affiliateLink": "https://s.shopee.vn/1g8UKMH4TJ",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 437,
+        "name": "[GRO GIFT] Mẫu dùng thử Cà phê đen Nescafe Signature",
+        "price": 500000,
+        "imageUrl": "images/437.webp",
+        "affiliateLink": "https://s.shopee.vn/8KfOHb6r2q",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Nguyên Liệu" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 438,
+        "name": "Máy tăm nước không dây 4 chế độ dùng được răng niềng Lock&Lock Cordless Oral Irrigator 200ml - Màu xanh - ENR156BLU",
+        "price": 675280,
+        "originalPrice": 1334000,
+        "afterFlashSalePrice": 734000,
+        "flashSaleEndTime":"2025-08-17T23:59:59",
+        "imageUrl": "images/438.webp",
+        "affiliateLink": "https://s.shopee.vn/Ld6lbJXJP",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
