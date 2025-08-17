@@ -4225,13 +4225,13 @@
     {
         "id": 418,
         "name": "Xịt hỗ trợ khử mùi hôi nách hôi chân cao cấp COSIMA 60ml cho Nam Nữ + tặng 1 nước hoa 5ml",
-        "price": 132000,
+        "price": 116996,
         "originalPrice": 165000,
-        "afterFlashSalePrice": 132000,
-        "flashSaleEndTime":"2025-08-15T23:59:59",
+        "afterFlashSalePrice": 126996,
+        "flashSaleEndTime":"2025-08-17T23:59:59",
         "imageUrl": "images/418.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSSE1hWtx/",
-        "category": [ "Thời Trang"],
+        "affiliateLink": "https://vt.tiktok.com/ZSAeQVgKT/",
+        "category": [ "Làm Đẹp"],
         "platform": "tiktok"
     },
     {
@@ -4367,6 +4367,42 @@
         "imageUrl": "images/431.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSA1DCWNF/",
         "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 432,
+        "name": "[AF] Sữa Rửa Mặt YLEE Cho Da Dầu Mụn Tuổi Dậy Thì, Da Nhạy Cảm, Hỗ Trợ Trị Mụn, Sáng Da",
+        "price": 119999,
+        "originalPrice": 130000,
+        "afterFlashSalePrice": 129999,
+        "flashSaleEndTime":"2025-08-17T23:59:59",
+        "imageUrl": "images/432.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAexKFnA/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 433,
+        "name": "Mặt Nạ Loại Bỏ Lỗ Chân Lông Mụn Đầu Đen, LANBENA, Chiết Xuất Lô Hội Và Hoa Cúc, Nhẹ Nhàng Cho Mọi Loại Da, Than 2% BHA, Bán Chạy Nhất",
+        "price": 115200,
+        "originalPrice": 300000,
+        "afterFlashSalePrice": 158000,
+        "flashSaleEndTime":"2025-08-17T23:59:59",
+        "imageUrl": "images/433.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAeCf5d3/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 434,
+        "name": "(The Snake) Mở Bán - Giày Sneaker nam nữ Enter Dragon The Snake new 2025 (Sneaker của năm ẤT TỴ)",
+        "price": 372020,
+        "originalPrice": 1050000,
+        "afterFlashSalePrice": 418000,
+        "flashSaleEndTime":"2025-08-17T23:59:59",
+        "imageUrl": "images/434.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAeCtcHR/",
+        "category": [ "Thời Trang" ],
         "platform": "tiktok"
     }
 ]
