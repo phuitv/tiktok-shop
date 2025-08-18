@@ -4489,5 +4489,54 @@
         "affiliateLink": "https://vt.tiktok.com/ZSA88k58q/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 443,
+        "name": "Camera Ngoài Trời VSTARCAM BG66DR lắp SIM 4G năng lượng mặt trời, chống nước IP66, pin 12000mAh",
+        "price": 1270000,
+        "originalPrice": 2580000,
+        "imageUrl": "images/443.webp",
+        "affiliateLink": "https://s.shopee.vn/6pqcYtpzzl",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 444,
+        "name": "Camera wifi Yifeel Gagay camera gia đình xoay 4 chiều hình ảnh sắc nét kết nối với điện thoại điều khiển đàm thoại từ xa",
+        "price": 367500,
+        "originalPrice": 700000,
+        "imageUrl": "images/444.webp",
+        "affiliateLink": "https://s.shopee.vn/6VDmAZt0Db",
+        "category": [ "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 445,
+        "name": "Xịt vệ sinh mũi CleanDay NOSE HYGIENE SPRAY thành phần từ thiên nhiên vệ sinh khoang mũi 70ml",
+        "price": 32219,
+        "originalPrice": 50000,
+        "imageUrl": "images/445.webp",
+        "affiliateLink": "https://s.shopee.vn/gFzEl1Fao",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 446,
+        "name": "Đồng Hồ Thông Minh Trẻ Em Q12 Định Vị Trẻ Em Chống Thấm Nước Ip67",
+        "price": 394680,
+        "originalPrice": 499000,
+        "imageUrl": "images/446.webp",
+        "affiliateLink": "https://s.shopee.vn/8zv7ArG40m",
+        "category": [ "Đồ Công Nghệ", "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 447,
+        "name": "Đồng Hồ Định vị Trẻ Em Cao Cấp P60, Nghe Gọi Video 4G, Định Vị, chống nước IP67, sử dụng Tiếng Việt, Bảo hành 12 tháng",
+        "price": 685000,
+        "imageUrl": "images/447.webp",
+        "affiliateLink": "https://s.shopee.vn/8fIGoYLRI2",
+        "category": [ "Đồ Công Nghệ", "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
