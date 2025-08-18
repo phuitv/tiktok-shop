@@ -4445,5 +4445,49 @@
         "affiliateLink": "https://s.shopee.vn/Ld6lbJXJP",
         "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 439,
+        "name": "[Bản giới hạn] Giày thể thao sneaker nam nữ Unisex Enter Dragon White Wine (Vang trắng trong ngôi sao)",
+        "price": 360000,
+        "originalPrice": 990000,
+        "afterFlashSalePrice": 400000,
+        "flashSaleEndTime":"2025-08-18T23:59:59",
+        "imageUrl": "images/439.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSARv3DTY/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 440,
+        "name": "Kem Chống Nắng Hỗ Trợ Chống nắng phổ rộng, Kháng nước cực đỉnh, kiềm dầu cực chất Sahemul 50g Skincare",
+        "price": 295000,
+        "originalPrice": 320000,
+        "imageUrl": "images/440.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAREN92x/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 441,
+        "name": "[Hàng Vip] Combo 6,5,4 Quần Sịp Boxer Nam, Chất Liệu Vải Thun Lạnh, Co Giản 4 Chiều, Thoáng Mát, Kháng Khuẩn, Bản Cạp Cao Mềm Mại.",
+        "price": 110000,
+        "originalPrice": 179000,
+        "imageUrl": "images/441.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA8RaQ3K/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 442,
+        "name": "[PHOM NHỎ] Giày thể thao, sneaker nữ đế bằng cao 5cm phối màu trẻ trung thời trang năng động dễ phối đồ",
+        "price": 273180,
+        "originalPrice": 499000,
+        "afterFlashSalePrice": 314000,
+        "flashSaleEndTime":"2025-08-18T23:59:59",
+        "imageUrl": "images/442.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA88k58q/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
     }
 ]
