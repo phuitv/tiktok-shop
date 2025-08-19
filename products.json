@@ -4538,5 +4538,39 @@
         "affiliateLink": "https://s.shopee.vn/8fIGoYLRI2",
         "category": [ "Đồ Công Nghệ", "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 448,
+        "name": "[LIVE] Thùng 12 Hộp Sữa Bột Pha Sẵn Varna Colostrum - Bổ Sung Sữa Non Hỗ Trợ Tăng Đề Kháng Nhanh (12 hộp x 237ml)",
+        "price": 273229,
+        "originalPrice": 432000,
+        "afterFlashSalePrice": 306999,
+        "flashSaleEndTime":"2025-08-19T23:59:59",
+        "imageUrl": "images/448.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSANLb5vy/",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Nguyên Liệu" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 449,
+        "name": "VIÊN TINH NGHỆ SỮA ONG CHÚA VỊ NGUYÊN BẢN THUẬN THIÊN",
+        "price": 219000,
+        "originalPrice": 300000,
+        "afterFlashSalePrice": 249000,
+        "flashSaleEndTime":"2025-08-19T23:59:59",
+        "imageUrl": "images/449.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSANLESR7/",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Nguyên Liệu" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 450,
+        "name": "Gel Mụn Sahemul Dùng Cho Da Mụn Ẩn, Mụn Đầu Đen, Phù Hợp Cho Da Nhạy Cảm 20gr Skincare Chăm Sóc Da Hỗ trợ Làm Đẹp Da Hỗ trợ Giảm Mụn",
+        "price": 220000,
+        "originalPrice": 300000,
+        "imageUrl": "images/450.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSANNu3Da/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
     }
 ]
