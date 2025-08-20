@@ -4626,5 +4626,17 @@
         "affiliateLink": "https://vt.tiktok.com/ZSAY5Qvdo/",
         "category": [ "Thời Trang" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 456,
+        "name": "1KG bánh sữa chua hiệu ông già Horsh Bếp Của Mẹ ONICI thơm ngon",
+        "price": 211199,
+        "originalPrice": 240000,
+        "afterFlashSalePrice": 239999,
+        "flashSaleEndTime":"2025-08-20T23:59:59",
+        "imageUrl": "images/456.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAYm4wuf/",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Nguyên Liệu" ],
+        "platform": "tiktok"
     }
 ]
