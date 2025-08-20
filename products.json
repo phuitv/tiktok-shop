@@ -3902,10 +3902,10 @@
     {
         "id": 389,
         "name": "[CHÍNH HÃNG ĐỘC QUYỀN] Smoothie Tẩy Tế Bào Chết Body Dove Chăm Da Sáng Mịn 298g",
-        "price": 156.750,
+        "price": 135456,
         "originalPrice": 199000,
-        "afterFlashSalePrice": 165000,
-        "flashSaleEndTime":"2025-08-13T23:59:59",
+        "afterFlashSalePrice": 166000,
+        "flashSaleEndTime":"2025-08-19T23:59:59",
         "imageUrl": "images/389.webp",
         "affiliateLink": "https://s.shopee.vn/8fI8WSsDqb",
         "category": [ "Làm Đẹp" ],
@@ -4571,6 +4571,60 @@
         "imageUrl": "images/450.webp",
         "affiliateLink": "https://vt.tiktok.com/ZSANNu3Da/",
         "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 451,
+        "name": "Combo 02 khẩu trang vải kháng khuẩn DETERMINANT - DET30™ màu White",
+        "price": 150450,
+        "originalPrice": 177000,
+        "imageUrl": "images/451.webp",
+        "affiliateLink": "https://s.shopee.vn/9fAp1iT6hE",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 452,
+        "name": "Set Bộ 2/9 Đồ Đôi Cho Bé Trai, Bé Gái, bộ áo quần cotton từ 8-20kg in hình em bé yêu nước [DOLL KIDS]",
+        "price": 79000,
+        "originalPrice": 139000,
+        "afterFlashSalePrice": 104000,
+        "flashSaleEndTime":"2025-08-20T23:59:59",
+        "imageUrl": "images/452.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAYyQVjt/",
+        "category": [ "Thời Trang", "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 453,
+        "name": "Dép đế bằng chéo dày bên ngoài Dép đi biển La Mã thông thường sandal xuong",
+        "price": 70000,
+        "originalPrice": 100000,
+        "flashSaleEndTime":"2025-08-21T23:59:59",
+        "imageUrl": "images/453.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAYPj6UC/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 454,
+        "name": "Dép Học Sinh Sandal Nữ Quai Cao Su Chống Trơn Trượt Quai Hậu DéP Nữ Shoes GiàY PEENAM18",
+        "price": 59000,
+        "originalPrice": 79000,
+        "imageUrl": "images/454.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAY5JdKF/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 455,
+        "name": "Sandal nhún ngang quai chéo phối bo chun T38 DéP Nữ",
+        "price": 85000,
+        "originalPrice": 125000,
+        "flashSaleEndTime":"2025-08-20T23:59:59",
+        "imageUrl": "images/455.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAY5Qvdo/",
+        "category": [ "Thời Trang" ],
         "platform": "tiktok"
     }
 ]
