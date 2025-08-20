@@ -4638,5 +4638,57 @@
         "affiliateLink": "https://vt.tiktok.com/ZSAYm4wuf/",
         "category": [ "Ăn Uống & Sức Khoẻ", "Nguyên Liệu" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 457,
+        "name": "Bó gối thể thao, bảo vệ đầu gối tập gym GoodFit co giãn 4 chiều, dệt 3D dày dặn GF518K",
+        "price": 122600,
+        "originalPrice": 149000,
+        "imageUrl": "images/457.webp",
+        "affiliateLink": "https://s.shopee.vn/8AM2ocKvbl",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 458,
+        "name": "Giá treo khăn đa năng, kệ để khăn tắm gấp gọn SQ-6244 Nhôm Anod không rỉ",
+        "price": 379000,
+        "originalPrice": 510000,
+        "imageUrl": "images/458.webp",
+        "affiliateLink": "https://s.shopee.vn/1LVigOUlAM",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 459,
+        "name": "Đồng hồ thông minh trẻ em Valdus VK36 kid 4G watch video call định vị chống nước bảo hành 1 năm",
+        "price": 1269000,
+        "originalPrice": 1499000,
+        "imageUrl": "images/459.webp",
+        "affiliateLink": "https://s.shopee.vn/7V6M2aTjZy",
+        "category": [ "Đồ Công Nghệ", "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 460,
+        "name": "Bigsize - Dầu gội bưởi Cocoon giúp giảm gãy rụng và làm mềm tóc 500ml",
+        "price": 387000,
+        "originalPrice": 388000,
+        "imageUrl": "images/460.webp",
+        "affiliateLink": "https://s.shopee.vn/4L9KHU9aV2",
+        "category": [ "Đồ Công Nghệ", "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 461,
+        "name": "Chuột Bluetooth kép GOOJODOQ 2.4GHz,công thái học im lặng, có điều chỉnh dpi",
+        "price": 177650,
+        "originalPrice": 408000,
+        "afterFlashSalePrice": 179600,
+        "flashSaleEndTime":"2025-08-20T23:59:59",
+        "imageUrl": "images/461.webp",
+        "affiliateLink": "https://s.shopee.vn/9znh2mx0aW",
+        "category": [ "Đồ Công Nghệ", "Linh Kiện & Phụ Kiện PC" ],
+        "platform": "shopee"
     }
 ]
