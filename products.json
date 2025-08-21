@@ -3211,7 +3211,7 @@
         "price": 659000,
         "imageUrl": "images/323.webp",
         "affiliateLink": "https://s.shopee.vn/2LNlq5eZZh",
-        "category": [ "Gia Dụng", "Nhà Sách Online" ],
+        "category": [ "Thể Thao" ],
         "platform": "shopee"
     },
     {
@@ -4689,6 +4689,92 @@
         "imageUrl": "images/461.webp",
         "affiliateLink": "https://s.shopee.vn/9znh2mx0aW",
         "category": [ "Đồ Công Nghệ", "Linh Kiện & Phụ Kiện PC" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 462,
+        "name": "Thùng 48 hộp sữa tươi tiệt trùng TH True Milk Light Meal bổ sung ngũ cốc 180ml (180ml x 48)",
+        "price": 512525,
+        "originalPrice": 589110,
+        "afterFlashSalePrice": 589109,
+        "flashSaleEndTime":"2025-08-21T23:59:59",
+        "imageUrl": "images/462.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAjcYMa4/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 463,
+        "name": "Đệm ngủ đa năng, Nôi ngủ cho bé, Gối hình con gà, Gối chống trào, Chống sặc cho bé, chất liệu vải nhung 3D massage siêu êm, thoải mái và an toàn cho bé, tháo giặt dễ dàng.",
+        "price": 264158,
+        "originalPrice": 349000,
+        "afterFlashSalePrice": 303630,
+        "flashSaleEndTime":"2025-08-21T23:59:59",
+        "imageUrl": "images/463.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAj3MLpj/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 464,
+        "name": "(Hàng Việt Nam Cao Cấp) Gối chống trào ngược bằng vải Xô Muslin Chần Bông cho Trẻ sơ sinh (Tặng Kèm Yếm) Cho Bé, Hỗ trợ tiêu hoá và chống trào ngược, An toàn, Gối Ngủ Kem Nhộng Chũn Xốp",
+        "price": 333520,
+        "originalPrice": 479000,
+        "afterFlashSalePrice": 379000,
+        "flashSaleEndTime":"2025-08-21T23:59:59",
+        "imageUrl": "images/464.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAjT1bEC/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 465,
+        "name": "Xịt Lạnh Quần Áo Làm Mát Cơ Thể HAKUGEN Nhật Bản Hương Thơm Mát (Chai 100ml/300ml)",
+        "price": 119000,
+        "originalPrice": 149000,
+        "afterFlashSalePrice": 119000,
+        "flashSaleEndTime":"2025-08-22T23:59:59",
+        "imageUrl": "images/465.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAjT3x2k/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 466,
+        "name": "Đệm cài HÌNH TRÒN chống tuột, hạn chế rơi kính mắt khi đeo PK13 (chụp loại kính shop tư vấn trước khi đặt đơn)",
+        "price": 10000,
+        "imageUrl": "images/466.webp",
+        "affiliateLink": "https://s.shopee.vn/3qD5HczJ2j",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 467,
+        "name": "Sữa tươi công thức TH True Formula 180ml (180ml x 24 hộp) cho trẻ từ 2 tuổi",
+        "price": 436040,
+        "originalPrice": 448000,
+        "imageUrl": "images/467.webp",
+        "affiliateLink": "https://s.shopee.vn/9UrS3RH26z",
+        "category": [ "Mẹ và Bé", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 468,
+        "name": "Xịt làm lạnh quần áo tức thì Hakugen Earth Ice Non Hương bạc hà siêu mát lạnh 300ml",
+        "price": 130000,
+        "originalPrice": 135000,
+        "imageUrl": "images/468.webp",
+        "affiliateLink": "https://s.shopee.vn/50P2hXtXAb",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 469,
+        "name": "[Hope clothing] Chân váy bí ngô hot trend, váy phồng, váy bí",
+        "price": 220000,
+        "imageUrl": "images/469.webp",
+        "affiliateLink": "https://s.shopee.vn/3VaEvRNmey",
+        "category": [ "Thời Trang" ],
         "platform": "shopee"
     }
 ]
