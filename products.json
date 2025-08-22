@@ -4776,5 +4776,73 @@
         "affiliateLink": "https://s.shopee.vn/3VaEvRNmey",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 470,
+        "name": "Máy Xông Tinh Dầu Phun Sương Tạo Ẩm Trụ Trắng Nga My Dung Tích 500ML Có Chế Độ Hẹn Giờ Đèn Led 7 Màu, phun tinh dầu, máy khuếch tán tinh dầu",
+        "price": 174999,
+        "originalPrice": 300000,
+        "imageUrl": "images/470.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSArpCQuq/",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 471,
+        "name": "Combo Kem Face + Serum - Hỗ Trợ Dưỡng Trắng Mờ Nám Sạm Tàn Nhang - Many Colors",
+        "price": 299000,
+        "originalPrice": 368000,
+        "imageUrl": "images/471.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAhMmSDq/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 472,
+        "name": "Chân váy bí phồng DAZZI form ngắn hack dáng",
+        "price": 99000,
+        "originalPrice": 170000,
+        "imageUrl": "images/472.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAhS4VYS/",
+        "category": [ "Thời Trang" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 473,
+        "name": "Gậy leo núi, gậy trekking GoodFit chính hãng gấp khúc dùng du lịch, phượt, dã ngoại GF03E",
+        "price": 164000,
+        "originalPrice": 249000,
+        "imageUrl": "images/473.webp",
+        "affiliateLink": "https://s.shopee.vn/5L1vEB7sZy",
+        "category": [ "Du Lịch" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 474,
+        "name": "Combo 5/10/20 Bút bi Thiên Long Pro 027 TL-105 - 3 màu mực, thân bút pastel thời trang, phù hợp cho học sinh, sinh viên",
+        "price": 22000,
+        "originalPrice": 40000,
+        "imageUrl": "images/474.webp",
+        "affiliateLink": "https://s.shopee.vn/AKQbCJWNFI",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 475,
+        "name": "TINGOAN® x KOL - Áo len crop lửng cổ bẻ phối nơ cổ tingoan YURI TOP",
+        "price": 430000,
+        "imageUrl": "images/475.webp",
+        "affiliateLink": "https://s.shopee.vn/6Ab2F2G88m",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 476,
+        "name": "TINGOAN® x KOL - Áo len xù túi ngực dáng lửng 2 line viền áo MIMI TOP",
+        "price": 490000,
+        "imageUrl": "images/476.webp",
+        "affiliateLink": "https://s.shopee.vn/10sw5qb880",
+        "category": [ "Thời Trang" ],
+        "platform": "shopee"
     }
 ]
