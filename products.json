@@ -4844,5 +4844,70 @@
         "affiliateLink": "https://s.shopee.vn/10sw5qb880",
         "category": [ "Thời Trang" ],
         "platform": "shopee"
+    },
+    {
+        "id": 477,
+        "name": "Bút lông màu Fiber Pen 20 màu Pastel Thiên Long Colokit rửa được an toàn sử dụng tô màu, vẽ tranh, calligraphy SWM-C008",
+        "price": 60000,
+        "originalPrice": 81000,
+        "imageUrl": "images/477.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAB5K3XK/",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 478,
+        "name": "Ốp Điện Thoại, Thiết Kế Casetify Lấp Lánh Phong Cách Mới, Roria, Tương Thích Với iPhone14plus / 15plus, iPhone11, 13Promax, 14Proma, 11, 12, 13, 14, 15, 16, Thích Hợp Cho iPhone, Ốp Điện Thoại Điểm Lấp Lánh",
+        "price": 69000,
+        "originalPrice": 138000,
+        "imageUrl": "images/478.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSAB9qYrQ/",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 479,
+        "name": "[LIVE] Combo 4 Ngũ Cốc Dinh Dưỡng Varna Complete - Hỗ Trợ Phục Hồi Sức Khoẻ (500g)",
+        "price": 323960,
+        "originalPrice": 500000,
+        "afterFlashSalePrice": 365000,
+        "flashSaleEndTime":"2025-08-23T23:59:59",
+        "imageUrl": "images/479.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSABxLU8e/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 480,
+        "name": "Viên Bổ Não Healthy Care Ginkgo Biloba 2000mg Tăng Cường Trí Nhớ, Giảm Đau Đầu, Lưu Thông Máu Não 100 Viên",
+        "price": 219000,
+        "originalPrice": 345000,
+        "afterFlashSalePrice": 229000,
+        "flashSaleEndTime":"2025-08-23T23:59:59",
+        "imageUrl": "images/480.webp",
+        "affiliateLink": "https://s.shopee.vn/BJqb7GQFh",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 481,
+        "name": "Casetify X Winnie the Pooh Bee Happy Pooh & Bee Happy Tigger Case Hút từ tính Clear Hard Acrylic Back TPU Edge Case Ốp điện thoại",
+        "price": 193752,
+        "originalPrice": 248400,
+        "imageUrl": "images/481.webp",
+        "affiliateLink": "https://s.shopee.vn/1BCNphjxlG",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 482,
+        "name": "[Có Quà Tặng Kèm]Bút lông màu fiber pen bộ 20 màu 20 màu pastel 36 màu Nét Mảnh Nét tiết kiệm được nhiều hơn",
+        "price": 54999,
+        "originalPrice": 81000,
+        "flashSaleEndTime":"2025-08-23T23:59:59",
+        "imageUrl": "images/482.webp",
+        "affiliateLink": "https://s.shopee.vn/30e21SFg2w",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "shopee"
     }
 ]
