@@ -4909,5 +4909,156 @@
         "affiliateLink": "https://s.shopee.vn/30e21SFg2w",
         "category": [ "Nhà Sách Online" ],
         "platform": "shopee"
+    },
+    {
+        "id": 483,
+        "name": "Phích cắm có công tắc cầu chì (Fuse 15A) 10A - 2500W 220V-250VAC - Giắc,Jack Cắm Âm 3 Chân",
+        "price": 31999,
+        "imageUrl": "images/483.webp",
+        "affiliateLink": "https://s.shopee.vn/8pbqTtZ6JT",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 484,
+        "name": "Bộ 50 Dây Buộc Cáp Có Thể Tái Sử Dụng, Băng Quản Lý Cáp, Tổ Chức Quản Lý Cáp Có Móc Và Thiết Kế Vòng",
+        "price": 29700,
+        "imageUrl": "images/484.webp",
+        "affiliateLink": "https://s.shopee.vn/2qKdLRM1K8",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 485,
+        "name": "Miếng dán cường lực Căn cước công dân CCCD Bằng Lái Xe GPLX bảo vệ chống trầy xước - Ngoan Store",
+        "price": 6000,
+        "imageUrl": "images/485.webp",
+        "affiliateLink": "https://s.shopee.vn/8Uz06ZqFEV",
+        "category": [ "Độc Lạ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 486,
+        "name": "Dây Đeo Mắt Kính Bằng Silicon Co Giãn Chống Trượt Màu Đen Thông Dụng Có Thể Điều Chỉnh",
+        "price": 11549,
+        "originalPrice": 15160,
+        "imageUrl": "images/486.webp",
+        "affiliateLink": "https://s.shopee.vn/2B4wZvlnvs",
+        "category": [ "Độc Lạ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 487,
+        "name": "Đồng Hồ Thông Minh Lắp Sim 4G S9 Pro Max Gen 2 Android Màn Hình AMOLED Siêu Tràn WIFI Tải APP",
+        "price": 1510000,
+        "originalPrice": 2450000,
+        "afterFlashSalePrice": 1565000,
+        "flashSaleEndTime":"2025-08-24T23:59:59",
+        "imageUrl": "images/487.webp",
+        "affiliateLink": "https://s.shopee.vn/20lWOKpuKe",
+        "category": [ "Đồ Công Nghệ", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 488,
+        "name": "Đồng Hồ Thông Minh Xiaomi Redmi Watch 5 ACTIVE / 5 LITE - Hàng Chính Hãng, Bản Quốc Tế Tiếng Việt",
+        "price": 750000,
+        "originalPrice": 990000,
+        "imageUrl": "images/488.webp",
+        "affiliateLink": "https://s.shopee.vn/1g8hhtTyHJ",
+        "category": [ "Đồ Công Nghệ", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 489,
+        "name": "Xe đạp thể dục mini tháo lắp tại nhà, văn phòng GoodFit GF003MB",
+        "price": 369000,
+        "originalPrice": 599000,
+        "imageUrl": "images/489.webp",
+        "affiliateLink": "https://s.shopee.vn/9znpgguAzo",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 490,
+        "name": "Xe đạp thể dục tại nhà, tập chân tập tay phục hồi chức năng chính hãng GoodFit GF004PE",
+        "price": 369000,
+        "originalPrice": 599000,
+        "imageUrl": "images/490.webp",
+        "affiliateLink": "https://s.shopee.vn/6fXNijY2NS",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 491,
+        "name": "Ghế ngồi xe máy cho bé đa năng dùng cho hầu hết dòng xe tay ga và xe đạp điện,xe máy điện",
+        "price": 338000,
+        "originalPrice": 520000,
+        "imageUrl": "images/491.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGWFjXD3jEo-V2onP/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 492,
+        "name": "Bàn Chải Tắm Under Bro Tẩy Tế Bào Chết Kì Ghét Cơ Thể Silicone Body Scrubber",
+        "price": 69000,
+        "originalPrice": 115000,
+        "afterFlashSalePrice": 69000,
+        "flashSaleEndTime":"2025-08-27T23:59:59",
+        "imageUrl": "images/492.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGWFjXD3jEo-V2onP/",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 493,
+        "name": "Bóng rổ Airless Gen tiên tiến – Không cần bơm hơi, không lo lắng! Khám phá quả bóng rổ thế hệ mới mang tính cách mạng được tạo ra bằng công nghệ in 3D và công nghệ tiên tiến! Mẫu Airless Gen không cần bơm hơi, chống thủng và luôn giữ được hình dạng hoàn",
+        "price": 2400000,
+        "imageUrl": "images/493.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGW2QCLdanr-iebXf/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 494,
+        "name": "Váy Polo thể thao Pickleball Dink Shot nhẹ, co giãn, thoáng khí - Coolmate Active For Women",
+        "price": 447920,
+        "originalPrice": 599000,
+        "afterFlashSalePrice": 509000,
+        "flashSaleEndTime":"2025-08-26T23:59:59",
+        "imageUrl": "images/494.webp",
+        "affiliateLink": "https://s.shopee.vn/4fmKEqTtZL",
+        "category": [ "Thể Thao", "Thời Trang" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 495,
+        "name": "Ghế ngồi xe điện Gooby chắc chắn, an toàn, phù hợp một vài dòng xe tay ga, xe điện, chiều rộng ghế 34cm",
+        "price": 329000,
+        "originalPrice": 499000,
+        "imageUrl": "images/495.webp",
+        "affiliateLink": "https://s.shopee.vn/2Vhpfq5fLW",
+        "category": [ "Mẹ và Bé", "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 496,
+        "name": "Đồng Hồ Thông Minh HUAWEI WATCH D2 | Theo Dõi Huyết Áp Động| Thiết Kế Mỏng Nhẹ | Quản Lý Sức Khỏe Toàn Diện",
+        "price": 7840000,
+        "originalPrice": 9808000,
+        "imageUrl": "images/496.webp",
+        "affiliateLink": "https://s.shopee.vn/20lZ5YzWVu",
+        "category": [ "Thể Thao", "Đồ Công Nghệ", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 497,
+        "name": "Kệ PET để bàn chải kem đánh răng gắn tường trong suốt kèm 1 cốc cao cấp",
+        "price": 80900,
+        "imageUrl": "images/497.webp",
+        "affiliateLink": "https://s.shopee.vn/2VhpgrwJPm",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
