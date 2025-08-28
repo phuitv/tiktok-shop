@@ -5167,5 +5167,78 @@
         "affiliateLink": "https://s.shopee.vn/6fXQmJtTCr",
         "category": [ "Thời Trang Nữ" ],
         "platform": "shopee"
+    },
+    {
+        "id": 508,
+        "name": "Bọt vệ sinh vợt Pickleball, dung dịch làm sạch mặt vợt Pikleball, hương thơm nước hoa, an toàn cho mọi chất liệu vợt pickleball (Tặng kèm mút tẩy, khăn lau chuyên dụng)",
+        "price": 134999,
+        "originalPrice": 195000,
+        "flashSaleEndTime":"2025-08-28T23:59:59",
+        "imageUrl": "images/508.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGE6cFexdLV-MRvn5/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 509,
+        "name": "Áo Thun Nữ, Áo Phông Unisex By PEABOO Mã TN Việt Nam Chất Cotton Thoáng Mát Form Rộng Tay Lỡ Cho Nam Nữ",
+        "price": 139000,
+        "originalPrice": 249000,
+        "flashSaleEndTime":"2025-08-28T23:59:59",
+        "imageUrl": "images/509.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGErmFT1hrP-zArEa/",
+        "category": [ "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 510,
+        "name": "Dép sục nam nữ NESTY Hoạ Tiết Chữ Thời Trang Cá Tính Chất Liệu Đế EVA, dép sục nhẹ mềm mại sục  nesty NE01-2",
+        "price": 140000,
+        "originalPrice": 220000,
+        "flashSaleEndTime":"2025-08-28T23:59:59",
+        "imageUrl": "images/510.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGEh2E2dJwB-SuNG0/",
+        "category": [ "Thời Trang Nữ", "Thời Trang Nam", "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 511,
+        "name": "Tre aret gel Menarini Ấn Độ hỗ trợ dưỡng da căng bóng, làm đẹp da, hỗ trợ giảm mụn 20gram skincare",
+        "price": 85000,
+        "originalPrice": 150000,
+        "imageUrl": "images/511.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHGEB56FW64R-5Li5x/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 512,
+        "name": "Máy Tỉa Lông Mũi Chân Mày PHILIPS NT3650/16, Công Nghệ PrecisionTrim, Sử Dụng Pin AA, Bảo Hành Chính Hãng 24 Tháng",
+        "price": 570000,
+        "originalPrice": 673000,
+        "imageUrl": "images/512.webp",
+        "affiliateLink": "https://s.shopee.vn/5feuMckEJ7",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 513,
+        "name": "Máy Cạo Râu Du Lịch Cầm Tay PHILIPS S1103 /02, Cạo Râu Dễ Dàng, Êm Ái, Bảo Hành Chính Hãng 24 Tháng",
+        "price": 725000,
+        "originalPrice": 918000,
+        "imageUrl": "images/513.webp",
+        "affiliateLink": "https://s.shopee.vn/4VSwywg7S8",
+        "category": [ "Gia Dụng", "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 514,
+        "name": "Bàn phím cơ gaming Aula F75 3 mode kết nối, có núm chỉnh âm lượng, LED RGB, 4 màu lựa chọn Gongangshop68",
+        "price": 1100880,
+        "originalPrice": 1112000,
+        "imageUrl": "images/514.webp",
+        "affiliateLink": "https://s.shopee.vn/4VSwzsnYaF",
+        "category": [ "Linh Kiện & Phụ Kiện PC" ],
+        "platform": "shopee"
     }
 ]
