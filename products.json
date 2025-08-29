@@ -5240,5 +5240,66 @@
         "affiliateLink": "https://s.shopee.vn/4VSwzsnYaF",
         "category": [ "Linh Kiện & Phụ Kiện PC" ],
         "platform": "shopee"
+    },
+    {
+        "id": 515,
+        "name": "Phấn Phủ Kiềm Dầu Kirsh Blending My Pastel Blur Powder x Sanrio 5g Cho Làn Da Mềm Mịn",
+        "price": 159000,
+        "originalPrice": 230000,
+        "imageUrl": "images/515.webp",
+        "affiliateLink": "https://s.shopee.vn/8zvO2XNSzo",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 516,
+        "name": "[Hot 2025] Đàn guitar Lava Genie Chính hãng- LiRi music",
+        "price": 15800000,
+        "imageUrl": "images/516.webp",
+        "affiliateLink": "https://s.shopee.vn/1qSDW1giDi",
+        "category": [ "Độc Lạ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 517,
+        "name": "Simplus Bàn Ủi Cầm Tay Công Suất Dung Tích Hộc Nước 210mL Có Thể Gấp Gọn GTJH016 - BH 1 Năm 1 Đổi 1",
+        "price": 369000,
+        "originalPrice": 549000,
+        "imageUrl": "images/517.webp",
+        "affiliateLink": "https://s.shopee.vn/1qSDWlEv1e",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 518,
+        "name": "Băng gối thể thao Aolikes Size từ 35-85 kg có 2 bản Có Lò Xo / Không Lò Xo Bó gối bảo vệ khớp gối khi bóng chuyền, bóng đá, chạy bộ Aolikes 7616 Sport",
+        "price": 75000,
+        "originalPrice": 150000,
+        "flashSaleEndTime":"2025-08-29T23:59:59",
+        "imageUrl": "images/518.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA9gomws/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 519,
+        "name": "Bình nước giữ nhiệt thể thao Pickleball dung tích 1000ml giữ nhiệt 48h - Joola - Proton - Selkrik - CRBN - Wilson",
+        "price": 246000,
+        "originalPrice": 398000,
+        "flashSaleEndTime":"2025-08-29T23:59:59",
+        "imageUrl": "images/519.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA9sSCoS/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 520,
+        "name": "Dép Sandan mã VN2224 hàng Việt Nam Chất lượng Cao Sandal Đế cao Su Nguyên Chất",
+        "price": 259000,
+        "originalPrice": 350000,
+        "imageUrl": "images/520.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSA9GNSrr/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ" ],
+        "platform": "tiktok"
     }
 ]
