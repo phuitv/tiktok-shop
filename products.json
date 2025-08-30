@@ -5357,15 +5357,47 @@
         "platform": "tiktok"
     },
     {
-        "id": 525,
-        "name": "Kẹp Tóc Cờ Đỏ Sao Vàng Việt Nam Hottrend Quốc Khánh 2/9 - Phụ Kiện Tóc Độc Đáo & Ý Nghĩa",
-        "price": 6800,
-        "originalPrice": 40000,
-        "afterFlashSalePrice": 79000,
+        "id": 526,
+        "name": "Set bộ đồ quần áo thể thao nam pickleball tennis FlexLine Active Thoáng khí, thoải mái, thấm hút tốt Coolmate",
+        "price": 289000,
+        "originalPrice": 418000,
+        "afterFlashSalePrice": 339000,
         "flashSaleEndTime":"2025-08-30T23:59:59",
-        "imageUrl": "images/525.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSHtN4YWhXCLy-xSeyF/",
-        "category": [ "Thời Trang Nữ" ],
-        "platform": "tiktok"
+        "imageUrl": "images/526.webp",
+        "affiliateLink": "https://s.shopee.vn/9AEpsntcYG",
+        "category": [ "Thời Trang Nam", "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 527,
+        "name": "Bồn tắm gấp gọn cho người lớn FUHO, làm từ vải Oxford , chống thấm, cách nhiệt 3h",
+        "price": 294000,
+        "originalPrice": 515000,
+        "afterFlashSalePrice": 299000,
+        "flashSaleEndTime":"2025-08-30T23:59:59",
+        "imageUrl": "images/527.webp",
+        "affiliateLink": "https://s.shopee.vn/1g8pAZqdgw",
+        "category": [ "Gia Dụng", "Độc Lạ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 528,
+        "name": "Chai lăn giúp giảm đầy hơi, quấy khóc dạ đề cho trẻ sơ sinh Mega We Care Gazgo Baby (50ml)",
+        "price": 304520,
+        "originalPrice": 351000,
+        "imageUrl": "images/528.webp",
+        "affiliateLink": "https://s.shopee.vn/7fQ2K4fBLA",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 529,
+        "name": "Guốc gỗ cho bé gái truyền thống, dép guốc mộc trẻ em xoan đào bền bỉ chống thấm Thiên Di",
+        "price": 75000,
+        "originalPrice": 105000,
+        "imageUrl": "images/529.webp",
+        "affiliateLink": "https://s.shopee.vn/7ATlk8Mhrn",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
     }
 ]
