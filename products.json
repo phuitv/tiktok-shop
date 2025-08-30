@@ -5301,5 +5301,71 @@
         "affiliateLink": "https://vt.tiktok.com/ZSA9GNSrr/",
         "category": [ "Thời Trang Nam", "Thời Trang Nữ" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 521,
+        "name": "[TẶNG 10G BỘT TINH CHẤT B3] BỘT TẮM THẢO MỘC 500G,camicosmetic Dưỡng Body dưỡng da",
+        "price": 139000,
+        "originalPrice": 189000,
+        "flashSaleEndTime":"2025-08-30T23:59:59",
+        "imageUrl": "images/521.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtNHF9x6V1f-WqVpi/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 522,
+        "name": "Calem Club - Quần Short ngắn nữ Denim Mood chất liệu Jean dáng ngắn trên gối phong cách trẻ trung năng động",
+        "price": 114998,
+        "originalPrice": 200000,
+        "afterFlashSalePrice": 129998,
+        "flashSaleEndTime":"2025-08-30T23:59:59",
+        "imageUrl": "images/522.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtN9Be5NBYR-ubpZE/",
+        "category": [ "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 523,
+        "name": "Balo Thêu Tên Dành Cho Bé Từ 0 Đến 5 Tuổi, Đựng Đồ Dùng, Quần Áo Đi Học, Chất Liệu Nhung Tăm, Thiết Kế Dễ Thương",
+        "price": 139000,
+        "originalPrice": 161000,
+        "flashSaleEndTime":"2025-08-30T23:59:59",
+        "imageUrl": "images/523.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtNx2dKsLw5-ywCDk/",
+        "category": [ "Mẹ và Bé", "Nhà Sách Online" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 524,
+        "name": "Áo Thun Yêu Nước, In Hình Tự Do Và Độc Lập, Thiết Kế Cờ Việt Nam, Làm Bằng Cotton Chất Lượng Cao, Thoáng Khí, Vừa Vặn Thông Thường, Áo Thun Nhóm Unisex, Dành Cho Nam Và Nữ, Thích Hợp Để Kỷ Niệm Ngày Quốc Gia Vào Ngày 2 Tháng Chín.",
+        "price": 79000,
+        "originalPrice": 140000,
+        "imageUrl": "images/524.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtNCvGvGq5b-jPZ7A/",
+        "category": [ "Thời Trang Nữ", "Thời Trang Nam" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 525,
+        "name": "Kẹp Tóc Cờ Đỏ Sao Vàng Việt Nam Hottrend Quốc Khánh 2/9 - Phụ Kiện Tóc Độc Đáo & Ý Nghĩa",
+        "price": 6800,
+        "originalPrice": 40000,
+        "imageUrl": "images/525.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtN4YWhXCLy-xSeyF/",
+        "category": [ "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 525,
+        "name": "Kẹp Tóc Cờ Đỏ Sao Vàng Việt Nam Hottrend Quốc Khánh 2/9 - Phụ Kiện Tóc Độc Đáo & Ý Nghĩa",
+        "price": 6800,
+        "originalPrice": 40000,
+        "afterFlashSalePrice": 79000,
+        "flashSaleEndTime":"2025-08-30T23:59:59",
+        "imageUrl": "images/525.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtN4YWhXCLy-xSeyF/",
+        "category": [ "Thời Trang Nữ" ],
+        "platform": "tiktok"
     }
 ]
