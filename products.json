@@ -5399,5 +5399,37 @@
         "affiliateLink": "https://s.shopee.vn/7ATlk8Mhrn",
         "category": [ "Mẹ và Bé" ],
         "platform": "shopee"
+    },
+    {
+        "id": 530,
+        "name": "Dép phong cách Hàn Quốc, Chất liệu EVA mềm, Chiều cao 5CM, Dép MD, Chống trượt, Thích hợp cho thể thao và các hoạt động ngoài trời, Chống thấm nước và chống chặn, Thích hợp để lái xe trên bãi biển, Chống mài mòn, Có thể được mặc ngoài trời",
+        "price": 289000,
+        "originalPrice": 559000,
+        "imageUrl": "images/530.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt6yDX7Wmek-rJG52/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 531,
+        "name": "SD22 - Giày Sandal Quai Dù Unisex Nesty đế EVA chống thấm nước, chống trơn trượt",
+        "price": 300000,
+        "originalPrice": 520000,
+        "imageUrl": "images/531.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt6faQaEJaw-Iv6DE/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 532,
+        "name": "Găng Tay Tập Gym - Dây Kéo Lưng - Strap da bò chính hãng Valeo cao cấp ( 1 đôi) Chống Trơn",
+        "price": 169000,
+        "originalPrice": 250000,
+        "afterFlashSalePrice": 184000,
+        "flashSaleEndTime":"2025-08-31T23:59:59",
+        "imageUrl": "images/532.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt6PFrxEt7M-HbVKb/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
     }
 ]
