@@ -5431,5 +5431,79 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHt6PFrxEt7M-HbVKb/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 533,
+        "name": "[SIÊU SALE QUỐC KHÁNH 2/9] Bàn chải điện Brushie Ultra Plus tích hợp đầu rửa mặt hỗ trợ làm sạch hiệu quả [ BẢO HÀNH 1000 NGÀY ] TẶNG 1 TÚI CANVAS + 1 MÓC KHÓA + STICKER/CỜ TỔ QUỐC",
+        "price": 666000,
+        "originalPrice": 1400000,
+        "imageUrl": "images/533.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtyMSanV1h6-mSMcU/",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 534,
+        "name": "Combo 3-4-5 Quần Lót Nam Boxer In Hình Capybara, Quần Boxer nam Vải Thun Lạnh Co Dãn 4 Chiều. Sịp Menswear Boxer có size từ 30-80kg , che tên sản phẩm khi giao freeship toàn quốc. sipdui boxer  6 múi",
+        "price": 79999,
+        "originalPrice": 130000,
+        "imageUrl": "images/534.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtyrmXuFxrV-qBjPG/",
+        "category": [ "Thời Trang Nam" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 535,
+        "name": "Spinnix Bó Đầu Gối Thể Thao Novix, Bảo Vệ Đầu Gối, Thoáng Khí, Linh Hoạt, Freesize Cho Nam Nữ, Phù Hợp Pickleball, Bóng Đá, Bóng Chuyền,...",
+        "price": 205900,
+        "originalPrice": 250000,
+        "afterFlashSalePrice": 209900,
+        "flashSaleEndTime":"2025-09-02T23:59:59",
+        "imageUrl": "images/535.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtyhYRV8c3P-KoFks/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 536,
+        "name": "Viên Uống Dầu Cá Sport Research Alaskan Fish Oil Omega-3 (60v)",
+        "price": 468000,
+        "originalPrice": 585000,
+        "imageUrl": "images/536.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtykjnVbprs-5T3CI/",
+        "category": [ "Thể Thao", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 537,
+        "name": "Viên uống bổ sung Collagen Youtheory Type 1,2,3 hộp 390 viên Healthy Care quatangme",
+        "price": 599000,
+        "originalPrice": 690000,
+        "imageUrl": "images/537.webp",
+        "affiliateLink": "https://s.shopee.vn/4AqFCYLeqJ",
+        "category": [ "Làm Đẹp", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 538,
+        "name": "Máy tăm nước gấp gọn HANGY HM23 Phiên bản mới nhất 2025 [1 đổi 1 trong 12 tháng]",
+        "price": 719000,
+        "originalPrice": 1550000,
+        "afterFlashSalePrice": 769000,
+        "flashSaleEndTime":"2025-09-02T23:59:59",
+        "imageUrl": "images/538.webp",
+        "affiliateLink": "https://s.shopee.vn/50PMLEwNcC",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 539,
+        "name": "Bỉm Huggies tràm trà,skin perfect , mega Jumbo Tiết kiệm đủ size",
+        "price": 220000,
+        "originalPrice": 268420,
+        "imageUrl": "images/539.webp",
+        "affiliateLink": "https://s.shopee.vn/6AbJk0buT2",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
     }
 ]
