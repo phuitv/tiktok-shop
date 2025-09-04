@@ -5550,5 +5550,54 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHtHucT1K1Yu-tyaTn/",
         "category": [ "Gia Dụng", "Đồ Công Sở" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 544,
+        "name": "Viên Uống Làm Đẹp Da DHC Collagen Nhật Bản",
+        "price": 225000,
+        "imageUrl": "images/544.webp",
+        "affiliateLink": "https://s.shopee.vn/8UzHTBNxbI",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 545,
+        "name": "Nệm Ngải Cứu Cao Cấp Chính Hãng, Thảm Ngải Cứu Chính Hãng Hoàng Thịnh An, Gối Ngải Cứu Hoàng Thịnh An",
+        "price": 340000,
+        "originalPrice": 550000,
+        "imageUrl": "images/545.webp",
+        "affiliateLink": "https://s.shopee.vn/50PPJ6P680",
+        "category": [ "Gia Dụng", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 546,
+        "name": "Xe đạp tập thể dục Sport GH600 cảm biến nhịp tim, giao hàng hoả tốc",
+        "price": 1250000,
+        "originalPrice": 2100000,
+        "imageUrl": "images/546.webp",
+        "affiliateLink": "https://s.shopee.vn/1BCgkQPS00",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 547,
+        "name": "Bồn cầu di động cho người già, bà bầu, trẻ em bằng nhựa cao cấp có tay vịn đệm tựa lưng - NABITA",
+        "price": 629000,
+        "originalPrice": 850000,
+        "imageUrl": "images/547.webp",
+        "affiliateLink": "https://s.shopee.vn/50PPJlYag5",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 548,
+        "name": "Combo 2 thùng Sữa chua trẻ em HOFF mix vị (24 lốc - 48 hộp/55g)",
+        "price": 1018400,
+        "originalPrice": 1242000,
+        "imageUrl": "images/548.webp",
+        "affiliateLink": "https://s.shopee.vn/7pjahNMIad",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Trẻ Em" ],
+        "platform": "shopee"
     }
 ]
