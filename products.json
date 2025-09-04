@@ -5505,5 +5505,50 @@
         "affiliateLink": "https://s.shopee.vn/6AbJk0buT2",
         "category": [ "Mẹ và Bé" ],
         "platform": "shopee"
+    },
+    {
+        "id": 540,
+        "name": "Quần thể thao chạy bộ 2 lớp, quần đùi short thoáng khí thấm hút mồ hôi, co giãn cực tốt. Hàng cao cấp xuất khẩu Nam Sport Đồng Tập Thể Dục Trang Phục",
+        "price": 155000,
+        "imageUrl": "images/540.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtH57Dc7SBs-sw0zu/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 541,
+        "name": "Đèn Lồng Trung Thu Baby Three Hottrend 2025 – Đèn LED Hình Thú Dễ Thương",
+        "price": 29999,
+        "originalPrice": 50000,
+        "afterFlashSalePrice": 29999,
+        "flashSaleEndTime":"2025-09-04T23:59:59",
+        "imageUrl": "images/541.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtHmyEbmrxW-L5YHl/",
+        "category": [ "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 542,
+        "name": "Gel E-za-nic 15g  Hỗ Trợ Giảm Mụn, Mờ Thâm Đỏ, Thâm Đen - Skincare, Chăm Sóc Da",
+        "price": 126000,
+        "originalPrice": 135000,
+        "afterFlashSalePrice": 126000,
+        "flashSaleEndTime":"2025-09-04T11:59:59",
+        "imageUrl": "images/542.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtHu6XERg8c-Tj8pn/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 543,
+        "name": "[CAM KẾT RẺ NHẤT] 560 chiếc Khẩu trang 5D Xanh Việt Hannah Seyo chống tia UV, bụi mịn 3 lớp",
+        "price": 149000,
+        "originalPrice": 279000,
+        "afterFlashSalePrice": 178000,
+        "flashSaleEndTime":"2025-09-05T23:59:59",
+        "imageUrl": "images/543.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtHucT1K1Yu-tyaTn/",
+        "category": [ "Gia Dụng", "Đồ Công Sở" ],
+        "platform": "tiktok"
     }
 ]
