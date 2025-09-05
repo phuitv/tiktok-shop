@@ -5599,5 +5599,126 @@
         "affiliateLink": "https://s.shopee.vn/7pjahNMIad",
         "category": [ "Ăn Uống & Sức Khoẻ", "Trẻ Em" ],
         "platform": "shopee"
+    },
+    {
+        "id": 549,
+        "name": "Tranh Góc Mầm Non Chất Liệu Decan ốp tường mẫu giáo Nguyên Tấm Kich Thước 50x100cm Decor Decal Decor Phòng",
+        "price": 140000,
+        "imageUrl": "images/549.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4bjDqdVyr-lWtxj/",
+        "category": [ "Trường Mầm Non", "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 550,
+        "name": "Decal dán tường mica dán nổi học sinh trang trí lớp học, phòng học, khu vui chơi cho bé Decor",
+        "price": 98600,
+        "imageUrl": "images/550.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4g6J1NmCK-zXqaG/",
+        "category": [ "Trường Mầm Non", "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 551,
+        "name": "Tranh dán tường mica dán nổi góc học tập trang trí lớp học, thư viện, phòng đọc, văn phòng công ty",
+        "price": 148860,
+        "originalPrice": 198480,
+        "imageUrl": "images/551.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4g4o6oWAY-PAyhf/",
+        "category": [ "Trường Mầm Non", "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 552,
+        "name": "Cửa hàng Tranh dán tường mica các loại trang trí lớp học, thư viện, phòng đọc, văn phòng công ty",
+        "price": 0,
+        "imageUrl": "images/552.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4pnmsonXW-Pywdw/",
+        "category": [ "Trường Mầm Non", "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 553,
+        "name": "Phông nền chụp ảnh Trung Thu cỡ lớn / Phông trang trí Trung Thu/ Tranh vải Trung Thu",
+        "price": 149000,
+        "originalPrice": 298000,
+        "imageUrl": "images/553.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4GJynWBMd-Cjmy1/",
+        "category": [ "Trường Mầm Non" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 554,
+        "name": "Phụ Kiện Trang Trí Trung Thu 2025 - trang trí trung thu decor quán nước, cafe Phông nền chụp ảnh Trung Thu cỡ lớn",
+        "price": 149000,
+        "originalPrice": 298000,
+        "imageUrl": "images/554.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4GHFvVNJA-AtFcz/",
+        "category": [ "Trường Mầm Non" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 555,
+        "name": "Tranh vải Trung Thu 2025 trang trí mầm non có cỡ lớn 3m, trường học, Decor chung cư, công ty, văn phòng, cafe, nhà hàng, khu vui chơi, tổ chức sự kiện Backdrop trang trí Tết thiếu nhi, Trung Thu 2025 treo tường đẹp cao cấp - TT1 Proman",
+        "price": 149000,
+        "originalPrice": 298000,
+        "afterFlashSalePrice": 149000,
+        "flashSaleEndTime":"2025-09-05T23:59:59",
+        "imageUrl": "images/555.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4th3v5yL2-Y10WP/",
+        "category": [ "Trường Mầm Non", "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 556,
+        "name": "[UNBEE] Nhộng Chũn Mở Tay Thông Hơi Tơ Tằm Kháng Khuẩn Có Cúc Bấm - An Toàn Cho Bé Từ 0-9 Tháng",
+        "price": 265050,
+        "originalPrice": 350000,
+        "imageUrl": "images/556.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4ntasUtLM-OweSn/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 557,
+        "name": "Kem Chống Nắng Hỗ Trợ Ngừa Mụn, Kiềm Dầu DECUMAR",
+        "price": 195000,
+        "originalPrice": 209000,
+        "imageUrl": "images/557.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHt4v1Fy1opS-y43QR/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 558,
+        "name": "Đai đi xe máy an toàn cho bé BABIBO từ 1 - 6 tuổi có phản quang, thoáng khí, chắc chắn",
+        "price": 106000,
+        "originalPrice": 198000,
+        "afterFlashSalePrice": 106000,
+        "flashSaleEndTime":"2025-09-05T23:59:59",
+        "imageUrl": "images/558.jpg",
+        "affiliateLink": "https://s.shopee.vn/2qKwUSVGcJ",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 559,
+        "name": "Máy lọc không khí và tạo ion Sharp FP-FE33V-B cho phòng 21m2 - Hàng chính hãng - Nhập Khẩu Thái La",
+        "price": 2370000,
+        "originalPrice": 3099000,
+        "imageUrl": "images/559.jpg",
+        "affiliateLink": "https://s.shopee.vn/4fmag5cvgR",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 560,
+        "name": "Bộ Đôi 'PHỒNG TỰ NHIÊN' Phục Hồi Hư Tổn HASOL Hasol Volume Hair 500g+Xịt Dưỡng Mọc Tóc Ha'sol Anagen Active Tonic 100ml",
+        "price": 503000,
+        "originalPrice": 750000,
+        "imageUrl": "images/560.jpg",
+        "affiliateLink": "https://s.shopee.vn/8UzJFZiMhH",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
     }
 ]
