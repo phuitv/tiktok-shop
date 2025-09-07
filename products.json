@@ -5720,5 +5720,25 @@
         "affiliateLink": "https://s.shopee.vn/8UzJFZiMhH",
         "category": [ "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 561,
+        "name": "Áo khoác kéo Chống Nắng Ninja Zipper Hoodie NOCTURNAL Vải 2 Da Cực Tốt Hindless Fabric 2.0 Unisex Localbrand",
+        "price": 350000,
+        "originalPrice": 420000,
+        "imageUrl": "images/561.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHttPE8dttGX-gU58C/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 562,
+        "name": "SNUGGLE - Nước hoa xịt vải Chính Hãng Korea",
+        "price": 148750,
+        "originalPrice": 175000,
+        "imageUrl": "images/562.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHttmAj8KEPk-SQIx2/",
+        "category": [ "Gia Dụng", "Đồ Công Sở" ],
+        "platform": "tiktok"
     }
 ]
