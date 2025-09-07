@@ -5740,5 +5740,44 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHttmAj8KEPk-SQIx2/",
         "category": [ "Gia Dụng", "Đồ Công Sở" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 563,
+        "name": "Phấn trang điểm dễ dàng Blj Thumb Puff",
+        "price": 42120,
+        "originalPrice": 54000,
+        "imageUrl": "images/563.jpg",
+        "affiliateLink": "https://s.shopee.vn/9zoA7XBJYW",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 564,
+        "name": "[GRO GIFT] Mẫu dùng thử Cà phê đen Nescafe Signature",
+        "price": 500000,
+        "imageUrl": "images/564.jpg",
+        "affiliateLink": "https://s.shopee.vn/8fImXWRTym",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 565,
+        "name": "[d 'Alba Official] Kem chống nắng trắng Truffle Tone Up Purple 50ml",
+        "price": 522400,
+        "originalPrice": 897600,
+        "imageUrl": "images/565.jpg",
+        "affiliateLink": "https://s.shopee.vn/5AiuNXFCGu",
+        "category": [ "Làm Đẹp", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 566,
+        "name": "[d'Alba Official] Kem chống nắng nâng tông da Waterfull Tone-up Sun Cream SPF 50+ 50ml",
+        "price": 522400,
+        "originalPrice": 897600,
+        "imageUrl": "images/566.jpg",
+        "affiliateLink": "https://s.shopee.vn/2qKzbahiJt",
+        "category": [ "Làm Đẹp", "Đồ Công Sở" ],
+        "platform": "shopee"
     }
 ]
