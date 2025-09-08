@@ -5779,5 +5779,37 @@
         "affiliateLink": "https://s.shopee.vn/2qKzbahiJt",
         "category": [ "Làm Đẹp", "Đồ Công Sở" ],
         "platform": "shopee"
+    },
+    {
+        "id": 567,
+        "name": "Combo 2 bước DrKam Nước súc miệng chuẩn y khoa và Kem đánh răng sinh học Postbiotic 110g Khử Hôi Miệng Trắng Răng",
+        "price": 333000,
+        "originalPrice": 435000,
+        "imageUrl": "images/567.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtvE6oJSojn-nqMRJ/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 568,
+        "name": "[Tặng 4 Xúc Xích Siuto] Combo 100 Cây Xúc Xích Heo Ngon Dinh Dưỡng Tiệt Trùng S2 Joy Vietinter Foods",
+        "price": 172000,
+        "originalPrice": 210000,
+        "imageUrl": "images/568.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtvoQhWwkco-ThSob/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 569,
+        "name": "Sandal mã VN 0299 thương hiệu Vinasan do VN sản xuất",
+        "price": 232132,
+        "originalPrice": 350000,
+        "afterFlashSalePrice": 239000,
+        "flashSaleEndTime":"2025-09-08T23:59:59",
+        "imageUrl": "images/569.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtc1uxwaY47-MEmCG/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ", "Trẻ Em" ],
+        "platform": "tiktok"
     }
 ]
