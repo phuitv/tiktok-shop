@@ -5840,5 +5840,68 @@
         "affiliateLink": "https://s.shopee.vn/3qDY4s72gf",
         "category": [ "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 573,
+        "name": "[ DOLL KIDS ] Set Bộ Pijama, Pizama, Dài Tay Chấm Bi Phối Cổ Cho Bé, Set Bộ Thu Đông, Set Mặc Ngủ - PZ01",
+        "price": 98900,
+        "originalPrice": 148900,
+        "afterFlashSalePrice": 123900,
+        "flashSaleEndTime":"2025-09-09T23:59:59",
+        "imageUrl": "images/573.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtw3K2fouXt-MSGoa/",
+        "category": [ "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 574,
+        "name": "Túi Vải Thô Du Lịch, imiomo, Túi Cuối Tuần Cho Nữ, Có Ngăn Đựng Giày, Túi Qua Đêm Mang Theo, Túi Đựng Đồ Vệ Sinh Cá Nhân, Túi Trống Tập Gym, Có Túi Ướt, Thích Hợp Sử Dụng Trong Bệnh Viện Cho Lao Động Và Giao Hàng",
+        "price": 711500,
+        "imageUrl": "images/574.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtwwkLkreGe-0gWjR/",
+        "category": [ "Gia Dụng", "Du Lịch" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 575,
+        "name": "Sáp lăn khử mùi Old Spice 73g & 85g - Khử Mùi Hôi lăn khử mùi",
+        "price": 138998,
+        "originalPrice": 139000,
+        "afterFlashSalePrice": 138998,
+        "flashSaleEndTime":"2025-09-09T23:59:59",
+        "imageUrl": "images/575.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHtwKEabfW8q-uP2OK/",
+        "category": [ "Làm Đẹp", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 576,
+        "name": "Chai xà phòng bát đĩa điện HOUCHU, Hộp đựng xà phòng cầm tay tự động chống nước bằng thép không gỉ 304, Cảm biến cảm ứng Máy rửa",
+        "price": 753340,
+        "originalPrice": 999998,
+        "imageUrl": "images/576.jpg",
+        "affiliateLink": "https://s.shopee.vn/9UrwEnjxDO",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 577,
+        "name": "Ví Da Đứng Monogram IRON Trượt Nước Nam Nữ Bóp Đựng Tiền Thẻ Nhiều Ngăn Cao Cấp | MI MIDORI",
+        "price": 149000,
+        "originalPrice": 199000,
+        "imageUrl": "images/577.jpg",
+        "affiliateLink": "https://s.shopee.vn/7V6rrXL4CC",
+        "category": [ "Thời Trang Nam", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 578,
+        "name": "Hũ sữa chua thủy tinh tròn béo 100ml, 200ml",
+        "price": 6900,
+        "originalPrice": 14900,
+        "imageUrl": "images/578.jpg",
+        "affiliateLink": "https://s.shopee.vn/5ffDgTc6ii",
+        "category": [ "Nhà Cửa & Đời Sống" ],
+        "platform": "shopee"
     }
 ]
