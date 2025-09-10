@@ -5903,5 +5903,66 @@
         "affiliateLink": "https://s.shopee.vn/5ffDgTc6ii",
         "category": [ "Nhà Cửa & Đời Sống" ],
         "platform": "shopee"
+    },
+    {
+        "id": 579,
+        "name": "Túi Vải Thô Tập Gym Du Lịch, imiomo, Túi Cuối Tuần Cho Nữ, Túi Tote Lớn Dành Cho Qua Đêm, Túi Đeo Vai Thể Thao Và Bệnh Viện",
+        "price": 377000,
+        "originalPrice": 720000,
+        "afterFlashSalePrice": 432000,
+        "flashSaleEndTime":"2025-09-11T23:59:59",
+        "imageUrl": "images/579.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn1KfboqQSx-0xdUL/",
+        "category": [ "Nhà Cửa & Đời Sống", "Du Lịch", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 580,
+        "name": "[HỘP 6 GÓI] Snack Food Ăn Vặt Lá Rong Biển TaoKaeNoi BIG ROLL 3g (Hộp 6 gói)",
+        "price": 38000,
+        "originalPrice": 52500,
+        "imageUrl": "images/580.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn1ouHeNw4f-uCYFO/",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Trẻ Em" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 581,
+        "name": "Mặt nạ giấy nén Miniso Nhật Bản 100 viên",
+        "price": 70000,
+        "originalPrice": 78000,
+        "imageUrl": "images/581.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnJJHW7G2WL-IgQ4E/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 582,
+        "name": "Xếp hình cho bé 8 cấp độ Mideer puzzle Level Up, đồ chơi trí tuệ lắp ghép tranh cho bé",
+        "price": 135000,
+        "imageUrl": "images/582.jpg",
+        "affiliateLink": "https://s.shopee.vn/70AciQqm9I",
+        "category": [ "Trẻ Em" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 583,
+        "name": "Balo bỉm sữa thời trang cho mẹ và bé, rộng rãi chống thấm kích thước 27x21x42cm",
+        "price": 239000,
+        "originalPrice": 350000,
+        "imageUrl": "images/583.jpg",
+        "affiliateLink": "https://s.shopee.vn/8zvh6PuK5x",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 584,
+        "name": "Thực phẩm bảo vệ sức khỏe DHC COLLAGEN (NEW) (20 ngày) - Dạng viên uống hỗ trợ bổ sung collagen",
+        "price": 185000,
+        "originalPrice": 200000,
+        "imageUrl": "images/584.jpg",
+        "affiliateLink": "https://s.shopee.vn/30eTxnK7yJ",
+        "category": [ "Ăn Uống & Sức Khoẻ", "Làm Đẹp" ],
+        "platform": "shopee"
     }
 ]
