@@ -6017,15 +6017,34 @@
         "platform": "tiktok"
     },
     {
-        "id": 589,
-        "name": "Giày quốc dân Asia MCS02 bền đẹp cho bất cứ ai, đi bất cứ đâu; size 36-45",
-        "price": 177000,
-        "originalPrice": 200000,
-        "afterFlashSalePrice": 109000,
+        "id": 590,
+        "name": "Nệm KADE Grea Me 20cm Đệm Foam Cao Su Non Kết Hợp Lò xo liên kết KADE Home Goods Mattress",
+        "price": 639902,
+        "originalPrice": 929700,
+        "imageUrl": "images/590.webp",
+        "affiliateLink": "https://s.shopee.vn/gGakJEbIT",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 591,
+        "name": "Ví nam nữ mini Natoli thông minh, bóp đựng thẻ nhiều ngăn cao cấp Futuristic Mini Wallet V8",
+        "price": 394000,
+        "originalPrice": 669000,
+        "afterFlashSalePrice": 419000,
         "flashSaleEndTime":"2025-09-11T23:59:59",
-        "imageUrl": "images/589.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSHn8STP7qwv8-l5jCY/",
-        "category": [ "Ăn Uống & Sức Khoẻ" ],
-        "platform": "tiktok"
+        "imageUrl": "images/591.webp",
+        "affiliateLink": "https://s.shopee.vn/8zvifz6MuR",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 592,
+        "name": "Thước kẻ thước toán Toán học Vẽ đa chức năng Học sinh tiểu học Thước hình học Trường trung học cơ sở Chức năng hình học thước kẻ thước ta",
+        "price": 45360,
+        "imageUrl": "images/592.webp",
+        "affiliateLink": "https://s.shopee.vn/8fIsI7NdRV",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "shopee"
     }
 ]
