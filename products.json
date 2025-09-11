@@ -6046,5 +6046,16 @@
         "affiliateLink": "https://s.shopee.vn/8fIsI7NdRV",
         "category": [ "Nhà Sách Online" ],
         "platform": "shopee"
+    },
+    {
+        "id": 593,
+        "name": "SET 3 BÁT SỨ CÓ TAY CẦM + BÁT ĂN CƠM + THÌA SỨ , COMBO CHÉN SỨ CÓ TAY CẦM  CHÉN ĂN CƠM THÌA SỨ ĐÁNG YÊU CHO BÉ",
+        "price": 98999,
+        "originalPrice": 199000,
+        "flashSaleEndTime":"2025-09-11T23:59:59",
+        "imageUrl": "images/593.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnLAGJjPbWA-AOle6/",
+        "category": [ "Mẹ và Bé", "Trẻ Em", "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
