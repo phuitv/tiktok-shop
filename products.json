@@ -5964,5 +5964,68 @@
         "affiliateLink": "https://s.shopee.vn/30eTxnK7yJ",
         "category": [ "Ăn Uống & Sức Khoẻ", "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 585,
+        "name": "Ví đựng thẻ Mini Cho Nam Nữ Da Bò Sáp Cao Cấp Nhỏ Gọn Khoá Bấm Tiện Dụng Wallet",
+        "price": 136500,
+        "originalPrice": 195000,
+        "imageUrl": "images/585.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn86aBr8cgw-lAoDe/",
+        "category": [ "Thời Trang Nam", "Thời Trang Nữ", "Trường Mầm Non", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 586,
+        "name": "Ví Đứng Nam , Da Bò Sáp Và Da Bò Nappa Mềm, Khắc Tên Theo Yêu Cầu, Bảo Hành 12 Tháng , Thương Hiệu SAGO Wallet",
+        "price": 168000,
+        "originalPrice": 350000,
+        "imageUrl": "images/586.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn8rPubcuVT-If2qB/",
+        "category": [ "Thời Trang Nam", "Trường Mầm Non", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 587,
+        "name": "Ví Gấp Thiết Kế Đa Năng Thời Trang Cho Nữ, Ví Đựng Thẻ Tiền Xu Dung Tích Lớn, Ví Da PU Có Khóa Kéo",
+        "price": 101000,
+        "imageUrl": "images/587.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn8hM1a44TR-Qze5G/",
+        "category": [ "Thời Trang Nữ", "Trường Mầm Non", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 588,
+        "name": "Cơm Cháy Rong Biển Phô Mai 220gr Giòn Tan Thơm Ngậy Ăn Vặt - Vợ Chồng A Phủi An Lành Không Chất Bảo Quản Mon Ngon Moinha Comchay Phomai Comchayrongbien Anvatngon Anvatgiontan Dacsanviet",
+        "price": 94000,
+        "originalPrice": 139000,
+        "afterFlashSalePrice": 109000,
+        "flashSaleEndTime":"2025-09-11T23:59:59",
+        "imageUrl": "images/588.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn8kPQafnKf-AMqvc/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 589,
+        "name": "Giày quốc dân Asia MCS02 bền đẹp cho bất cứ ai, đi bất cứ đâu; size 36-45",
+        "price": 177000,
+        "originalPrice": 200000,
+        "imageUrl": "images/589.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn8STP7qwv8-l5jCY/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 589,
+        "name": "Giày quốc dân Asia MCS02 bền đẹp cho bất cứ ai, đi bất cứ đâu; size 36-45",
+        "price": 177000,
+        "originalPrice": 200000,
+        "afterFlashSalePrice": 109000,
+        "flashSaleEndTime":"2025-09-11T23:59:59",
+        "imageUrl": "images/589.jpg",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn8STP7qwv8-l5jCY/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
     }
 ]
