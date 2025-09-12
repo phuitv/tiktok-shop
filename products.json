@@ -6088,14 +6088,33 @@
         "platform": "tiktok"
     },
     {
-        "id": 596,
-        "name": "Xịt chống sâu răng Midkid chính hãng vị nho 30ml, vị táo 20ml cho bé từ 1 tuổi giúp làm sạch và bảo vệ răng miệng trẻ - Tặng Bàn chải thẳng + Sticker",
-        "price": 155000,
-        "originalPrice": 185000,
-        "flashSaleEndTime":"2025-09-11T23:59:59",
-        "imageUrl": "images/596.webp",
-        "affiliateLink": "https://vt.tiktok.com/ZSHn22UQfCPfj-mMhFk/",
-        "category": [ "Mẹ và Bé", "Trẻ Em", "Gia Dụng" ],
-        "platform": "tiktok"
+        "id": 597,
+        "name": "Bàn chải cọ rửa bình sữa , bình nước, vệ sinh ly cốc- vệ sinh đa năng 3in1 tiện lợi -Bàn chải rửa cốc",
+        "price": 17500,
+        "originalPrice": 35000,
+        "imageUrl": "images/597.webp",
+        "affiliateLink": "https://s.shopee.vn/5ffITMuncN",
+        "category": [ "Mẹ và Bé", "Nhà Cửa & Đời Sống" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 598,
+        "name": "Tấm Chà Lưng, Chà Chân Silicon Massage Body Có Móc Treo -Tấm Chà Tạo Bọt Có Hút Chân Dính Tường",
+        "price": 10681,
+        "originalPrice": 19800,
+        "imageUrl": "images/598.webp",
+        "affiliateLink": "https://s.shopee.vn/gGcXN9zps",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 599,
+        "name": "[SIZE TRẢI NGHIỆM] Bột tẩy đa năng Oxiclean giúp tẩy vết bẩn cứng đầu, vết ố vàng quần áo, dầu mỡ, an toàn với da tay",
+        "price": 18000,
+        "originalPrice": 25000,
+        "imageUrl": "images/599.webp",
+        "affiliateLink": "https://s.shopee.vn/3qDeJUTeHn",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
     }
 ]
