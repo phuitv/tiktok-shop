@@ -6057,5 +6057,45 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHnLAGJjPbWA-AOle6/",
         "category": [ "Mẹ và Bé", "Trẻ Em", "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 594,
+        "name": "Senfineco 9945 Dung Dịch Phủ Nano Hiệu Ứng Lá Sen Chống Tụ Nước Kính Lái",
+        "price": 200000,
+        "imageUrl": "images/594.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn2NaJNERoA-Zjzwt/",
+        "category": [ "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 595,
+        "name": "Bút Màu Acrylic Markers Đầu Brush 12/24/36/48/60 Màu Vẽ Lên Mọi Chất Liệu, Không Lem",
+        "price": 49000,
+        "originalPrice": 59000,
+        "imageUrl": "images/595.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn2YFTwLky5-hvJrh/",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 596,
+        "name": "Xịt chống sâu răng Midkid chính hãng vị nho 30ml, vị táo 20ml cho bé từ 1 tuổi giúp làm sạch và bảo vệ răng miệng trẻ - Tặng Bàn chải thẳng + Sticker",
+        "price": 155000,
+        "originalPrice": 185000,
+        "imageUrl": "images/596.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn22UQfCPfj-mMhFk/",
+        "category": [ "Trẻ Em", "Ăn Uống & Sức Khoẻ", "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 596,
+        "name": "Xịt chống sâu răng Midkid chính hãng vị nho 30ml, vị táo 20ml cho bé từ 1 tuổi giúp làm sạch và bảo vệ răng miệng trẻ - Tặng Bàn chải thẳng + Sticker",
+        "price": 155000,
+        "originalPrice": 185000,
+        "flashSaleEndTime":"2025-09-11T23:59:59",
+        "imageUrl": "images/596.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn22UQfCPfj-mMhFk/",
+        "category": [ "Mẹ và Bé", "Trẻ Em", "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
