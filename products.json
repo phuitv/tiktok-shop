@@ -6116,5 +6116,26 @@
         "affiliateLink": "https://s.shopee.vn/3qDeJUTeHn",
         "category": [ "Gia Dụng" ],
         "platform": "shopee"
+    },
+    {
+        "id": 600,
+        "name": "Bánh trung thu healthy 2025 Baker Baking ít ngọt, không phẩm màu, mix nhiều vị 150gr không kèm hộp Food Cake",
+        "price": 70000,
+        "originalPrice": 90000,
+        "imageUrl": "images/600.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnr49XBgGwv-Ex9Xx/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 601,
+        "name": "Dụng cụ xay tỏi ớt Lebenlang LBL3999, dung tích 180ml, lưỡi dao xay bén, dây kéo rút tiện lợi - hàng chính hãng",
+        "price": 89000,
+        "originalPrice": 159000,
+        "flashSaleEndTime":"2025-09-13T23:59:59",
+        "imageUrl": "images/601.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnrqb1CpWS6-dQwDr/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
