@@ -6137,5 +6137,70 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHnrqb1CpWS6-dQwDr/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 602,
+        "name": "(1 túi 10 hộp) Dầu cù là cao sao vàng 3gr Dược TW3",
+        "price": 42000,
+        "originalPrice": 44000,
+        "imageUrl": "images/602.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnrpAwp9SLA-vpVcs/",
+        "category": [ "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 603,
+        "name": "Giày sandal nữ xỏ ngón đế bệt quai mảnh bạc đi học đi chơi TRẮNG/ĐEN WOSHOE",
+        "price": 79980,
+        "originalPrice": 119000,
+        "flashSaleEndTime":"2025-09-13T23:59:59",
+        "imageUrl": "images/603.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnrsQthN7bH-rnyku/",
+        "category": [ "Thời Trang Nữ", "Đồ Công Sở" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 604,
+        "name": "Set Đồ Thể Thao Tập Gym, Chạy bộ gồm Áo Tank Top Melange và Quần Short 5inch Essentials Coolmate",
+        "price": 308000,
+        "originalPrice": 408000,
+        "imageUrl": "images/604.webp",
+        "affiliateLink": "https://s.shopee.vn/gGe7EIpJm",
+        "category": [ "Thể Thao" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 605,
+        "name": "Máy triệt lông cao cấp tại nhà Công nghệ ánh sáng kép × Làm lạnh cực sâu 2°C Kết nối App thông minh",
+        "price": 4769600,
+        "originalPrice": 8800000,
+        "afterFlashSalePrice": 5410000,
+        "flashSaleEndTime":"2025-09-13T23:59:59",
+        "imageUrl": "images/605.webp",
+        "affiliateLink": "https://s.shopee.vn/4AqWI3DPGv",
+        "category": [ "Làm Đẹp", "Đồ Công Nghệ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 606,
+        "name": "Bộ 2 Hộp Cơm Giữ Nhiệt LocknLock New Tower Vacuum Lunch Box LHC8055VOL Thép Không Gỉ 304, Kèm Muỗng và Phụ Kiện - K-MALL",
+        "price": 462000,
+        "originalPrice": 840000,
+        "imageUrl": "images/606.webp",
+        "affiliateLink": "https://s.shopee.vn/6prHTEIrqo",
+        "category": [ "Gia Dụng", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 606,
+        "name": "Bộ 2 Hộp Cơm Giữ Nhiệt LocknLock New Tower Vacuum Lunch Box LHC8055VOL Thép Không Gỉ 304, Kèm Muỗng và Phụ Kiện - K-MALL",
+        "price": 462000,
+        "originalPrice": 840000,
+        "afterFlashSalePrice": 5410000,
+        "flashSaleEndTime":"2025-09-13T23:59:59",
+        "imageUrl": "images/606.webp",
+        "affiliateLink": "https://s.shopee.vn/6prHTEIrqo",
+        "category": [ "Làm Đẹp", "Đồ Công Nghệ" ],
+        "platform": "shopee"
     }
 ]
