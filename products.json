@@ -6192,15 +6192,73 @@
         "platform": "shopee"
     },
     {
-        "id": 606,
-        "name": "Bộ 2 Hộp Cơm Giữ Nhiệt LocknLock New Tower Vacuum Lunch Box LHC8055VOL Thép Không Gỉ 304, Kèm Muỗng và Phụ Kiện - K-MALL",
-        "price": 462000,
-        "originalPrice": 840000,
-        "afterFlashSalePrice": 5410000,
-        "flashSaleEndTime":"2025-09-13T23:59:59",
-        "imageUrl": "images/606.webp",
-        "affiliateLink": "https://s.shopee.vn/6prHTEIrqo",
-        "category": [ "Làm Đẹp", "Đồ Công Nghệ" ],
+        "id": 607,
+        "name": "COMBO 2 Hộp 10 Mặt Nạ Dừa Bio-Cellulose Mask 25g Emmie by HappySkin",
+        "price": 533000,
+        "originalPrice": 1180000,
+        "imageUrl": "images/607.webp",
+        "affiliateLink": "https://s.shopee.vn/1LWPcq0qEI",
+        "category": [ "Làm Đẹp" ],
         "platform": "shopee"
+    },
+    {
+        "id": 608,
+        "name": "【VHL x Perfect Diary】Phấn phủ kiềm dầu PERFECT DIARY lên đến 12h giữ lớp nền luôn mềm mịn 7g",
+        "price": 519200,
+        "imageUrl": "images/608.webp",
+        "affiliateLink": "https://s.shopee.vn/8AMjmSKCh7",
+        "category": [ "Làm Đẹp", "Đồ Công Sở" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 609,
+        "name": "Hộp Bảo Quản Trứng Nhiều Lớp Tự Động Trứng Cán Khay Để Bảo Quản Tủ Lạnh Đặc Biệt Cấp Thực Phẩm Tươi Hộp Bảo Quản",
+        "price": 113200,
+        "originalPrice": 176000,
+        "imageUrl": "images/609.webp",
+        "affiliateLink": "https://s.shopee.vn/50Pi1t9Tvx",
+        "category": [ "Gia Dụng" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 610,
+        "name": "Thảm Ngải Cứu Đông Y ADORA | Chườm Nóng, Sưởi Ấm, Hỗ Trợ Đau Nhức Xương Khớp, Mỏi Vai Gáy Đệm Sưởi Ngải Cứu Giúp Massage thư giãn mùa đông, đả thông kinh mạch rất tốt cho sức khoẻ",
+        "price": 280000,
+        "originalPrice": 400000,
+        "flashSaleEndTime":"2025-09-16T23:59:59",
+        "imageUrl": "images/610.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnuq8K98PPb-02Ojc/",
+        "category": [ "Gia Dụng", "Đồ Công Nghệ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 611,
+        "name": "Nút Bắn G21 Cho Game Sinh Tồn PUBG, Free Fire,… Độ Nhạy Cao Ghìm Tâm Ngắm Chuẩn Xác Top 1 Trong Tầm Tay Của Game Thủ",
+        "price": 54450,
+        "originalPrice": 55000,
+        "flashSaleEndTime":"2025-09-16T23:59:59",
+        "imageUrl": "images/611.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnugVheYxqS-CkPdK/",
+        "category": [ "Đồ Công Nghệ", "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 612,
+        "name": "Thời khoá biểu thay đổi được môn học dành cho Tiểu học, THCS và THPT",
+        "price": 29000,
+        "imageUrl": "images/612.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnusjA1er85-8iZgw/",
+        "category": [ "Nhà Sách Online" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 613,
+        "name": "Mỡ chồn Mink oil XIMO 100ml - Hỗ trợ bảo dưỡng, phục hồi đồ da, túi xách, áo da, ví da, ghế sofa, giày da nam nữ",
+        "price": 95000,
+        "originalPrice": 139000,
+        "imageUrl": "images/613.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnuGywuwM7o-msIEn/",
+        "category": [ "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
     }
 ]
