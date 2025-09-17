@@ -6260,5 +6260,35 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHnuGywuwM7o-msIEn/",
         "category": [ "Nhà Cửa & Đời Sống" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 614,
+        "name": "[SKINCARE] Mặt Nạ Đất Sét Trắng HOBE BAR Hỗ Trợ Làm Sạch Da - Mask Chăm Sóc Da Dành Cho Nam Và Nữ (55ml)",
+        "price": 50000,
+        "originalPrice": 200000,
+        "flashSaleEndTime":"2025-09-17T23:59:59",
+        "imageUrl": "images/614.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnC98LeYodq-pJBiI/",
+        "category": [ "Làm Đẹp" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 615,
+        "name": "(HOẢ TỐC) Tẩy mặt vợt Pickleball chính hãng JPN, phôi tẩy xịn, mềm dẻo, siêu bảo vệ mặt vợt",
+        "price": 58000,
+        "imageUrl": "images/615.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnC9GyUHCVt-9Hg55/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 616,
+        "name": "Nẹp Cổ Tay SOLOEVER Siêu Mỏng | Băng Đàn Hồi Nén, Giảm Đau, Dùng Cho Gym & Thể Thao",
+        "price": 89000,
+        "originalPrice": 178000,
+        "imageUrl": "images/616.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnCxb7btcj3-YGsQY/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
     }
 ]
