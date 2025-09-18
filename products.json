@@ -6290,5 +6290,97 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHnCxb7btcj3-YGsQY/",
         "category": [ "Thể Thao" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 617,
+        "name": "Ốp Điện Thoại Tráng Gương Vuông, Dành Cho iPhone 15, 14, 13, 12, 11, Pro Max, Xr, Xs, 8, 7 Plus, Ốp TPU Mềm Chống Sốc",
+        "price": 58944,
+        "originalPrice": 117888,
+        "imageUrl": "images/617.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnVgWdHL64V-gYrFy/",
+        "category": [ "Trường Mầm Non", "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 618,
+        "name": "Mới 16 Ốp Lưng Khung Vuông Mạ Điện Sơn Silicon Vỏ Điện Thoại Tương Thích Cho IPhone 16 15 14 13 12 11 Pro X XS Max XR 15 14 7 8",
+        "price": 52000,
+        "originalPrice": 59000,
+        "imageUrl": "images/618.webp",
+        "affiliateLink": "https://s.shopee.vn/6fXzAAoEPr",
+        "category": [ "Trường Mầm Non", "Điện Thoại & Phụ Kiện" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 619,
+        "name": "[MUA 5 TẶNG 1] Tổng cộng 6 Gói Nhỏ Kẹo Dẻo Thiên Thạch mix 6 vị Từ Nước Ép Trái Cây Thật Popit 25g",
+        "price": 35700,
+        "originalPrice": 42000,
+        "imageUrl": "images/619.webp",
+        "affiliateLink": "https://s.shopee.vn/3LHXPPIQjQ",
+        "category": [ "Trẻ Em", "Ăn Uống & Sức Khoẻ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 620,
+        "name": "[Bản Cao Cấp] Đồ Chơi Tạo Hình Dưới Nước 3D Cho Bé Bộ Nước Ma Thuật Làm Từ Khuôn Giúp Bé Sáng Tạo",
+        "price": 199000,
+        "imageUrl": "images/620.webp",
+        "affiliateLink": "https://s.shopee.vn/AUkhxeUcUz",
+        "category": [ "Trẻ Em" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 621,
+        "name": "Nước Ma Thuật Đồ Chơi Cho Bé Nước Quốc Đại Dương Khuôn Mẫu Handmade Diy Làm Chất Liệu Đồ Chơi Giáo Dục Trẻ Em",
+        "price": 55000,
+        "originalPrice": 86320,
+        "imageUrl": "images/621.webp",
+        "affiliateLink": "https://s.shopee.vn/60IIbsHM3z",
+        "category": [ "Trẻ Em" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 622,
+        "name": "LANBENA Lột mụn đầu đen làm sạch mụn lột mụn mặt nạ đất sét gel lột mụn mụn đầu đen 30g",
+        "price": 159000,
+        "originalPrice": 258000,
+        "imageUrl": "images/622.webp",
+        "affiliateLink": "https://s.shopee.vn/5VM21l40is",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 623,
+        "name": "Combo 5 và combo 6 bộ dài tay mặc 4 mùa cho bé trai và bé gái, chất liệu tăm mềm, mịn [cho bé từ 5 -16 Kg]",
+        "price": 150000,
+        "originalPrice": 280000,
+        "afterFlashSalePrice": 158999,
+        "flashSaleEndTime":"2025-09-18T23:59:59",
+        "imageUrl": "images/623.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnqaH6PPtcp-ZDXcb/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 624,
+        "name": "[1KG] Sườn Non Chay DÀY/ MỎNG [Khô] [Dried Food] Chay Kim Phát- Công nghệ Nhật Bản",
+        "price": 90076,
+        "originalPrice": 129999,
+        "imageUrl": "images/624.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnqmrcrckBr-iitbB/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 625,
+        "name": "[Combo 5 Tặng 2] Combo 5 Hộp miếng dán ngãi cứu Bắc Kinh",
+        "price": 125000,
+        "originalPrice": 190000,
+        "flashSaleEndTime":"2025-09-18T23:59:59",
+        "imageUrl": "images/625.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnquFK7SyhN-E9AKU/",
+        "category": [ "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
     }
 ]
