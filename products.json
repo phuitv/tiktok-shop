@@ -6391,5 +6391,14 @@
         "affiliateLink": "https://s.shopee.vn/8fJ3zjZ9eH",
         "category": [ "Đồ Nghề" ],
         "platform": "shopee"
+    },
+    {
+        "id": 627,
+        "name": "Đồng hồ vạn năng Victor VC 890C+",
+        "price": 360000,
+        "imageUrl": "images/627.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnbNenhwMbg-shXyT/",
+        "category": [ "Đồ Nghề" ],
+        "platform": "tiktok"
     }
 ]
