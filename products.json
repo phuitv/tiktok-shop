@@ -6412,5 +6412,67 @@
         "affiliateLink": "https://s.shopee.vn/30ehRFdBJY",
         "category": [ "Thể Thao" ],
         "platform": "shopee"
+    },
+    {
+        "id": 629,
+        "name": "Đồ bơi bé gái dài tay quần dài SET Bơi 3 Món kín đáo chống nắng cho bé gái từ 12kg đến 38kg",
+        "price": 239000,
+        "originalPrice": 249000,
+        "imageUrl": "images/629.webp",
+        "affiliateLink": "https://s.shopee.vn/3Vaz0S5lVd",
+        "category": [ "Trẻ Em" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 630,
+        "name": "Áo Thun Levents XL Logo Oversized Tee 100% Cotton Unisex T-shirt",
+        "price": 441000,
+        "originalPrice": 450000,
+        "imageUrl": "images/630.webp",
+        "affiliateLink": "https://s.shopee.vn/8fJ5AL73tD",
+        "category": [ "Trẻ Em" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 631,
+        "name": "Ghế Ngồi Xe Máy Điện, Xe Đạp Điện Cho Bé GutyKids Xoay 360° Có Đai An Toàn, Lò Xo Êm, Điều Chỉnh Chiều Cao, An Toàn",
+        "price": 350000,
+        "originalPrice": 600000,
+        "imageUrl": "images/631.webp",
+        "affiliateLink": "https://s.shopee.vn/2LP1dF8yzb",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 632,
+        "name": "Bình Trữ Sữa Cổ Rộng Jumysie 180ml/260ml - Nắp Silicone Chống Sinh Khí, An Toàn Cho Bé",
+        "price": 79000,
+        "originalPrice": 90000,
+        "flashSaleEndTime":"2025-09-19T23:59:59",
+        "imageUrl": "images/632.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnsB7yy8BkU-cjymB/",
+        "category": [ "Mẹ và Bé" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 633,
+        "name": "Mầm Đậu Nành Úc Healthy Care Super Lecithin 1200mg 100 Viên - Hỗ Trợ Sức Khỏe Cải Thiện Làn Da Phụ Nữ",
+        "price": 228999,
+        "originalPrice": 340000,
+        "imageUrl": "images/633.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnsS9nagC9n-h8LaI/",
+        "category": [ "Ăn Uống & Sức Khoẻ" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 634,
+        "name": "Bột Ion Dr.Natro Tẩy Trắng Quần Áo, Khử Mùi, Diệt Khuẩn 500g",
+        "price": 185000,
+        "originalPrice": 215000,
+        "flashSaleEndTime":"2025-09-19T23:59:59",
+        "imageUrl": "images/634.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnsAPxSToUf-81IDV/",
+        "category": [ "Gia Dụng" ],
+        "platform": "tiktok"
     }
 ]
