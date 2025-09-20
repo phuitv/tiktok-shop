@@ -6474,5 +6474,87 @@
         "affiliateLink": "https://vt.tiktok.com/ZSHnsAPxSToUf-81IDV/",
         "category": [ "Gia Dụng" ],
         "platform": "tiktok"
+    },
+    {
+        "id": 635,
+        "name": "[MỞ BÁN] DELIZ - Áo cardigan len lông thỏ dệt kim xanh than tiểu thư basic màu thu đông CD850",
+        "price": 331000,
+        "originalPrice": 550000,
+        "imageUrl": "images/635.webp",
+        "affiliateLink": "https://s.shopee.vn/1LWW4mLPqq",
+        "category": [ "Thời Trang Nữ" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 636,
+        "name": "Ví Gập Đôi Tiền Xu Reckless - Coin Bifold - Vải Polyester Kháng Nước",
+        "price": 350000,
+        "imageUrl": "images/636.webp",
+        "affiliateLink": "https://s.shopee.vn/2LP3H2kUui",
+        "category": [ "Thời Trang Nam" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 637,
+        "name": "Xịt dưỡng tóc Grace & Glow Daisy Hair Vitamin Mist Xịt dưỡng tóc hương nước hoa với Keratin chống xơ rối 100ml",
+        "price": 75000,
+        "originalPrice": 139000,
+        "imageUrl": "images/637.webp",
+        "affiliateLink": "https://s.shopee.vn/50PoSu8Bs0",
+        "category": [ "Làm Đẹp" ],
+        "platform": "shopee"
+    },
+    {
+        "id": 638,
+        "name": "[HOẢ TỐC] Miếng dán PPF Full viền vợt Pickleball nhập Mỹ LOẠI 1 cao cấp nhất,Dán vợt bảo vệ cạnh vợt tối ưu",
+        "price": 26666,
+        "imageUrl": "images/638.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnW3PQL2YeD-fB61X/",
+        "category": [ "Thể Thao" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 639,
+        "name": "Gimbal tự cân bằng Q31 gậy cho điện thoại di động mới, 3 chế độ ánh sáng có thể điều chỉnh, chụp ảnh Bluetooth",
+        "price": 388000,
+        "originalPrice": 450000,
+        "imageUrl": "images/639.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnWwEP7aGJt-w32iA/",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 640,
+        "name": "Gimbal Điện Thoại TOKQI M02 Mới Nhất 2025, REMOTE THÁO RỜI Gọn Nhẹ Trong Tay, Chống Rung 3 Trục, Theo Dõi Vật Thể Mượt Mà Từng Khoảnh Khắc, Bảo Hành 24 Tháng",
+        "price": 1125739,
+        "originalPrice": 2500000,
+        "afterFlashSalePrice": 1608999,
+        "flashSaleEndTime":"2025-09-20T23:59:59",
+        "imageUrl": "images/640.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnWEbohVH8u-UKk05/",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 641,
+        "name": "Gimbal chống rung điện thoại TOKQI M01 gymbal chống rung 3 trục xoay 360 độ Tay cầm gimbal AI Selfie",
+        "price": 519000,
+        "originalPrice": 700000,
+        "afterFlashSalePrice": 629000,
+        "flashSaleEndTime":"2025-09-20T23:59:59",
+        "imageUrl": "images/641.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHnWo3XST96t-9w1s2/",
+        "category": [ "Điện Thoại & Phụ Kiện" ],
+        "platform": "tiktok"
+    },
+    {
+        "id": 642,
+        "name": "[Tặng Bút + Giấy Vẽ 300gsm] Combo Màu Nước Solid Water Color Dạng Nén Cao Cấp Global Art 24/36M Tặng Kèm Mút Và Bút Nước Chuyên Nghiệp.",
+        "price": 269000,
+        "originalPrice": 450000,
+        "imageUrl": "images/642.webp",
+        "affiliateLink": "https://vt.tiktok.com/ZSHn7JYm5R95y-QeIwH/",
+        "category": [ "Trẻ Em", "Nhà Cửa & Đời Sống" ],
+        "platform": "tiktok"
     }
 ]
